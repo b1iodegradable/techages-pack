@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:creative/c_start",
+  "display": {
+    "icon": {
+      "id": "extendedcrafting:compressor"
+    },
+    "title": {
+      "text": "Компрессор",
+      "color": "white"
+    },
+    "description": {
+      "text": "Тысячи единиц ресурса → одна сингулярность. Нужна мощная автоматизация."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "extendedcrafting:compressor"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

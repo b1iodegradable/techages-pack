@@ -1,0 +1,11 @@
+{
+  "name": "singularity.kubejs.brass",
+  "colors": [
+    "f2c45a",
+    "b5852b"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/brass"
+  },
+  "materialCount": 4000
+}

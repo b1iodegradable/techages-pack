@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_start",
+  "display": {
+    "icon": {
+      "id": "kubejs:logic_core_2"
+    },
+    "title": {
+      "text": "Логическое ядро II",
+      "color": "white"
+    },
+    "description": {
+      "text": "Трофеи Харбинджера и Незеритового Чудовища."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:logic_core_2"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

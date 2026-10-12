@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_casing",
+  "display": {
+    "icon": {
+      "id": "mekanism:teleporter"
+    },
+    "title": {
+      "text": "Телепорт",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Быстрые перемещения между базами."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:teleporter"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

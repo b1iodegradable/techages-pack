@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_0",
+  "display": {
+    "icon": {
+      "id": "create:cogwheel"
+    },
+    "title": {
+      "text": "Эпоха I · Кинетическая"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "Create — валы, шестерни, водяное колесо, дробление руды. Ars Nouveau.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "скрафтить Примитивную шестерню (дерево + кремень + медь) и сдать квест-врата.",
+        "color": "gray"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

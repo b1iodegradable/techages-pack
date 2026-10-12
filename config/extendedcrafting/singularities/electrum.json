@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.electrum",
+  "colors": [
+    "f2e37b",
+    "b9a33c"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/electrum"
+  },
+  "materialCount": 2000
+}

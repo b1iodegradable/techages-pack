@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_mixer",
+  "display": {
+    "icon": {
+      "id": "create:deployer"
+    },
+    "title": {
+      "text": "Деплойер",
+      "color": "white"
+    },
+    "description": {
+      "text": "Механическая рука, которая «держит» предмет. Нужна для сборочных линий."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:deployer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

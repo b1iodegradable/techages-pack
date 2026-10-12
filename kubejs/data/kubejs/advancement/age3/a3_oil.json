@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_pump",
+  "display": {
+    "icon": {
+      "id": "tfmg:crude_oil_bucket"
+    },
+    "title": {
+      "text": "Сырая нефть",
+      "color": "white"
+    },
+    "description": {
+      "text": "Первая бочка нефти."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:crude_oil_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

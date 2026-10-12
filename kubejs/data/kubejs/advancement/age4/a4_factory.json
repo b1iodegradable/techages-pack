@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_controller",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Старая фабрика",
+      "color": "white"
+    },
+    "description": {
+      "text": "Найдите Древнюю фабрику — логово Харбинджера."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "cataclysm:ancient_factory"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

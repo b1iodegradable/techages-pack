@@ -1,0 +1,318 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age0"
+	group: "66ADC382DA4DC6DC"
+	icon: { id: "minecraft:flint" }
+	id: "419DDE97D4B8D6ED"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: []
+			id: "63218B9C209774D5"
+			rewards: [
+				{
+					id: "5406218D6316CDC4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 3L
+					id: "7A83010345757DA5"
+					item: { count: 1, id: "minecraft:flint" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63218B9C209774D5"]
+			id: "683C8603707F7198"
+			rewards: [
+				{
+					id: "060381F55AE0C955"
+					item: { count: 16, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "642396FED99A5487"
+					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["683C8603707F7198"]
+			id: "3EF866930101D06B"
+			rewards: [
+				{
+					id: "1156D8E2589B7857"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "4661820F79C34524"
+					item: { count: 1, id: "minecraft:brick" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EF866930101D06B"]
+			id: "1250C0885E2A257C"
+			rewards: [
+				{
+					id: "417307DB9783580D"
+					item: { count: 8, id: "minecraft:coal" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "6E311EFC5BCCBF64"
+					item: { count: 1, id: "minecraft:furnace" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["683C8603707F7198"]
+			id: "6316864EC8EB7FFC"
+			rewards: [
+				{
+					id: "35A1B7A85A1C7C1E"
+					item: { count: 4, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "0A2D85F641A18926"
+					item: { count: 1, id: "minecraft:raw_copper" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1250C0885E2A257C"]
+			id: "42CE24D6E9D824B8"
+			rewards: [
+				{
+					id: "40D72FDE40A685AC"
+					item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					advancement: "kubejs:shelter"
+					criterion: ""
+					id: "75319ECF12C31527"
+					type: "advancement"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42CE24D6E9D824B8" "6316864EC8EB7FFC"]
+			id: "056542D142A48930"
+			rewards: [
+				{
+					id: "1D3F15B67D40AF54"
+					remove: false
+					stage: "age_1"
+					type: "astages:server"
+				}
+				{
+					id: "447344227040E075"
+					item: { count: 16, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					count: 1L
+					id: "0881CE07FBBC92E8"
+					item: { count: 1, id: "kubejs:primitive_gear" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63218B9C209774D5"]
+			id: "28DDB582213C855C"
+			rewards: [
+				{
+					id: "2A600BA7A7B0806E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "4A6F070913ADFC8F"
+					item: { count: 1, id: "minecraft:map" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["683C8603707F7198"]
+			id: "3FBAF5215555E2F8"
+			rewards: [
+				{
+					id: "20B50C3FD8A0E8C4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 32L
+					id: "17D628F4F3056EDC"
+					item: { count: 1, id: "minecraft:torch" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["683C8603707F7198"]
+			id: "77A8541FF4AB46CB"
+			rewards: [
+				{
+					id: "08259A3F3F4F9047"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "015DFDD7BE989A74"
+					item: { count: 1, id: "minecraft:white_bed" }
+					type: "item"
+				}
+			]
+			x: 3.7d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6316864EC8EB7FFC"]
+			id: "0D6AFB2ECCE68B22"
+			rewards: [
+				{
+					id: "68287C1EF6D84FCD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "1F94CC6E173EC454"
+					item: { count: 1, id: "minecraft:shield" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1250C0885E2A257C"]
+			id: "746DDC0461D24231"
+			rewards: [
+				{
+					id: "74C53848EE54ACD9"
+					item: { count: 16, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 16L
+					id: "074D1DC3D4CC163E"
+					item: { count: 1, id: "minecraft:bread" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["683C8603707F7198"]
+			invisible: true
+			id: "338E03F0BBCA8A64"
+			rewards: [
+				{
+					id: "334DC33DE761CE7D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					entity: "naturalist:bear"
+					id: "09C41F9F3712C222"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.5d
+			y: 4.5d
+		}
+	]
+}

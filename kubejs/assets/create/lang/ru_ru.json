@@ -1,0 +1,15 @@
+{
+  "create.gui.stock_keeper.click_to_cycle": "Нажмите для переключения",
+  "create.gui.stock_keeper.jei_sync.none": "Без синхронизации",
+  "create.gui.stock_keeper.jei_sync.none.description": "Поиск в кладовщике и просмотрщике рецептов не связаны",
+  "create.gui.stock_keeper.jei_sync.sync_both": "Синхронизировать в обе стороны с просмотрщиком рецептов",
+  "create.gui.stock_keeper.jei_sync.sync_both.description": "Поиск в кладовщике и просмотрщике рецептов будет синхронизирован",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei": "Синхронизировать из просмотрщика рецептов",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei.description": "Поиск в просмотрщике рецептов будет повторяться в кладовщике",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper": "Синхронизировать из кладовщика",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper.description": "Поиск в кладовщике будет повторяться в просмотрщике рецептов",
+  "create.keyinfo.alt_modifier": "Клавиша Alt",
+  "create.keyinfo.ctrl_modifier": "Клавиша Ctrl",
+  "create.keyinfo.shift_modifier": "Клавиша Shift",
+  "tag.item.c.foods.dough.wheat": "Пшеничное тесто"
+}

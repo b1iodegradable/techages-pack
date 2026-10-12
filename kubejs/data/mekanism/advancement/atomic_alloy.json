@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "disabled": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mekanism:reinforced_alloy"
+}

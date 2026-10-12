@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_7",
+  "display": {
+    "icon": {
+      "id": "kubejs:final_heart"
+    },
+    "title": {
+      "text": "Творение"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "творческие предметы: столы Extended Crafting и сингулярности.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "собрать Звезду Инженера из трофеев всех боссов и победить Пробуждённого Харбинджера на Луне.",
+        "color": "gray"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

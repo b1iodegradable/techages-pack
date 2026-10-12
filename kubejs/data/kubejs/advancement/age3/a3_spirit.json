@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_coke",
+  "display": {
+    "icon": {
+      "id": "occultism:spirit_attuned_gem"
+    },
+    "title": {
+      "text": "Камень духов",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Первые шаги в Occultism."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "occultism:spirit_attuned_gem"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

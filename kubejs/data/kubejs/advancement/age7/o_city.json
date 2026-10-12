@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Древний город",
+      "color": "white"
+    },
+    "description": {
+      "text": "Портал в Otherside строится в Древнем городе."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "minecraft:ancient_city"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

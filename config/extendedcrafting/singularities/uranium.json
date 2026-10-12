@@ -1,0 +1,11 @@
+{
+  "name": "singularity.kubejs.uranium",
+  "colors": [
+    "8ee05a",
+    "4e9a2a"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/uranium"
+  },
+  "materialCount": 1000
+}

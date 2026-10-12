@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age2/a2_bearing",
+  "display": {
+    "icon": {
+      "id": "aeronautics:levitite"
+    },
+    "title": {
+      "text": "Левитит",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Материал, который сам хочет вверх."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aeronautics:levitite",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

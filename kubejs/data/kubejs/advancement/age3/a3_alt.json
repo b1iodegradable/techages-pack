@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_steel",
+  "display": {
+    "icon": {
+      "id": "createaddition:alternator"
+    },
+    "title": {
+      "text": "Генератор переменного тока",
+      "color": "white"
+    },
+    "description": {
+      "text": "Crafts & Additions: вращение → энергия (FE)."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "createaddition:alternator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_distill",
+  "display": {
+    "icon": {
+      "id": "tfmg:diesel_bucket"
+    },
+    "title": {
+      "text": "Дизель",
+      "color": "white"
+    },
+    "description": {
+      "text": "Топливо — производство, а не уголь."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:diesel_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

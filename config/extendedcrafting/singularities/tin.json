@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.tin",
+  "colors": [
+    "d4dde4",
+    "92a1ab"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/tin"
+  },
+  "materialCount": 2000
+}

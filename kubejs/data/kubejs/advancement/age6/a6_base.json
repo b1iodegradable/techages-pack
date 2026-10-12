@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age6/a6_moon",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Лунная база",
+      "color": "dark_aqua"
+    },
+    "description": {
+      "text": "Заброшенная база на Луне."
+    },
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "northstar:lunar_base"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "kubejs:age5/a5_citadel",
+  "display": {
+    "icon": {
+      "id": "kubejs:trophy_guardian"
+    },
+    "title": {
+      "text": "Страж Края",
+      "color": "red"
+    },
+    "description": {
+      "text": "Побочный босс. Трофей нужен для Внеземного кристалла."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cataclysm:ender_guardian"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

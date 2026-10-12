@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_brass",
+  "display": {
+    "icon": {
+      "id": "sophisticatedbackpacks:magnet_upgrade"
+    },
+    "title": {
+      "text": "Магнит",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Улучшение рюкзака: предметы летят к вам."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sophisticatedbackpacks:magnet_upgrade"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

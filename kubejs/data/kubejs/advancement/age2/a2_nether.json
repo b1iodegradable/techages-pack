@@ -1,0 +1,32 @@
+{
+  "parent": "kubejs:age2/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "text": "Нижний мир",
+      "color": "white"
+    },
+    "description": {
+      "text": "Нижний мир открыт — но только частично: незерит и боссы позже."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age1/a1_press",
+  "display": {
+    "icon": {
+      "id": "create:item_vault"
+    },
+    "title": {
+      "text": "Хранилище",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Большой склад для механизированных линий."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:item_vault",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

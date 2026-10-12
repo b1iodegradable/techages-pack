@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.diamond",
+  "colors": [
+    "4aedd9",
+    "2a9d8f"
+  ],
+  "ingredient": {
+    "tag": "c:gems/diamond"
+  },
+  "materialCount": 1000
+}

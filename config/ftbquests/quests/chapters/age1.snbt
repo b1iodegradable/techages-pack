@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age1"
+	group: "66ADC382DA4DC6DC"
+	icon: { id: "create:water_wheel" }
+	id: "0E4DE37F71ED026C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["056542D142A48930"]
+			hide_until_deps_complete: true
+			id: "53C5550D2A090DC4"
+			rewards: [
+				{
+					id: "572C31B1390AEB75"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "35F7D961DCBBFE60"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53C5550D2A090DC4"]
+			hide_until_deps_visible: true
+			id: "604BB5E28DCB9917"
+			rewards: [
+				{
+					id: "0228AE5C82F94421"
+					item: { count: 16, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "715E884FD20DCD73"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7366C6F721E71ED8"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["604BB5E28DCB9917"]
+			hide_until_deps_visible: true
+			id: "75D3B6887BBA35AA"
+			rewards: [
+				{
+					id: "6B9EA69B8295634D"
+					item: { count: 16, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "1BC63CD4CEEB8020"
+					item: { count: 1, id: "create:water_wheel" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75D3B6887BBA35AA"]
+			hide_until_deps_visible: true
+			id: "3588727C7705FE28"
+			rewards: [
+				{
+					id: "308CC45066A690CE"
+					item: { count: 32, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "44BBFAB3843AE93A"
+					item: { count: 1, id: "create:millstone" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3588727C7705FE28"]
+			hide_until_deps_visible: true
+			id: "6954DF62FE1DDFD1"
+			rewards: [
+				{
+					id: "2B0476AB013928CA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "7CA170E6E54737B3"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["75D3B6887BBA35AA"]
+			hide_until_deps_visible: true
+			id: "67366363048EDA7F"
+			rewards: [
+				{
+					id: "6E153FFA11F8E739"
+					item: { count: 16, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "2F36816BCE444039"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67366363048EDA7F"]
+			hide_until_deps_visible: true
+			id: "591FA0CB7CA99152"
+			rewards: [
+				{
+					id: "7AB11AD5425872F0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "70685E5112D39E49"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "451E245815C30EC5"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["591FA0CB7CA99152"]
+			hide_until_deps_visible: true
+			id: "7C29ADC79980CF96"
+			rewards: [
+				{
+					id: "74762D63229E99CA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "74CAFE19DD9C8F5F"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C29ADC79980CF96" "6954DF62FE1DDFD1"]
+			hide_until_deps_visible: true
+			id: "4CAE393D833A47D0"
+			rewards: [
+				{
+					id: "3A5116530B403734"
+					item: { count: 8, id: "create:golden_sheet" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6C07E481C359E8E2"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53C5550D2A090DC4"]
+			hide_until_deps_visible: true
+			id: "5D87352D958C477D"
+			rewards: [
+				{
+					id: "7EC802A9CDA5C671"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "158050EE1C5CE5AA"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "12DAAFABAD7A3668"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["67366363048EDA7F"]
+			hide_until_deps_visible: true
+			id: "394EBF0E72F1A4D3"
+			rewards: [
+				{
+					id: "3D78972BA1223D0A"
+					remove: false
+					stage: "qol_coords"
+					type: "astages:server"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "12BEBCAD36D428AC"
+					item: { count: 1, id: "kubejs:navigator" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4CAE393D833A47D0" "5D87352D958C477D" "394EBF0E72F1A4D3"]
+			hide_until_deps_visible: true
+			id: "3E36B417FE8AD30F"
+			rewards: [
+				{
+					id: "35CA17BF455521D9"
+					remove: false
+					stage: "age_2"
+					type: "astages:server"
+				}
+				{
+					id: "20C4E00A60499CE1"
+					item: { count: 16, id: "create:zinc_ingot" }
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					count: 1L
+					id: "1380460C9144E412"
+					item: { count: 1, id: "kubejs:kinetic_core" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53C5550D2A090DC4"]
+			hide_until_deps_visible: true
+			id: "2C8B98A1E6709C97"
+			rewards: [
+				{
+					id: "1E58F30B08E55DE7"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "59342FBDB62032A4"
+					item: { count: 1, id: "create:wrench" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["604BB5E28DCB9917"]
+			hide_until_deps_visible: true
+			id: "4237869795C32BB8"
+			rewards: [
+				{
+					id: "52AD3A51D3D640F1"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "29E1014825D924C8"
+					item: { count: 1, id: "create:goggles" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75D3B6887BBA35AA"]
+			hide_until_deps_visible: true
+			id: "5713B65EBE846724"
+			rewards: [
+				{
+					id: "68AD5BFFFF659FB5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "02D1B3C42F0F619D"
+					item: { count: 1, id: "create:large_water_wheel" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["75D3B6887BBA35AA"]
+			hide_until_deps_visible: true
+			id: "5497594180D84894"
+			rewards: [
+				{
+					id: "2B23EFF68A0C1CF7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "7C6A6C2BBDB9CBA9"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+			]
+			x: 6.2d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6954DF62FE1DDFD1"]
+			hide_until_deps_visible: true
+			id: "46777F81E3A752A5"
+			rewards: [
+				{
+					id: "3123F5FE4A47F0B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 16L
+					id: "0B01BCF59E3647E1"
+					item: { count: 1, id: "create:zinc_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["67366363048EDA7F"]
+			hide_until_deps_visible: true
+			id: "76D0771F13A36589"
+			rewards: [
+				{
+					id: "6B0BE3D50379EE07"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 4L
+					id: "418279E7ED5355AE"
+					item: { count: 1, id: "create:item_vault" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["591FA0CB7CA99152"]
+			hide_until_deps_visible: true
+			id: "4E0D56A2F9D28A18"
+			rewards: [
+				{
+					id: "2856DC054D4AFA16"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 2L
+					id: "7707B2DDAFB1F87C"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3DC2589A5F0335A5"
+					item: { count: 1, id: "create:spout" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "11A047EE76926822"
+					item: { count: 1, id: "create:item_drain" }
+					type: "item"
+				}
+			]
+			x: 11.2d
+			y: -4.5d
+		}
+		{
+			dependencies: ["67366363048EDA7F"]
+			hide_until_deps_visible: true
+			id: "65B003A206CB4B67"
+			rewards: [
+				{
+					id: "187DEAB303786202"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 4L
+					id: "65C28D817D0017DC"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
+			x: 8.7d
+			y: -4.5d
+		}
+		{
+			dependencies: ["53C5550D2A090DC4"]
+			hide_until_deps_visible: true
+			id: "0269B36B49C4CDEC"
+			rewards: [
+				{
+					id: "23CFDFCF7F3AA4F7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "7950D09643477397"
+					item: { count: 1, id: "sophisticatedbackpacks:pickup_upgrade" }
+					type: "item"
+				}
+			]
+			x: 1.2d
+			y: -4.5d
+		}
+		{
+			dependencies: ["53C5550D2A090DC4"]
+			invisible: true
+			hide_until_deps_visible: true
+			id: "095E43EC4DA4B190"
+			rewards: [
+				{
+					id: "7380EE955FB3DD18"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "166C66E6A3510BBD"
+					structure: "mowziesmobs:wrought_chamber"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53C5550D2A090DC4"]
+			hide_until_deps_visible: true
+			id: "15F45A021A0E416E"
+			rewards: [
+				{
+					id: "6516E605E8B38631"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					id: "29D061173CB7F6B2"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.2d
+			y: 4.5d
+		}
+	]
+}

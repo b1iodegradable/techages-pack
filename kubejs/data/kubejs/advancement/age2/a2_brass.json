@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age2/a2_burner",
+  "display": {
+    "icon": {
+      "id": "create:brass_ingot"
+    },
+    "title": {
+      "text": "Латунь",
+      "color": "white"
+    },
+    "description": {
+      "text": "Медь + цинк в нагретом смесителе."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:brass_ingot",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

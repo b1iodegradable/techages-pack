@@ -1,0 +1,16 @@
+{
+  "block.weather2.anemometer": "Анемометр",
+  "block.weather2.sand_layer": "Устанавливаемый слой песка",
+  "block.weather2.tornado_sensor": "Датчик торнадо",
+  "block.weather2.tornado_siren": "Сирена погоды",
+  "block.weather2.tornado_siren_manual": "Ручная сирена редстоуна",
+  "block.weather2.weather_deflector": "Отражатель погоды",
+  "block.weather2.weather_forecast": "Прогноз погоды",
+  "block.weather2.weather_machine": "Машина погоды (ПКМ для переключения)",
+  "block.weather2.wind_turbine": "Ветряная турбина",
+  "block.weather2.wind_vane": "Флюгер",
+  "item.weather2.pocket_sand": "Карманный песок!",
+  "item.weather2.sand_layer_placeable": "Устанавливаемый слой песка",
+  "item.weather2.weather_item": "Предмет погоды",
+  "itemGroup.weather2": "Предметы Weather2"
+}

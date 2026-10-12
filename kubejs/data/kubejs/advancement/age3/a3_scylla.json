@@ -1,0 +1,34 @@
+{
+  "parent": "kubejs:age3/a3_acropolis",
+  "display": {
+    "icon": {
+      "id": "kubejs:trophy_scylla"
+    },
+    "title": {
+      "text": "Сцилла",
+      "color": "red"
+    },
+    "description": {
+      "text": "Побочный босс. Трофей понадобится для Звезды."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cataclysm:scylla"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_track",
+  "display": {
+    "icon": {
+      "id": "create:schedule"
+    },
+    "title": {
+      "text": "Расписание",
+      "color": "white"
+    },
+    "description": {
+      "text": "Поезд ездит сам по расписанию."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:schedule"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

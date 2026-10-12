@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/root",
+  "display": {
+    "icon": {
+      "id": "mekanism:metallurgic_infuser"
+    },
+    "title": {
+      "text": "Металлургический заправщик",
+      "color": "white"
+    },
+    "description": {
+      "text": "Вход в Mekanism: требует электромотор TFMG."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:metallurgic_infuser"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_fusion_ctrl",
+  "display": {
+    "icon": {
+      "id": "kubejs:fusion_core"
+    },
+    "title": {
+      "text": "Ядро синтеза",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол 7×7. Нужен трофей Игниса."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:fusion_core"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

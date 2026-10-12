@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_controller",
+  "display": {
+    "icon": {
+      "id": "ae2:wireless_terminal"
+    },
+    "title": {
+      "text": "Беспроводной терминал",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Доступ к хранилищу из любой точки базы."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:wireless_terminal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

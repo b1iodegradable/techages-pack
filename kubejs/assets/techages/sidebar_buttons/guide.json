@@ -1,0 +1,17 @@
+{
+  "icon": [
+    "modonomicon:textures/item/modonomicon_red.png"
+  ],
+  "sort_index": 50,
+  "click": [
+    "command:/handbook"
+  ],
+  "required_mods": [
+    "modonomicon"
+  ],
+  "tooltip": [
+    {
+      "translate": "sidebar_button.techages.guide"
+    }
+  ]
+}

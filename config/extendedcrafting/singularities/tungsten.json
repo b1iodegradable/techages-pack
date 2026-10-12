@@ -1,0 +1,11 @@
+{
+  "name": "singularity.kubejs.tungsten",
+  "colors": [
+    "5e5f6b",
+    "34353d"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/tungsten"
+  },
+  "materialCount": 1000
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_wheel",
+  "display": {
+    "icon": {
+      "id": "create:millstone"
+    },
+    "title": {
+      "text": "Жернова",
+      "color": "white"
+    },
+    "description": {
+      "text": "Жернова мелют руду и зерно."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:millstone"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

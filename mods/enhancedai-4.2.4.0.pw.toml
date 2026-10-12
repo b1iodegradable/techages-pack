@@ -1,0 +1,13 @@
+name = "enhancedai-4.2.4.0"
+filename = "enhancedai-4.2.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TDdoftI1/versions/hhprRtJq/enhancedai-4.2.4.0.jar"
+hash-format = "sha512"
+hash = "deaacf0382abd9fd4bf2fb396bf063b2abec676ffd6408063c7377822c19f1d33d49b644e522530002f2b872f8f3eb09ad88c1d1a4bd1664942d711bf2f2f8d4"
+
+[update]
+[update.modrinth]
+mod-id = "TDdoftI1"
+version = "hhprRtJq"

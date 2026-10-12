@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age6/a6_oxygen",
+  "display": {
+    "icon": {
+      "id": "northstar:oxygen_sealer"
+    },
+    "title": {
+      "text": "Герметизатор",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Своя атмосфера на базе."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:oxygen_sealer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

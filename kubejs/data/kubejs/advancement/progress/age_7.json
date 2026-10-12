@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_6",
+  "display": {
+    "icon": {
+      "id": "kubejs:engineer_star"
+    },
+    "title": {
+      "text": "Эпоха VII · Эндгейм"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "все планеты, Otherside, Звезда Инженера, пробуждённые боссы.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "долететь до Луны (нужны космическая станция и кислород).",
+        "color": "gray"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

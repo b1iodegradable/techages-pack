@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age5/a5_atomic",
+  "display": {
+    "icon": {
+      "id": "kubejs:star_rod"
+    },
+    "title": {
+      "text": "Звёздный стержень",
+      "color": "white"
+    },
+    "description": {
+      "text": "Магический мост: блок Source Gem + атомный сплав + стержень Энда."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:star_rod",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

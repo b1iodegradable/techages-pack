@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:creative/c_ultimate",
+  "display": {
+    "icon": {
+      "id": "sophisticatedbackpacks:infinity_upgrade"
+    },
+    "title": {
+      "text": "Бесконечное улучшение рюкзака",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол 9×9."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sophisticatedbackpacks:infinity_upgrade"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

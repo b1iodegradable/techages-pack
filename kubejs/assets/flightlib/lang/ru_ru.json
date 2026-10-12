@@ -1,0 +1,13 @@
+{
+  "flightlib.subtitle.whoosh": "Свист реактивного ранца",
+  "key.categories.movement.jetpack": "Реактивный ранец",
+  "key.jetpack.activate_elytra.description": "Активировать элитры",
+  "key.jetpack.toggle_active.description": "Переключить двигатель ранца",
+  "key.jetpack.toggle_hover.description": "Переключить режим зависания",
+  "message.flightlib.control.off": "выкл.",
+  "message.flightlib.control.on": "вкл.",
+  "message.flightlib.control.toggle_active": "Двигатель ранца: %s",
+  "message.flightlib.control.toggle_hover": "Режим зависания: %s",
+  "overlay.flightlib.control.toggle_active": "Активен",
+  "overlay.flightlib.control.toggle_hover": "Зависание"
+}

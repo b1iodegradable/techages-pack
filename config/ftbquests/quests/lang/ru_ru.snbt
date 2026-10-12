@@ -1,0 +1,437 @@
+{
+	chapter.0E4DE37F71ED026C.chapter_subtitle: ["Create: валы, колёса и первая мастерская"]
+	chapter.0E4DE37F71ED026C.title: "Эпоха I — Вращение"
+	chapter.134AD3404F528DF1.chapter_subtitle: ["Тир I эндгейма: 8 компонентов, 3 сплава и финальный босс"]
+	chapter.134AD3404F528DF1.title: "Звезда Инженера"
+	chapter.1DB04CCB9C7D7672.chapter_subtitle: ["Правила сборки — прочитайте перед стартом"]
+	chapter.1DB04CCB9C7D7672.title: "Как играть"
+	chapter.1E6C2C3C28573695.chapter_subtitle: ["Измерение за Древним городом"]
+	chapter.1E6C2C3C28573695.title: "Otherside"
+	chapter.2BAB5942285170F9.chapter_subtitle: ["Mekanism, AE2 и автоматизация"]
+	chapter.2BAB5942285170F9.title: "Эпоха IV — Завод"
+	chapter.389B82025F0E6B86.chapter_subtitle: ["Латунь, пар, поезда и первый дирижабль"]
+	chapter.389B82025F0E6B86.title: "Эпоха II — Пар и небо"
+	chapter.3910CC65918EB70C.chapter_subtitle: ["Ракета Northstar и Луна"]
+	chapter.3910CC65918EB70C.title: "Эпоха VI — Звёзды"
+	chapter.3B02D756BF63DB56.chapter_subtitle: ["Боссы ×2 и ×3 — ради эссенции"]
+	chapter.3B02D756BF63DB56.title: "Пробуждённые"
+	chapter.419DDE97D4B8D6ED.chapter_subtitle: ["Кремень, огонь и крыша над головой"]
+	chapter.419DDE97D4B8D6ED.title: "Эпоха 0 — Выжить"
+	chapter.565AE3DF85FC15E1.chapter_subtitle: ["Тир II: творческие предметы"]
+	chapter.565AE3DF85FC15E1.title: "Творение"
+	chapter.587EAD611D8C936B.chapter_subtitle: ["Сталь, электричество и нефть"]
+	chapter.587EAD611D8C936B.title: "Эпоха III — Ток"
+	chapter.5D11ED27B832CCAC.chapter_subtitle: ["Повторяемые поставки — предметы забираются"]
+	chapter.5D11ED27B832CCAC.title: "Склад сервера"
+	chapter.6E2FAA233AA3B43F.chapter_subtitle: ["Тир III: Re:Avaritia"]
+	chapter.6E2FAA233AA3B43F.title: "Бесконечность"
+	chapter.73829708472B1887.chapter_subtitle: ["Реактор и выход в Энд"]
+	chapter.73829708472B1887.title: "Эпоха V — Атом"
+	chapter_group.14C5A9C131CD7D9B.title: "Эндгейм"
+	chapter_group.55541BAA674C066E.title: "Справка"
+	chapter_group.66ADC382DA4DC6DC.title: "Основной путь"
+	quest.0140E2A09AE446B2.quest_desc: ["Malum + Occultism + трофей Маледиктуса."]
+	quest.0140E2A09AE446B2.title: "&6Сплав душ&r"
+	quest.0269B36B49C4CDEC.quest_desc: ["Рюкзак сам подбирает предметы."]
+	quest.0269B36B49C4CDEC.title: "&dУлучшение рюкзака&r"
+	quest.04DD37D30551F247.quest_desc: ["Процессоры, каркас Mekanism и трофей Харбинджера. Откроет Эпоху V."]
+	quest.04DD37D30551F247.title: "&6&lЛогическое ядро&r"
+	quest.04F3BD55CDBCFC00.quest_desc: ["Пар реактора крутит турбину."]
+	quest.04F3BD55CDBCFC00.title: "&6Турбина&r"
+	quest.056542D142A48930.quest_desc: ["Первая механическая деталь. Скрафтите её — откроется Эпоха I и Create."]
+	quest.056542D142A48930.title: "&6&lПримитивная шестерня&r"
+	quest.05F2E2245694EC0C.quest_desc: ["Стол 9×9."]
+	quest.05F2E2245694EC0C.title: "&6Творческая энергоячейка&r"
+	quest.06C60F6C23DBEA13.title: "&6Древний храм&r"
+	quest.06F055918700F6E3.title: "&dПоставка: пластик&r"
+	quest.079AD942791BDAA8.quest_desc: ["Стол 9×9."]
+	quest.079AD942791BDAA8.title: "&6Творческий контейнер&r"
+	quest.0823F723F8B4C2A0.quest_desc: ["Побочный босс. Трофей нужен для Логического ядра II."]
+	quest.0823F723F8B4C2A0.title: "&cНезеритовое Чудовище&r"
+	quest.08625B72A874FD08.quest_desc: ["Первая бочка нефти."]
+	quest.08625B72A874FD08.title: "&6Сырая нефть&r"
+	quest.0867B6510DE491A5.quest_desc: ["Пар и небо в одном механизме. Откроет Эпоху III — электричество."]
+	quest.0867B6510DE491A5.title: "&6&lПаровое сердце&r"
+	quest.095E43EC4DA4B190.quest_desc: ["Вы нашли логово Железного Рыцаря."]
+	quest.095E43EC4DA4B190.title: "&d&oЖелезная камера&r"
+	quest.09A2B39524717C03.quest_desc: ["Доступ к хранилищу из любой точки базы."]
+	quest.09A2B39524717C03.title: "&dБеспроводной терминал&r"
+	quest.0A0DED83469642A1.quest_desc: ["Стальной провод IE для дальних линий."]
+	quest.0A0DED83469642A1.title: "&dВысокое напряжение&r"
+	quest.0A2CD00D18E526B8.quest_desc: ["Большие рецепты собираются сеткой крафтеров."]
+	quest.0A2CD00D18E526B8.title: "&dМеханический крафтер&r"
+	quest.0A9F4516AA2A44CC.quest_desc: ["Поезд ездит сам по расписанию."]
+	quest.0A9F4516AA2A44CC.title: "&6Расписание&r"
+	quest.0B4134BA93E67D71.quest_desc: ["Основа всех машин Mekanism."]
+	quest.0B4134BA93E67D71.title: "&6Стальной каркас&r"
+	quest.0B9FDA4CFD3E7448.quest_desc: ["Нижний мир открыт — но только частично: незерит и боссы позже."]
+	quest.0B9FDA4CFD3E7448.title: "&6Нижний мир&r"
+	quest.0CEFC822C8AB3DAC.quest_desc: ["Материал, ломающий законы игры."]
+	quest.0CEFC822C8AB3DAC.title: "&6Слиток бесконечности&r"
+	quest.0D6AFB2ECCE68B22.quest_desc: ["Скелеты здесь снайперы."]
+	quest.0D6AFB2ECCE68B22.title: "&dЩит&r"
+	quest.0F35FE127617DB31.quest_desc: ["Создайте одну команду FTB Teams на всех (кнопка в инвентаре). Квесты, награды и приват чанков — общие."]
+	quest.0F35FE127617DB31.title: "&6Команда&r"
+	quest.0F4466F769E8240E.quest_desc: ["Победа. Сборка пройдена."]
+	quest.0F4466F769E8240E.title: "&6&lДоспех бесконечности&r"
+	quest.1015EFEF8D5036FB.quest_desc: ["Нужен трофей Сциллы."]
+	quest.1015EFEF8D5036FB.title: "&6Грозовая катушка II&r"
+	quest.1250C0885E2A257C.quest_desc: ["Печь складывается из обожжённого кирпича."]
+	quest.1250C0885E2A257C.title: "&6Печь&r"
+	quest.1263388F57C88851.quest_desc: ["Стол 9×9."]
+	quest.1263388F57C88851.title: "&6Бесконечное улучшение рюкзака&r"
+	quest.129ABD23BC45C0FB.quest_desc: ["Стол 9×9."]
+	quest.129ABD23BC45C0FB.title: "&6Творческий генератор&r"
+	quest.12B87730F57F7587.quest_desc: ["Поймайте ифрита в пустую горелку — источник нагрева для смесителя."]
+	quest.12B87730F57F7587.title: "&6Горелка ифрита&r"
+	quest.141815A882E7662D.quest_desc: ["Найдите Затонувший город в океане (дирижабль или подлодка)."]
+	quest.141815A882E7662D.title: "&6Затонувший город&r"
+	quest.149CC5315EFBEAE0.quest_desc: ["Улучшение рюкзака: предметы летят к вам."]
+	quest.149CC5315EFBEAE0.title: "&dМагнит&r"
+	quest.14E56B2569AC7A0B.quest_desc: ["Контроллер синтеза Mekanism."]
+	quest.14E56B2569AC7A0B.title: "&6Термоядерный реактор&r"
+	quest.1518C0F4BD1F2F86.quest_desc: ["Все творческие предметы собраны. Открывается Бесконечность."]
+	quest.1518C0F4BD1F2F86.title: "&6&lМастер творения&r"
+	quest.153BEF9E400472A9.quest_desc: ["Долетите до Луны. Эндгейм открыт!"]
+	quest.153BEF9E400472A9.title: "&6&lВысадка на Луну&r"
+	quest.15F45A021A0E416E.quest_desc: ["Мини-босс Mowzie's Mobs. Бейте в спину после его удара. Трофей понадобится в эндгейме."]
+	quest.15F45A021A0E416E.title: "&cЖелезный Рыцарь&r"
+	quest.1771E0A32DD60951.quest_desc: ["Вы нашли пирамиду в пустыне. Внутри спит Древний Остаток."]
+	quest.1771E0A32DD60951.title: "&d&oПроклятая пирамида&r"
+	quest.17D9A0AEF88479DC.quest_desc: ["Цитадель в Энде."]
+	quest.17D9A0AEF88479DC.title: "&d&oРазрушенная цитадель&r"
+	quest.18A06E28F6643C3C.quest_desc: ["Магический мост: блок Source Gem + атомный сплав + стержень Энда."]
+	quest.18A06E28F6643C3C.title: "&6Звёздный стержень&r"
+	quest.19570F5088CD1F3C.quest_desc: ["Стол 9×9."]
+	quest.19570F5088CD1F3C.title: "&6Творческий сосуд Source&r"
+	quest.1A44CBBE398F16E9.quest_desc: ["Древние обломки теперь видны."]
+	quest.1A44CBBE398F16E9.title: "&dНезерит&r"
+	quest.1A7B4109BF9FF3DA.quest_desc: ["Нужен трофей Древнего Остатка."]
+	quest.1A7B4109BF9FF3DA.title: "&6Паровое сердце II&r"
+	quest.1A8D3B8C7017A922.quest_desc: ["Повторяемый."]
+	quest.1A8D3B8C7017A922.title: "&cОхота: Игнис&r"
+	quest.1ABD077A5110648E.quest_desc: ["Стол 7×7. Нужен трофей Игниса."]
+	quest.1ABD077A5110648E.title: "&6Ядро синтеза&r"
+	quest.1AC7BA263D52A361.quest_desc: ["Сдавайте крупные партии — получайте ресурсы эндгейма. Предметы забираются."]
+	quest.1AC7BA263D52A361.title: "&6Склад&r"
+	quest.1B214E66F30A70E5.quest_desc: ["Собирается из всех сингулярностей пака."]
+	quest.1B214E66F30A70E5.title: "&6Абсолютная сингулярность&r"
+	quest.1B49287462220378.quest_desc: ["Латунь, тайная эссенция, часы и трофей Железного Рыцаря."]
+	quest.1B49287462220378.title: "&6Хроно-латунь&r"
+	quest.1C740651DCA06687.quest_desc: ["Корпус для умной механики."]
+	quest.1C740651DCA06687.title: "&6Латунный корпус&r"
+	quest.1CFAF632987E17F8.quest_desc: ["Нефть добывают качалкой из месторождений."]
+	quest.1CFAF632987E17F8.title: "&6Станок-качалка&r"
+	quest.1DAB982FA7CB8336.quest_desc: ["Дизель, бензин, пластик, эфир и эссенция африта."]
+	quest.1DAB982FA7CB8336.title: "&6Нефтехимический катализатор&r"
+	quest.1E6576BCB1DFB5E6.quest_desc: ["Предметы будущих эпох можно подобрать и хранить, но нельзя использовать. Руды будущих эпох выглядят как камень."]
+	quest.1E6576BCB1DFB5E6.title: "&dЗакрытые предметы&r"
+	quest.1EE38E0E89C1481C.quest_desc: ["Вход в Mekanism: требует электромотор TFMG."]
+	quest.1EE38E0E89C1481C.title: "&6Металлургический заправщик&r"
+	quest.1FD68E86980F3BFE.quest_desc: ["Электросеть, сталь и трофей Левиафана. Откроет Эпоху IV."]
+	quest.1FD68E86980F3BFE.title: "&6&lГрозовая катушка&r"
+	quest.202989790D0B6201.quest_desc: ["Горячо."]
+	quest.202989790D0B6201.title: "&6Венера&r"
+	quest.206C47BB306261B2.quest_desc: ["Падают во время звездопада."]
+	quest.206C47BB306261B2.title: "&6Метеоритный осколок&r"
+	quest.225474F448E5211C.quest_desc: ["Поезда Create — первый массовый транспорт."]
+	quest.225474F448E5211C.title: "&6Рельсы&r"
+	quest.2392E37618050D7D.quest_desc: ["Быстрые перемещения между базами."]
+	quest.2392E37618050D7D.title: "&dТелепорт&r"
+	quest.2459D61A172083AE.title: "&dПоставка: латунь&r"
+	quest.2485E970843DB750.quest_desc: ["Бокситы — руда алюминия (Immersive Engineering)."]
+	quest.2485E970843DB750.title: "&dАлюминий&r"
+	quest.24C85581A39508A1.title: "&dПоставка: титан&r"
+	quest.251FDE1F25125BCD.title: "&dПоставка: дизель&r"
+	quest.286B623AAD67BE1A.quest_desc: ["Печатает процессоры с прессов."]
+	quest.286B623AAD67BE1A.title: "&6Высекатель&r"
+	quest.28BF3B817CA2D08C.quest_desc: ["Стол 9×9."]
+	quest.28BF3B817CA2D08C.title: "&6Творческий мотор&r"
+	quest.28D3F5A790A76AEE.quest_desc: ["Незерит + освящённое золото Malum + жуткий дух — в перегретом смесителе."]
+	quest.28D3F5A790A76AEE.title: "&6Пустотный сплав&r"
+	quest.28DDB582213C855C.quest_desc: ["Бумажная карта — пока единственный способ не заблудиться."]
+	quest.28DDB582213C855C.title: "&dОсмотреться&r"
+	quest.2932F52F3B800DA4.quest_desc: ["Энд открыт."]
+	quest.2932F52F3B800DA4.title: "&6Энд&r"
+	quest.29357C679F735022.quest_desc: ["Огромное хранилище энергии."]
+	quest.29357C679F735022.title: "&dИндукционная матрица&r"
+	quest.29E22FF9149E88D3.quest_desc: ["Стол 9×9."]
+	quest.29E22FF9149E88D3.title: "&6Творческий бак&r"
+	quest.29E8E0E2B20525A4.quest_desc: ["Соберите дирижабль, поднимитесь в небо и отметьте квест. Награда — карта мира."]
+	quest.29E8E0E2B20525A4.title: "&6Первый взлёт&r"
+	quest.2A1CC8A305A2E1D5.quest_desc: ["Crafts & Additions: вращение → энергия (FE)."]
+	quest.2A1CC8A305A2E1D5.title: "&6Генератор переменного тока&r"
+	quest.2A249D668324931A.quest_desc: ["Контроллер колонны требует эфирный реагент."]
+	quest.2A249D668324931A.title: "&6Дистилляционная колонна&r"
+	quest.2ACB7732F1BA0826.quest_desc: ["Ещё больше места."]
+	quest.2ACB7732F1BA0826.title: "&dАлмазный рюкзак&r"
+	quest.2AF5B3702333E815.quest_desc: ["Обязательный босс эпохи. Механический — в тему."]
+	quest.2AF5B3702333E815.title: "&cХарбинджер&r"
+	quest.2B428711844D652B.quest_desc: ["Логический, вычислительный, инженерный."]
+	quest.2B428711844D652B.title: "&6Процессоры&r"
+	quest.2C52C2A03F4E4BEE.quest_desc: ["Хранение энергии Mekanism."]
+	quest.2C52C2A03F4E4BEE.title: "&6Энергокуб&r"
+	quest.2C56BACA0C2A4A79.quest_desc: ["ПКМ по боссу Cataclysm: ×2 здоровья, повторно — ×3. Больше эссенции."]
+	quest.2C56BACA0C2A4A79.title: "&6Печать пробуждения&r"
+	quest.2C8B98A1E6709C97.quest_desc: ["Поворачивает и разбирает механизмы."]
+	quest.2C8B98A1E6709C97.title: "&dГаечный ключ&r"
+	quest.2E21EECBAAF3E693.quest_desc: ["Тир II эндгейма, как в FTB Infinity Evolved: творческие предметы — трофеи на столе 9×9. В каждом рецепте — абсолютная сингулярность (все сингулярности сразу) и Сердце финала."]
+	quest.2E21EECBAAF3E693.title: "&6Творение&r"
+	quest.2F0A4F4EC76359D6.quest_desc: ["Без него ракета не найдёт Луну."]
+	quest.2F0A4F4EC76359D6.title: "&6Компьютер наведения&r"
+	quest.31003B4603337E1D.quest_desc: ["Свитки заклинаний Iron's Spells встречаются в данжах. Один выстрел — и в бой с боссом проще."]
+	quest.31003B4603337E1D.title: "&dСвиток&r"
+	quest.32461CE15AD79934.quest_desc: ["Нужен для высоковольтных проводов."]
+	quest.32461CE15AD79934.title: "&dИзолятор душ&r"
+	quest.338E03F0BBCA8A64.quest_desc: ["Вы победили медведя. Поздравляем — или сочувствуем."]
+	quest.338E03F0BBCA8A64.title: "&d&oХозяин леса&r"
+	quest.348AB759CB6B11B6.title: "&6Кирка бесконечности&r"
+	quest.34C59E741DB2F66A.quest_desc: ["Самый тихий бой в вашей жизни."]
+	quest.34C59E741DB2F66A.title: "&cХранитель&r"
+	quest.3576DCA2C5ED48E3.quest_desc: ["Повторяемый."]
+	quest.3576DCA2C5ED48E3.title: "&cОхота: Харбинджер&r"
+	quest.3588727C7705FE28.quest_desc: ["Жернова мелют руду и зерно."]
+	quest.3588727C7705FE28.title: "&6Жернова&r"
+	quest.394EBF0E72F1A4D3.quest_desc: ["Держите Навигатор в инвентаре — он показывает координаты и биом."]
+	quest.394EBF0E72F1A4D3.title: "&6Навигатор&r"
+	quest.3A2896FBE3996BCD.quest_desc: ["Штормы, кровавые луны, звездопады, грозы и караваны. О крупных событиях сервер предупреждает за игровые сутки."]
+	quest.3A2896FBE3996BCD.title: "&dСобытия мира&r"
+	quest.3B9C16179B1ED68A.quest_desc: ["Провода Immersive Engineering и катушка среднего напряжения."]
+	quest.3B9C16179B1ED68A.title: "&6Провода&r"
+	quest.3BF849AFA7CCD682.quest_desc: ["Стол 9×9."]
+	quest.3BF849AFA7CCD682.title: "&6Творческий бак Mekanism&r"
+	quest.3D62A882C04F037A.quest_desc: ["Обязательный босс эпохи. Трофей нужен для Грозовой катушки."]
+	quest.3D62A882C04F037A.title: "&cЛевиафан&r"
+	quest.3E36B417FE8AD30F.quest_desc: ["Корпуса, прецизионные механизмы и блок Source Gem. Откроет Эпоху II."]
+	quest.3E36B417FE8AD30F.title: "&6&lКинетическое ядро&r"
+	quest.3E38F36E0B3C649C.quest_desc: ["Требует звёздный стержень."]
+	quest.3E38F36E0B3C649C.title: "&6Топливная сборка&r"
+	quest.3E4FA200B48968AC.quest_desc: ["Энергия из газа — продолжение нефтяной цепочки."]
+	quest.3E4FA200B48968AC.title: "&6Газовый генератор&r"
+	quest.3E64408A7DCDAAA3.quest_desc: ["Стол 9×9."]
+	quest.3E64408A7DCDAAA3.title: "&6Творческий энергокуб&r"
+	quest.3EF866930101D06B.quest_desc: ["Обожгите глину в кирпичи на костре."]
+	quest.3EF866930101D06B.title: "&6Обжиг&r"
+	quest.3F04B655DE8D533F.quest_desc: ["Сердце любого дирижабля Aeronautics."]
+	quest.3F04B655DE8D533F.title: "&6Пропеллерный подшипник&r"
+	quest.3F320BAF77CE303C.quest_desc: ["Заряжает предметы и бьёт током."]
+	quest.3F320BAF77CE303C.title: "&dТесла-катушка&r"
+	quest.3F6FAE1529C6B676.quest_desc: ["Побочный босс. Трофей нужен для Внеземного кристалла."]
+	quest.3F6FAE1529C6B676.title: "&cСтраж Края&r"
+	quest.3FBAF5215555E2F8.quest_desc: ["Монстры не спавнятся на свету."]
+	quest.3FBAF5215555E2F8.title: "&dСвет&r"
+	quest.4215F3A5C738A34E.quest_desc: ["Точное управление тягой."]
+	quest.4215F3A5C738A34E.title: "&dУмный пропеллер&r"
+	quest.4237869795C32BB8.quest_desc: ["Показывают скорость, нагрузку и содержимое механизмов."]
+	quest.4237869795C32BB8.title: "&dИнженерные очки&r"
+	quest.428A440B84D5ED13.quest_desc: ["Логово Незеритового Чудовища."]
+	quest.428A440B84D5ED13.title: "&d&oКузница душ&r"
+	quest.42B63A494AC8C815.quest_desc: ["Occultism: камень, настроенный на духов, + светопыль + вода в смесителе."]
+	quest.42B63A494AC8C815.title: "&6Эфирный реагент&r"
+	quest.42B6B8C37B4A68EC.quest_desc: ["Продукт нефтепереработки — нужен для плат."]
+	quest.42B6B8C37B4A68EC.title: "&dПластик&r"
+	quest.42C20F6554B93BA7.quest_desc: ["Стол 5×5."]
+	quest.42C20F6554B93BA7.title: "&6Кинетическое ядро II&r"
+	quest.42CE24D6E9D824B8.quest_desc: ["Переночуйте в кровати под крышей. Мир опасен: хищники и умные зомби."]
+	quest.42CE24D6E9D824B8.title: "&6Убежище&r"
+	quest.42F03C857C0E4F50.quest_desc: ["Повторяемый: сдайте эссенцию — получите печати."]
+	quest.42F03C857C0E4F50.title: "&dЭссенция пробуждённых&r"
+	quest.43A802642C5F47C3.quest_desc: ["Побочный босс. Выпадает жетон картографа — мини-карта раньше времени."]
+	quest.43A802642C5F47C3.title: "&cДревний Остаток&r"
+	quest.43A8E8E15D9EBB3C.quest_desc: ["Топливо — производство, а не уголь."]
+	quest.43A8E8E15D9EBB3C.title: "&6Дизель&r"
+	quest.44113D3A02B5152B.quest_desc: ["Новый металл космической эпохи."]
+	quest.44113D3A02B5152B.title: "&6Титан&r"
+	quest.44115FF4B33ABA48.quest_desc: ["Реактор деления — мультиблок."]
+	quest.44115FF4B33ABA48.title: "&6Корпус реактора&r"
+	quest.4567FD50DA89B654.quest_desc: ["Основной металл индустрии."]
+	quest.4567FD50DA89B654.title: "&6Сталь&r"
+	quest.45BF5B98D39C402B.quest_desc: ["Тысячи единиц ресурса → одна сингулярность. Нужна мощная автоматизация."]
+	quest.45BF5B98D39C402B.title: "&6Компрессор&r"
+	quest.45D39C7B7CB85BE1.quest_desc: ["Стол астрономии и телескоп — найти цель полёта."]
+	quest.45D39C7B7CB85BE1.title: "&6Астрономия&r"
+	quest.46777F81E3A752A5.quest_desc: ["Руда цинка теперь видна в мире. Пригодится для латуни."]
+	quest.46777F81E3A752A5.title: "&dЦинк&r"
+	quest.46F3E5C74AB4B8FB.quest_desc: ["Дешёвая энергия — только теперь."]
+	quest.46F3E5C74AB4B8FB.title: "&dСолнечная панель&r"
+	quest.4767B72407F94CA5.quest_desc: ["Чугунные трубы и баки для печей."]
+	quest.4767B72407F94CA5.title: "&6Чугун&r"
+	quest.478614A8C014DF2C.quest_desc: ["Своя атмосфера на базе."]
+	quest.478614A8C014DF2C.title: "&dГерметизатор&r"
+	quest.47FE75B6CF9F39CE.quest_desc: ["Медь + цинк в нагретом смесителе."]
+	quest.47FE75B6CF9F39CE.title: "&6Латунь&r"
+	quest.4818375B5630C344.quest_desc: ["Extended Crafting: столы 5×5 и 7×7."]
+	quest.4818375B5630C344.title: "&dПродвинутые столы&r"
+	quest.4852F8A61E1B7E4C.quest_desc: ["Кокс — топливо для доменной печи."]
+	quest.4852F8A61E1B7E4C.title: "&6Коксовая печь&r"
+	quest.4A3E82A1707A7A72.quest_desc: ["Стол 9×9."]
+	quest.4A3E82A1707A7A72.title: "&6Творческий бак химикатов&r"
+	quest.4B6C2D37B84BA9A9.quest_desc: ["Новые руды TFMG теперь видны."]
+	quest.4B6C2D37B84BA9A9.title: "&dСвинец и никель&r"
+	quest.4CAE393D833A47D0.quest_desc: ["Собирается на поточной линии из листов золота, шестерён и деплойеров."]
+	quest.4CAE393D833A47D0.title: "&6Прецизионный механизм&r"
+	quest.4CD7140C71299F67.quest_desc: ["Ещё горячее. Здесь вольфрам."]
+	quest.4CD7140C71299F67.title: "&6Меркурий&r"
+	quest.4E0D56A2F9D28A18.quest_desc: ["Баки, разливщик и слив — основа жидкостной логистики."]
+	quest.4E0D56A2F9D28A18.title: "&dЖидкости&r"
+	quest.4E10D0DBC119C2E7.quest_desc: ["Стол 9×9."]
+	quest.4E10D0DBC119C2E7.title: "&6Абсолютный стол&r"
+	quest.4F76084FF68AC48E.quest_desc: ["Кварц + Source Gem + редстоун в нагретом смесителе. Без него нет парового двигателя."]
+	quest.4F76084FF68AC48E.title: "&6Наэлектризованный кварц&r"
+	quest.4FD012CA3291B46A.quest_desc: ["Классика. Звезда Нижнего мира пригодится."]
+	quest.4FD012CA3291B46A.title: "&cИссушитель&r"
+	quest.501EE27DFEF28408.quest_desc: ["Стол 9×9."]
+	quest.501EE27DFEF28408.title: "&6Творческий пирог ифрита&r"
+	quest.512389C1D4360629.quest_desc: ["Стол 9×9."]
+	quest.512389C1D4360629.title: "&6Творческий конденсатор&r"
+	quest.5363FC4877DC2513.quest_desc: ["Оболочки с горячим воздухом держат корабль в небе."]
+	quest.5363FC4877DC2513.title: "&6Оболочка&r"
+	quest.53C5550D2A090DC4.quest_desc: ["Основа всей механики Create."]
+	quest.53C5550D2A090DC4.title: "&6Андезитовый сплав&r"
+	quest.53DA6A0AEE736CAC.title: "&dПоставка: сталь&r"
+	quest.53EA1CBB237F4961.quest_desc: ["Найдите метеорит AE2 — внутри прессы."]
+	quest.53EA1CBB237F4961.title: "&6Метеорит&r"
+	quest.5497594180D84894.quest_desc: ["Ветряная мельница: подшипник и паруса."]
+	quest.5497594180D84894.title: "&dВетряк&r"
+	quest.54C2FB6213106E8B.quest_desc: ["Повторяемый."]
+	quest.54C2FB6213106E8B.title: "&cОхота: Страж Края&r"
+	quest.563E8999A7B7EBBA.quest_desc: ["Фабрика обогащения — руда ×2 и дальше."]
+	quest.563E8999A7B7EBBA.title: "&6Обогащение руды&r"
+	quest.5695CD4D26F36E05.quest_desc: ["Материал, который сам хочет вверх."]
+	quest.5695CD4D26F36E05.title: "&dЛевитит&r"
+	quest.570AF653674DF137.title: "&dПоставка: процессоры&r"
+	quest.5713B65EBE846724.quest_desc: ["Больше крутящего момента."]
+	quest.5713B65EBE846724.title: "&dБольшое колесо&r"
+	quest.591FA0CB7CA99152.quest_desc: ["Смеситель делает андезитовый сплав в масштабе."]
+	quest.591FA0CB7CA99152.title: "&6Смеситель&r"
+	quest.598DF4CB6F1098A6.quest_desc: ["Сталь, пропитанная духами."]
+	quest.598DF4CB6F1098A6.title: "&dДушевная сталь&r"
+	quest.59B00852734CEEC9.quest_desc: ["Сердце цифровой сети."]
+	quest.59B00852734CEEC9.title: "&6Контроллер ME&r"
+	quest.5A4ECD8828DA2A04.quest_desc: ["Пригодится, чтобы войти в Mekanism."]
+	quest.5A4ECD8828DA2A04.title: "&dЭлектромотор&r"
+	quest.5AB57833E9854CBF.quest_desc: ["Заброшенная база на Луне."]
+	quest.5AB57833E9854CBF.title: "&d&oЛунная база&r"
+	quest.5B0BA5650BFE13A6.quest_desc: ["Первые шаги в Occultism."]
+	quest.5B0BA5650BFE13A6.title: "&dКамень духов&r"
+	quest.5B1A7E4B5D28AE47.quest_desc: ["Сердце машин TFMG."]
+	quest.5B1A7E4B5D28AE47.title: "&6Стальной механизм&r"
+	quest.5BEFD2CDB57C29E3.title: "&6Меч бесконечности&r"
+	quest.5C6AEA2C99294642.quest_desc: ["Здесь собирается ракета."]
+	quest.5C6AEA2C99294642.title: "&6Ракетная станция&r"
+	quest.5CCCD6F7261632D0.quest_desc: ["Всё вместе на столе 9×9."]
+	quest.5CCCD6F7261632D0.title: "&6&lЗвезда Инженера&r"
+	quest.5D63EEBAB87A0FA3.quest_desc: ["Руины в океане. Здесь живёт Сцилла."]
+	quest.5D63EEBAB87A0FA3.title: "&d&oАкрополь&r"
+	quest.5D87352D958C477D.quest_desc: ["Магия Ars Nouveau: камера наполнения превращает аметист в Source Gem."]
+	quest.5D87352D958C477D.title: "&6Камень силы&r"
+	quest.5E86E7D4C9290119.quest_desc: ["Найдите Древнюю фабрику — логово Харбинджера."]
+	quest.5E86E7D4C9290119.title: "&6Старая фабрика&r"
+	quest.5EFB6184F4C753B5.quest_desc: ["Iron's Spells: свои книги заклинаний."]
+	quest.5EFB6184F4C753B5.title: "&dСтол начертаний&r"
+	quest.5F2B4B9441E2BC21.quest_desc: ["Больше места."]
+	quest.5F2B4B9441E2BC21.title: "&dЖелезный рюкзак&r"
+	quest.5F5AF47B927E92A7.quest_desc: [
+		"Кооперативная хардкорная техно-сборка. Прогресс общий для всей команды: эпоху открывает квест, и она открывается всем сразу."
+		"Золотые квесты ведут по основному пути, фиолетовые — побочные (не сгорают), красные — боссы."
+	]
+	quest.5F5AF47B927E92A7.title: "&6Добро пожаловать&r"
+	quest.604BB5E28DCB9917.quest_desc: ["Вращение передаётся валами и шестернями."]
+	quest.604BB5E28DCB9917.title: "&6Валы и шестерни&r"
+	quest.610F135E925CF690.quest_desc: ["Обязательный босс эпохи."]
+	quest.610F135E925CF690.title: "&cЭндер-дракон&r"
+	quest.6316864EC8EB7FFC.quest_desc: ["Гравий и кремень дают сырую медь — ранний источник металла."]
+	quest.6316864EC8EB7FFC.title: "&6Медь из гравия&r"
+	quest.63218B9C209774D5.quest_desc: ["Деревянных инструментов нет. Наберите кремня из гравия."]
+	quest.63218B9C209774D5.title: "&6Кремень&r"
+	quest.6465E733336A772F.quest_desc: ["Повторяемый."]
+	quest.6465E733336A772F.title: "&cОхота: Левиафан&r"
+	quest.6515083EDC5A034D.quest_desc: ["Материалы трёх планет и трофей Стража Края."]
+	quest.6515083EDC5A034D.title: "&6Внеземной кристалл&r"
+	quest.65B003A206CB4B67.quest_desc: ["Пригодится для всего, что сложнее шестерни."]
+	quest.65B003A206CB4B67.title: "&dЭлектронная лампа&r"
+	quest.66369229657C4590.quest_desc: ["Пропитанный сплав и базовая схема."]
+	quest.66369229657C4590.title: "&6Сплавы&r"
+	quest.66FEF45A935B2286.quest_desc: ["Кристаллы для AE2."]
+	quest.66FEF45A935B2286.title: "&6Истинный кварц&r"
+	quest.67366363048EDA7F.quest_desc: ["Листы металла для сложных деталей."]
+	quest.67366363048EDA7F.title: "&6Механический пресс&r"
+	quest.678A31294E440074.quest_desc: ["Стол 5×5."]
+	quest.678A31294E440074.title: "&6Сфера антиматерии&r"
+	quest.683C8603707F7198.quest_desc: ["Кремень + палки = каменные инструменты."]
+	quest.683C8603707F7198.title: "&6Кремнёвая кирка&r"
+	quest.6954DF62FE1DDFD1.quest_desc: ["Пара дробильных колёс: из сырой руды — дроблёная, а это больше слитков."]
+	quest.6954DF62FE1DDFD1.title: "&6Дробилка&r"
+	quest.69713AE143D8FB96.quest_desc: ["Malum: алтарь пропитки духами."]
+	quest.69713AE143D8FB96.title: "&dАлтарь духов&r"
+	quest.6AFD844B7528D3E5.quest_desc: ["Высший сплав Mekanism."]
+	quest.6AFD844B7528D3E5.title: "&6Атомный сплав&r"
+	quest.6B36131FA3DEE6CF.quest_desc: ["Котёл должен петь."]
+	quest.6B36131FA3DEE6CF.title: "&dСвисток&r"
+	quest.6B5D35D4136E556F.quest_desc: ["Трофеи Харбинджера и Незеритового Чудовища."]
+	quest.6B5D35D4136E556F.title: "&6Логическое ядро II&r"
+	quest.6B8A8B0EE4DF992D.quest_desc: ["Летите дальше."]
+	quest.6B8A8B0EE4DF992D.title: "&6Марс&r"
+	quest.6BCE489ACC16411B.quest_desc: ["Стол 9×9."]
+	quest.6BCE489ACC16411B.title: "&6Творческая ячейка хранения&r"
+	quest.6BD57171D98248C6.quest_desc: ["Здесь заточён Маледиктус."]
+	quest.6BD57171D98248C6.title: "&d&oЛедяная тюрьма&r"
+	quest.6CCFCC619E7CE6C4.quest_desc: ["Звезда собирается на столе Extended Crafting 9×9. Каждый компонент — отдельный мега-проект."]
+	quest.6CCFCC619E7CE6C4.title: "&6Великий проект&r"
+	quest.6D09DCBB0587E98D.quest_desc: ["Побочный босс. Трофей нужен для Сплава душ."]
+	quest.6D09DCBB0587E98D.title: "&cМаледиктус&r"
+	quest.709C03C734B7A1B0.quest_desc: ["Электросеть с напряжением."]
+	quest.709C03C734B7A1B0.title: "&6Генератор TFMG&r"
+	quest.729EC6A284E2EA46.quest_desc: ["Корпус реактора, топливная сборка и турбина. Откроет космос."]
+	quest.729EC6A284E2EA46.title: "&6&lЯдро реактора&r"
+	quest.72BDF3E36D8D0031.quest_desc: ["Здесь ждёт Игнис."]
+	quest.72BDF3E36D8D0031.title: "&d&oПылающая арена&r"
+	quest.72CFDB8F94AF6B77.quest_desc: ["Используйте Звезду на Луне. Финальный босс: ×4 здоровья, прислужники и магнитная буря. Победа приносит Сердце финала."]
+	quest.72CFDB8F94AF6B77.title: "&cПробуждённый Харбинджер&r"
+	quest.739ECE10EC822615.quest_desc: ["Побочный босс. Трофей понадобится для Звезды."]
+	quest.739ECE10EC822615.title: "&cСцилла&r"
+	quest.746DDC0461D24231.quest_desc: ["Хлеб — надёжная еда на первые дни."]
+	quest.746DDC0461D24231.title: "&dЗапасы&r"
+	quest.7505C5E51928C9DA.quest_desc: ["Портал в Otherside строится в Древнем городе."]
+	quest.7505C5E51928C9DA.title: "&6Древний город&r"
+	quest.754F38468BB3D0D9.quest_desc: ["Сингулярности, творческие предметы, Звезда и эссенция пробуждённых."]
+	quest.754F38468BB3D0D9.title: "&6Катализатор бесконечности&r"
+	quest.75D3B6887BBA35AA.quest_desc: ["Первый источник вращения — у реки."]
+	quest.75D3B6887BBA35AA.title: "&6Водяное колесо&r"
+	quest.768E4759FECE6608.quest_desc: ["На Луне нечем дышать."]
+	quest.768E4759FECE6608.title: "&6Кислород&r"
+	quest.76D0771F13A36589.quest_desc: ["Большой склад для механизированных линий."]
+	quest.76D0771F13A36589.title: "&dХранилище&r"
+	quest.76FA52C0A50EBC73.quest_desc: ["После смерти вещи остаются в могиле, а вы 2 минуты ходите со Слабостью I."]
+	quest.76FA52C0A50EBC73.title: "&dСмерть&r"
+	quest.77834E77A9CD569E.quest_desc: ["Пакеты Create — логистика между базами."]
+	quest.77834E77A9CD569E.title: "&dУпаковщик&r"
+	quest.77A8541FF4AB46CB.quest_desc: ["Кровать — точка возрождения и способ пропустить ночь."]
+	quest.77A8541FF4AB46CB.title: "&dКровать&r"
+	quest.7C0C7039A0EA56FB.quest_desc: ["Энергию нужно где-то хранить."]
+	quest.7C0C7039A0EA56FB.title: "&6Аккумулятор&r"
+	quest.7C1A2F5C2C286F96.quest_desc: ["Доменная печь TFMG — единственный источник стали до Эпохи IV."]
+	quest.7C1A2F5C2C286F96.title: "&6Доменная печь&r"
+	quest.7C29ADC79980CF96.quest_desc: ["Механическая рука, которая «держит» предмет. Нужна для сборочных линий."]
+	quest.7C29ADC79980CF96.title: "&6Деплойер&r"
+	quest.7CCD1D47B7E0A585.quest_desc: ["Ифриты живут в крепостях Нижнего мира."]
+	quest.7CCD1D47B7E0A585.title: "&6Стержни ифрита&r"
+	quest.7D2D8894F7A549F5.quest_desc: ["Стол 9×9."]
+	quest.7D2D8894F7A549F5.title: "&6Творческий ящик&r"
+	quest.7D53095AFAFCF4B7.quest_desc: ["Стол 9×9."]
+	quest.7D53095AFAFCF4B7.title: "&6Творческий источник энергии&r"
+	quest.7D667C474F0EF467.quest_desc: ["Побочный босс. Трофей нужен для Ядра синтеза."]
+	quest.7D667C474F0EF467.title: "&cИгнис&r"
+	quest.7D6842FE5D70DB31.quest_desc: ["Требует метеоритную сталь."]
+	quest.7D6842FE5D70DB31.title: "&6Ракетный двигатель&r"
+	quest.7E208F521CCD8F6D.quest_desc: ["SPS Mekanism и гранулы антиматерии."]
+	quest.7E208F521CCD8F6D.title: "&6Антиматерия&r"
+	quest.7E45865DE035B36A.quest_desc: ["Мир эха и скалка."]
+	quest.7E45865DE035B36A.title: "&6Otherside&r"
+	quest.7EC277641C30E674.quest_desc: ["Сталь, небесный камень, звёздный стержень, метеорит."]
+	quest.7EC277641C30E674.title: "&6Звёздная сталь&r"
+	quest.7EC72A629C3D3659.quest_desc: ["Сталь + небесный камень AE2 + осколок метеорита."]
+	quest.7EC72A629C3D3659.title: "&6Метеоритная сталь&r"
+	quest.7F0FFC71B3CF1931.quest_desc: ["Котёл из баков + горелки + двигатели. Чем горячее, тем больше двигателей тянет котёл."]
+	quest.7F0FFC71B3CF1931.title: "&6Паровой двигатель&r"
+}

@@ -1,0 +1,13 @@
+name = "Re-Avaritia-neoforge-1.21.1-1.4.2-release"
+filename = "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QeB3NRC5/versions/uY1x1LTC/Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar"
+hash-format = "sha512"
+hash = "cdea0ad05932415670d75066792a96808ea6c9eea1bf4033790669af3b022eb5426df0ff0df6eba72205624fd96a15e16a051711722ce7a9f626e091db10b0a4"
+
+[update]
+[update.modrinth]
+mod-id = "QeB3NRC5"
+version = "uY1x1LTC"

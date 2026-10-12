@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age4/a4_meteor",
+  "display": {
+    "icon": {
+      "id": "ae2:certus_quartz_crystal"
+    },
+    "title": {
+      "text": "Истинный кварц",
+      "color": "white"
+    },
+    "description": {
+      "text": "Кристаллы для AE2."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:certus_quartz_crystal",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

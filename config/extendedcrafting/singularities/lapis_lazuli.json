@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.lapis_lazuli",
+  "colors": [
+    "5a82e2",
+    "2a4fa8"
+  ],
+  "ingredient": {
+    "tag": "c:gems/lapis"
+  },
+  "materialCount": 4000
+}

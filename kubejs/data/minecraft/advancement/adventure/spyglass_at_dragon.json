@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "disabled": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/spyglass_at_ghast"
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "kubejs:age0/a0_pick",
+  "display": {
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "text": "Хозяин леса",
+      "color": "dark_aqua"
+    },
+    "description": {
+      "text": "Вы победили медведя. Поздравляем — или сочувствуем."
+    },
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "naturalist:bear"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

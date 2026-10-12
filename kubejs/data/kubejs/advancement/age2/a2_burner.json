@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_blaze",
+  "display": {
+    "icon": {
+      "id": "create:blaze_burner"
+    },
+    "title": {
+      "text": "Горелка ифрита",
+      "color": "white"
+    },
+    "description": {
+      "text": "Поймайте ифрита в пустую горелку — источник нагрева для смесителя."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:blaze_burner"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

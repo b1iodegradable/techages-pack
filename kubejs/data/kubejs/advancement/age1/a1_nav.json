@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_press",
+  "display": {
+    "icon": {
+      "id": "kubejs:navigator"
+    },
+    "title": {
+      "text": "Навигатор",
+      "color": "white"
+    },
+    "description": {
+      "text": "Держите Навигатор в инвентаре — он показывает координаты и биом."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:navigator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

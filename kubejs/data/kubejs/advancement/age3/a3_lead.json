@@ -1,0 +1,55 @@
+{
+  "parent": "kubejs:age3/a3_steel",
+  "display": {
+    "icon": {
+      "id": "tfmg:lead_ingot"
+    },
+    "title": {
+      "text": "Свинец и никель",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Новые руды TFMG теперь видны."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:lead_ingot",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:nickel_ingot",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

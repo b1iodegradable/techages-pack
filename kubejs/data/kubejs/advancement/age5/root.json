@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:fission_reactor_casing"
+    },
+    "title": {
+      "text": "Эпоха V — Атом",
+      "color": "gold"
+    },
+    "description": [
+      "",
+      {
+        "text": "Реактор и выход в Энд\n"
+      },
+      {
+        "text": "Ворота: ",
+        "color": "gold"
+      },
+      {
+        "text": "Ядро реактора",
+        "color": "yellow"
+      }
+    ],
+    "background": "minecraft:textures/block/polished_blackstone.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,432 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age5"
+	group: "66ADC382DA4DC6DC"
+	icon: { id: "mekanismgenerators:fission_reactor_casing" }
+	id: "73829708472B1887"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["04DD37D30551F247"]
+			hide_until_deps_complete: true
+			id: "6AFD844B7528D3E5"
+			rewards: [
+				{
+					id: "60094890EE40155B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "0E348D65589785BD"
+					item: { count: 1, id: "mekanism:alloy_atomic" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AFD844B7528D3E5"]
+			hide_until_deps_visible: true
+			id: "18A06E28F6643C3C"
+			rewards: [
+				{
+					id: "7DBA561C4778A521"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "294408481CAD4860"
+					item: { count: 1, id: "kubejs:star_rod" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AFD844B7528D3E5"]
+			hide_until_deps_visible: true
+			id: "44115FF4B33ABA48"
+			rewards: [
+				{
+					id: "5D39AA274569E2F1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 32L
+					id: "6462102E6A1DAF5C"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "462B7DA8C5933829"
+					item: { count: 1, id: "mekanismgenerators:fission_reactor_port" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18A06E28F6643C3C" "44115FF4B33ABA48"]
+			hide_until_deps_visible: true
+			id: "3E38F36E0B3C649C"
+			rewards: [
+				{
+					id: "15A658788475C4E3"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "19F207FB8C92DE81"
+					item: { count: 1, id: "mekanismgenerators:fission_fuel_assembly" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44115FF4B33ABA48"]
+			hide_until_deps_visible: true
+			id: "04F3BD55CDBCFC00"
+			rewards: [
+				{
+					id: "6E824AFBDEA4D6D9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 32L
+					id: "0D4D6EBA99D1E582"
+					item: { count: 1, id: "mekanismgenerators:turbine_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4E7E7F18017032A0"
+					item: { count: 1, id: "mekanismgenerators:turbine_rotor" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "31674D04996AE6C1"
+					item: { count: 1, id: "mekanismgenerators:turbine_blade" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4B17A3E257E255F6"
+					item: { count: 1, id: "mekanismgenerators:turbine_valve" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04DD37D30551F247"]
+			hide_until_deps_complete: true
+			id: "2932F52F3B800DA4"
+			rewards: [
+				{
+					id: "211EDDE52F5EBFCB"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					dimension: "minecraft:the_end"
+					id: "181E2FE9E82539A9"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2932F52F3B800DA4"]
+			hide_until_deps_visible: true
+			id: "610F135E925CF690"
+			rewards: [
+				{
+					id: "30D3FA6DD26F4EC8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "3615A82257AC0179"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E38F36E0B3C649C" "04F3BD55CDBCFC00" "610F135E925CF690"]
+			hide_until_deps_visible: true
+			id: "729EC6A284E2EA46"
+			rewards: [
+				{
+					id: "3BD3FD333F9F3275"
+					remove: false
+					stage: "age_6"
+					type: "astages:server"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					count: 1L
+					id: "3D8DC909D649CE96"
+					item: { count: 1, id: "kubejs:reactor_core" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AFD844B7528D3E5"]
+			hide_until_deps_visible: true
+			id: "46F3E5C74AB4B8FB"
+			rewards: [
+				{
+					id: "08A574E954305B85"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 4L
+					id: "0CB35CE84D6BE6A0"
+					item: { count: 1, id: "mekanismgenerators:solar_generator" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AFD844B7528D3E5"]
+			hide_until_deps_visible: true
+			id: "29357C679F735022"
+			rewards: [
+				{
+					id: "7AF34FA6B1D43BDB"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 16L
+					id: "131898B9CFE76165"
+					item: { count: 1, id: "mekanism:induction_casing" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "794ACD7695BE76E4"
+					item: { count: 1, id: "mekanism:basic_induction_cell" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "4145E1F05747B7A8"
+					item: { count: 1, id: "mekanism:basic_induction_provider" }
+					type: "item"
+				}
+			]
+			x: 1.2d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04DD37D30551F247"]
+			invisible: true
+			hide_until_deps_complete: true
+			id: "72BDF3E36D8D0031"
+			rewards: [
+				{
+					id: "0B46F927B5A96895"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7B5F2CD5F6C41265"
+					structure: "cataclysm:burning_arena"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72BDF3E36D8D0031"]
+			hide_until_deps_visible: true
+			id: "7D667C474F0EF467"
+			rewards: [
+				{
+					id: "4D336E27D5FE9742"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "0758BB52C249E0C3"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.2d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04DD37D30551F247"]
+			invisible: true
+			hide_until_deps_complete: true
+			id: "6BD57171D98248C6"
+			rewards: [
+				{
+					id: "496A1D817EC6DECA"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5386799B7C011797"
+					structure: "cataclysm:frosted_prison"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 6.1d
+		}
+		{
+			dependencies: ["6BD57171D98248C6"]
+			hide_until_deps_visible: true
+			id: "6D09DCBB0587E98D"
+			rewards: [
+				{
+					id: "5DDF552CD41FB00E"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:maledictus"
+					id: "62414DDD5BD69316"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.2d
+			y: 6.1d
+		}
+		{
+			dependencies: ["2932F52F3B800DA4"]
+			invisible: true
+			hide_until_deps_visible: true
+			id: "17D9A0AEF88479DC"
+			rewards: [
+				{
+					id: "3F8B9FF22AD96BE7"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "3C738BC2A2E0ABBB"
+					structure: "cataclysm:ruined_citadel"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 7.7d
+		}
+		{
+			dependencies: ["17D9A0AEF88479DC"]
+			hide_until_deps_visible: true
+			id: "3F6FAE1529C6B676"
+			rewards: [
+				{
+					id: "27AD9D60DBB775F4"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:ender_guardian"
+					id: "2030ECDC607CF7E1"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.2d
+			y: 7.7d
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age4/a4_proc",
+  "display": {
+    "icon": {
+      "id": "kubejs:void_alloy"
+    },
+    "title": {
+      "text": "Пустотный сплав",
+      "color": "white"
+    },
+    "description": {
+      "text": "Незерит + освящённое золото Malum + жуткий дух — в перегретом смесителе."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:void_alloy",
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

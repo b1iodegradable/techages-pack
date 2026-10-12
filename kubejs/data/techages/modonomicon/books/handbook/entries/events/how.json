@@ -1,0 +1,51 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "events",
+  "description": "book.techages.handbook.events.how.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "minecraft:bell"
+  },
+  "name": "book.techages.handbook.events.how.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.events.how.p0_0.text",
+      "title": "book.techages.handbook.events.how.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.events.how.p1_0.text",
+      "title": "book.techages.handbook.events.how.p1_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.events.how.p2_0.text",
+      "title": "book.techages.handbook.events.how.p2_0.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "parents": [],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 22,
+  "x": 0,
+  "y": 0
+}

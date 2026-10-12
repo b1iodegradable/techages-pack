@@ -1,0 +1,580 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age2"
+	group: "66ADC382DA4DC6DC"
+	icon: { id: "create:steam_engine" }
+	id: "389B82025F0E6B86"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3E36B417FE8AD30F"]
+			hide_until_deps_complete: true
+			id: "0B9FDA4CFD3E7448"
+			rewards: [
+				{
+					id: "55A315200F50B985"
+					item: { count: 4, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "474AD2F34649FAF2"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B9FDA4CFD3E7448"]
+			hide_until_deps_visible: true
+			id: "7CCD1D47B7E0A585"
+			rewards: [
+				{
+					id: "71C9BE4C5303733C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "685A0936D4240BF7"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CCD1D47B7E0A585"]
+			hide_until_deps_visible: true
+			id: "12B87730F57F7587"
+			rewards: [
+				{
+					id: "4B0FF778ED8B4C6A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "77D02E0A6214A6CE"
+					item: { count: 1, id: "create:blaze_burner" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B87730F57F7587"]
+			hide_until_deps_visible: true
+			id: "47FE75B6CF9F39CE"
+			rewards: [
+				{
+					id: "24CA6EA7CF07C5C0"
+					item: { count: 16, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "142B265113E2062A"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FE75B6CF9F39CE"]
+			hide_until_deps_visible: true
+			id: "1C740651DCA06687"
+			rewards: [
+				{
+					id: "0BECE705C5C68C3C"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "6FB0F22FE745095A"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12B87730F57F7587"]
+			hide_until_deps_visible: true
+			id: "4F76084FF68AC48E"
+			rewards: [
+				{
+					id: "5335EDBFF18908E5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "0E6304FC9033EBFA"
+					item: { count: 1, id: "kubejs:electrified_quartz" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4F76084FF68AC48E" "1C740651DCA06687"]
+			hide_until_deps_visible: true
+			id: "7F0FFC71B3CF1931"
+			rewards: [
+				{
+					id: "0080F5E51B8BA75C"
+					item: { count: 4, id: "create:fluid_tank" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "565A2FB65B1448D0"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C740651DCA06687"]
+			hide_until_deps_visible: true
+			id: "225474F448E5211C"
+			rewards: [
+				{
+					id: "6B381E67C104C648"
+					item: { count: 32, id: "create:track" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 32L
+					id: "5CB7798E6A6B968C"
+					item: { count: 1, id: "create:track" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "4F880F23C52E9C6F"
+					item: { count: 1, id: "create:track_station" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["225474F448E5211C"]
+			hide_until_deps_visible: true
+			id: "0A9F4516AA2A44CC"
+			rewards: [
+				{
+					id: "6DC06734F99186AD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "0B77C8A0B40CCED6"
+					item: { count: 1, id: "create:schedule" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C740651DCA06687"]
+			hide_until_deps_visible: true
+			id: "3F04B655DE8D533F"
+			rewards: [
+				{
+					id: "54CF8BE72E80D180"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "3C1A8B7945FBB0B4"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3F04B655DE8D533F"]
+			hide_until_deps_visible: true
+			id: "5363FC4877DC2513"
+			rewards: [
+				{
+					id: "05DEB8F02F7BF417"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "6F898B4FB449B395"
+					item: { count: 1, id: "aeronautics:white_envelope" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "659DD4522B41C184"
+					item: { count: 1, id: "aeronautics:adjustable_burner" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5363FC4877DC2513" "7F0FFC71B3CF1931"]
+			hide_until_deps_visible: true
+			id: "29E8E0E2B20525A4"
+			rewards: [
+				{
+					id: "50D36AED06AF7606"
+					remove: false
+					stage: "qol_worldmap"
+					type: "astages:server"
+				}
+				{
+					id: "1287E56A98C86F6F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4A1BA79F813C12DD"
+					type: "checkmark"
+				}
+			]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29E8E0E2B20525A4"]
+			hide_until_deps_visible: true
+			id: "0867B6510DE491A5"
+			rewards: [
+				{
+					id: "53B0EF1B43464EB8"
+					remove: false
+					stage: "age_3"
+					type: "astages:server"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					count: 1L
+					id: "7267869B0EF48801"
+					item: { count: 1, id: "kubejs:steam_heart" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F0FFC71B3CF1931"]
+			hide_until_deps_visible: true
+			id: "6B36131FA3DEE6CF"
+			rewards: [
+				{
+					id: "7BC0F5085F9E4EA6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "57E485DC3DB4813F"
+					item: { count: 1, id: "create:steam_whistle" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C740651DCA06687"]
+			hide_until_deps_visible: true
+			id: "0A2CD00D18E526B8"
+			rewards: [
+				{
+					id: "3DF284C1F1BDBF87"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 9L
+					id: "1E177743E50A15E8"
+					item: { count: 1, id: "create:mechanical_crafter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C740651DCA06687"]
+			hide_until_deps_visible: true
+			id: "77834E77A9CD569E"
+			rewards: [
+				{
+					id: "0FCADD161938231D"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 2L
+					id: "22F4EBCCC37CBFDE"
+					item: { count: 1, id: "create:packager" }
+					type: "item"
+				}
+			]
+			x: 11.2d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F04B655DE8D533F"]
+			hide_until_deps_visible: true
+			id: "4215F3A5C738A34E"
+			rewards: [
+				{
+					id: "2BD9F6795593B2B7"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "1210948B82BC0848"
+					item: { count: 1, id: "aeronautics:smart_propeller" }
+					type: "item"
+				}
+			]
+			x: 13.7d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F04B655DE8D533F"]
+			hide_until_deps_visible: true
+			id: "5695CD4D26F36E05"
+			rewards: [
+				{
+					id: "702BE604C72F6FC2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 8L
+					id: "55A0FE09BB9E3C75"
+					item: { count: 1, id: "aeronautics:levitite" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -6.1d
+		}
+		{
+			dependencies: ["47FE75B6CF9F39CE"]
+			hide_until_deps_visible: true
+			id: "149CC5315EFBEAE0"
+			rewards: [
+				{
+					id: "72C9AA913201C381"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "6A57170B5F25AA8D"
+					item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["47FE75B6CF9F39CE"]
+			hide_until_deps_visible: true
+			id: "5F2B4B9441E2BC21"
+			rewards: [
+				{
+					id: "1C3379B3B7830C22"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "19C1F000A79EFE9F"
+					item: { count: 1, id: "sophisticatedbackpacks:iron_backpack" }
+					type: "item"
+				}
+			]
+			x: 8.7d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B9FDA4CFD3E7448"]
+			hide_until_deps_visible: true
+			id: "31003B4603337E1D"
+			rewards: [
+				{
+					id: "7763C8A225B82A91"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "0AF58F10575FB0B1"
+					item: { count: 1, id: "irons_spellbooks:scroll" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F04B655DE8D533F"]
+			invisible: true
+			hide_until_deps_visible: true
+			id: "1771E0A32DD60951"
+			rewards: [
+				{
+					id: "1A898E0CC148111A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "32B6521E106B0E99"
+					structure: "cataclysm:cursed_pyramid"
+					type: "structure"
+				}
+			]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1771E0A32DD60951"]
+			hide_until_deps_visible: true
+			id: "43A802642C5F47C3"
+			rewards: [
+				{
+					id: "53737DA3748F4D75"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:ancient_remnant"
+					id: "78FB8997C15054F9"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 13.7d
+			y: 4.5d
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.glowstone",
+  "colors": [
+    "fcd679",
+    "b58a3b"
+  ],
+  "ingredient": {
+    "tag": "c:dusts/glowstone"
+  },
+  "materialCount": 4000
+}

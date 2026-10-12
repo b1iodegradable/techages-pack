@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.iron",
+  "colors": [
+    "dedede",
+    "959595"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/iron"
+  },
+  "materialCount": 4000
+}

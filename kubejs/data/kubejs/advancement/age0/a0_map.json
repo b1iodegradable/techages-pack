@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age0/a0_flint",
+  "display": {
+    "icon": {
+      "id": "minecraft:map"
+    },
+    "title": {
+      "text": "Осмотреться",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Бумажная карта — пока единственный способ не заблудиться."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:map"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

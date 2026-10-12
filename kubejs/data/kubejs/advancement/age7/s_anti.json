@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_sps",
+  "display": {
+    "icon": {
+      "id": "kubejs:antimatter_sphere"
+    },
+    "title": {
+      "text": "Сфера антиматерии",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол 5×5."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:antimatter_sphere"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

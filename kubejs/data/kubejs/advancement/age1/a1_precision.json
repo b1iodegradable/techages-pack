@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age1/a1_deployer",
+  "display": {
+    "icon": {
+      "id": "create:precision_mechanism"
+    },
+    "title": {
+      "text": "Прецизионный механизм",
+      "color": "white"
+    },
+    "description": {
+      "text": "Собирается на поточной линии из листов золота, шестерён и деплойеров."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:precision_mechanism",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

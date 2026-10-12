@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_cube",
+  "display": {
+    "icon": {
+      "id": "mekanism:basic_enriching_factory"
+    },
+    "title": {
+      "text": "Обогащение руды",
+      "color": "white"
+    },
+    "description": {
+      "text": "Фабрика обогащения — руда ×2 и дальше."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_enriching_factory"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "world",
+  "description": "book.techages.handbook.world.bosses.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "kubejs:trophy_leviathan"
+  },
+  "name": "book.techages.handbook.world.bosses.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.world.bosses.p0_0.text",
+      "title": "book.techages.handbook.world.bosses.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "item": "cataclysm:abyss_eye"
+      },
+      "text": "book.techages.handbook.world.bosses.p1.text",
+      "title": ""
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.world.bosses.p2_0.text",
+      "title": "book.techages.handbook.world.bosses.p2_0.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "parents": [],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 15,
+  "x": 0,
+  "y": 0
+}

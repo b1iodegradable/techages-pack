@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_void",
+  "display": {
+    "icon": {
+      "id": "ae2:controller"
+    },
+    "title": {
+      "text": "Контроллер ME",
+      "color": "white"
+    },
+    "description": {
+      "text": "Сердце цифровой сети."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:controller"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

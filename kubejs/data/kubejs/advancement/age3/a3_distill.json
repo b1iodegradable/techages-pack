@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_ether",
+  "display": {
+    "icon": {
+      "id": "tfmg:steel_distillation_controller"
+    },
+    "title": {
+      "text": "Дистилляционная колонна",
+      "color": "white"
+    },
+    "description": {
+      "text": "Контроллер колонны требует эфирный реагент."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:steel_distillation_controller"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

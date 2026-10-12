@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age6/a6_ti",
+  "display": {
+    "icon": {
+      "id": "kubejs:meteor_fragment"
+    },
+    "title": {
+      "text": "Метеоритный осколок",
+      "color": "white"
+    },
+    "description": {
+      "text": "Падают во время звездопада."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:meteor_fragment",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

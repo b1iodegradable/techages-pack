@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_2",
+  "display": {
+    "icon": {
+      "id": "kubejs:cartographer_token"
+    },
+    "title": {
+      "text": "Мини-карта"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "мини-карта Xaero в углу экрана.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "жетон картографа (лут Древнего Остатка, Проклятая пирамида) или сама в Эпохе III.",
+        "color": "gray"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

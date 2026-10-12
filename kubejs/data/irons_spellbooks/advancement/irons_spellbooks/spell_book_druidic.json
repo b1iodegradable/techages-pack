@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "disabled": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "irons_spellbooks:irons_spellbooks/spell_book_rotten"
+}

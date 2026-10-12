@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.platinum",
+  "colors": [
+    "a3e3f0",
+    "6aa8b5"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/platinum"
+  },
+  "materialCount": 2000,
+  "enabled": false,
+  "inUltimateSingularity": false
+}

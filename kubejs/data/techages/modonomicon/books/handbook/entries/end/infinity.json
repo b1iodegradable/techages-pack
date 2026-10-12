@@ -1,0 +1,40 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "end",
+  "description": "book.techages.handbook.end.infinity.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "avaritia:infinity_catalyst"
+  },
+  "name": "book.techages.handbook.end.infinity.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.end.infinity.p0_0.text",
+      "title": "book.techages.handbook.end.infinity.p0_0.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "end/creative",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 21,
+  "x": 6,
+  "y": 0,
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "kubejs:progress/tier_infinity"
+  }
+}

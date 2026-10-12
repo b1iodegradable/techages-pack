@@ -1,0 +1,48 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "start",
+  "description": "book.techages.handbook.start.qol.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "kubejs:navigator"
+  },
+  "name": "book.techages.handbook.start.qol.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.start.qol.p0_0.text",
+      "title": "book.techages.handbook.start.qol.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "item": "kubejs:navigator"
+      },
+      "text": "book.techages.handbook.start.qol.p1.text",
+      "title": ""
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "start/rules",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 2,
+  "x": 6,
+  "y": 0
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age1/a1_mill",
+  "display": {
+    "icon": {
+      "id": "create:crushing_wheel"
+    },
+    "title": {
+      "text": "Дробилка",
+      "color": "white"
+    },
+    "description": {
+      "text": "Пара дробильных колёс: из сырой руды — дроблёная, а это больше слитков."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:crushing_wheel",
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "energy",
+  "description": "book.techages.handbook.energy.power.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "createaddition:alternator"
+  },
+  "name": "book.techages.handbook.energy.power.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.energy.power.p0_0.text",
+      "title": "book.techages.handbook.energy.power.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.energy.power.p1_0.text",
+      "title": "book.techages.handbook.energy.power.p1_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "item": "immersiveengineering:wirecoil_steel"
+      },
+      "text": "book.techages.handbook.energy.power.p2.text",
+      "title": ""
+    }
+  ],
+  "parents": [],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 10,
+  "x": 0,
+  "y": 0,
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "kubejs:progress/age_3"
+  }
+}

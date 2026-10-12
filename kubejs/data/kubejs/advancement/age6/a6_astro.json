@@ -1,0 +1,49 @@
+{
+  "parent": "kubejs:age6/a6_ti",
+  "display": {
+    "icon": {
+      "id": "northstar:astronomy_table"
+    },
+    "title": {
+      "text": "Астрономия",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол астрономии и телескоп — найти цель полёта."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:astronomy_table"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:telescope"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

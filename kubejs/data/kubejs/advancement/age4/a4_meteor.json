@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Метеорит",
+      "color": "white"
+    },
+    "description": {
+      "text": "Найдите метеорит AE2 — внутри прессы."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "ae2:meteorite"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

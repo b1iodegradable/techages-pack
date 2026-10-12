@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age3/a3_soulsteel",
+  "display": {
+    "icon": {
+      "id": "kubejs:soul_insulator"
+    },
+    "title": {
+      "text": "Изолятор душ",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Нужен для высоковольтных проводов."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:soul_insulator",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

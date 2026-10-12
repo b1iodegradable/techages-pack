@@ -1,0 +1,47 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "events",
+  "description": "book.techages.handbook.events.coop.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "minecraft:shield"
+  },
+  "name": "book.techages.handbook.events.coop.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.events.coop.p0_0.text",
+      "title": "book.techages.handbook.events.coop.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.events.coop.p1_0.text",
+      "title": "book.techages.handbook.events.coop.p1_0.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "events/pvp",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 25,
+  "x": 6,
+  "y": -3
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_1",
+  "display": {
+    "icon": {
+      "id": "kubejs:navigator"
+    },
+    "title": {
+      "text": "Координаты"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "Навигатор в инвентаре пишет координаты и биом над хотбаром (в F3 их нет).\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "квест «Навигатор» в Эпохе I.",
+        "color": "gray"
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "disabled": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:husbandry/obtain_sniffer_egg"
+}

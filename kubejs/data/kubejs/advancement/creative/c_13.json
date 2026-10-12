@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:creative/c_ultimate",
+  "display": {
+    "icon": {
+      "id": "immersiveengineering:capacitor_creative"
+    },
+    "title": {
+      "text": "Творческий конденсатор",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол 9×9."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:capacitor_creative"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

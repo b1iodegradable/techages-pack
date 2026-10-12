@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.copper",
+  "colors": [
+    "e3826c",
+    "b4684d"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/copper"
+  },
+  "materialCount": 4000
+}

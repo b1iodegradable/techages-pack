@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/tier_creative",
+  "display": {
+    "icon": {
+      "id": "avaritia:infinity_catalyst"
+    },
+    "title": {
+      "text": "Бесконечность"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "Катализатор бесконечности и снаряжение Re:Avaritia.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "собрать все творческие предметы.",
+        "color": "gray"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

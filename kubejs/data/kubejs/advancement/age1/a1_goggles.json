@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_shaft",
+  "display": {
+    "icon": {
+      "id": "create:goggles"
+    },
+    "title": {
+      "text": "Инженерные очки",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Показывают скорость, нагрузку и содержимое механизмов."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:goggles"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

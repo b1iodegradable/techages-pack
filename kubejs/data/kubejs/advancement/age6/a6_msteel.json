@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age6/a6_frag",
+  "display": {
+    "icon": {
+      "id": "kubejs:meteor_steel"
+    },
+    "title": {
+      "text": "Метеоритная сталь",
+      "color": "white"
+    },
+    "description": {
+      "text": "Сталь + небесный камень AE2 + осколок метеорита."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:meteor_steel",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

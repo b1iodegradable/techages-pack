@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_chrono",
+  "display": {
+    "icon": {
+      "id": "kubejs:kinetic_core_2"
+    },
+    "title": {
+      "text": "Кинетическое ядро II",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол 5×5."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:kinetic_core_2"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

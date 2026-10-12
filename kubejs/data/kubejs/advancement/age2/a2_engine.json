@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age2/a2_quartz",
+  "display": {
+    "icon": {
+      "id": "create:steam_engine"
+    },
+    "title": {
+      "text": "Паровой двигатель",
+      "color": "white"
+    },
+    "description": {
+      "text": "Котёл из баков + горелки + двигатели. Чем горячее, тем больше двигателей тянет котёл."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:steam_engine",
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

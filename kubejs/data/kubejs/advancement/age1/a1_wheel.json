@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_shaft",
+  "display": {
+    "icon": {
+      "id": "create:water_wheel"
+    },
+    "title": {
+      "text": "Водяное колесо",
+      "color": "white"
+    },
+    "description": {
+      "text": "Первый источник вращения — у реки."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:water_wheel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

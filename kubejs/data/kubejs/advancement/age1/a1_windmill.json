@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_wheel",
+  "display": {
+    "icon": {
+      "id": "create:windmill_bearing"
+    },
+    "title": {
+      "text": "Ветряк",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Ветряная мельница: подшипник и паруса."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:windmill_bearing"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

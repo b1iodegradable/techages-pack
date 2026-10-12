@@ -1,0 +1,24 @@
+{
+  "parent": "kubejs:age7/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": {
+      "text": "Великий проект",
+      "color": "white"
+    },
+    "description": {
+      "text": "Звезда собирается на столе Extended Crafting 9×9. Каждый компонент — отдельный мега-проект."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

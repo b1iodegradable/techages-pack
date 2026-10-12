@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age5/a5_rod",
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:fission_fuel_assembly"
+    },
+    "title": {
+      "text": "Топливная сборка",
+      "color": "white"
+    },
+    "description": {
+      "text": "Требует звёздный стержень."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:fission_fuel_assembly",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

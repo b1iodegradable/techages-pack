@@ -1,0 +1,33 @@
+{
+  "type": "modonomicon:dense",
+  "mapping": {
+    "P": {
+      "type": "modonomicon:block",
+      "block": "create:mechanical_pump[facing=east]"
+    },
+    "0": {
+      "type": "modonomicon:block",
+      "block": "create:fluid_tank"
+    },
+    "E": {
+      "type": "modonomicon:block",
+      "block": "create:steam_engine[face=wall,facing=east]"
+    },
+    "S": {
+      "type": "modonomicon:block",
+      "block": "create:shaft[axis=z]"
+    },
+    "B": {
+      "type": "modonomicon:block",
+      "block": "create:blaze_burner"
+    }
+  },
+  "pattern": [
+    [
+      "P0ES"
+    ],
+    [
+      "_B__"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "kubejs:age7/s_mars",
+  "display": {
+    "icon": {
+      "id": "minecraft:magma_block"
+    },
+    "title": {
+      "text": "Меркурий",
+      "color": "white"
+    },
+    "description": {
+      "text": "Ещё горячее. Здесь вольфрам."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "northstar:mercury"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

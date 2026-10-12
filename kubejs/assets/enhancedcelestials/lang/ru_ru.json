@@ -1,0 +1,15 @@
+{
+  "enhancedcelestials.ec2_announcement.curseforge": "Открыть на CurseForge",
+  "enhancedcelestials.ec2_announcement.curseforge.tooltip": "Посмотрите моды Core, Default Lunar Events и Shader Support для Enhanced Celestials 2 на CurseForge.",
+  "enhancedcelestials.ec2_announcement.dismiss": "Закрыть",
+  "enhancedcelestials.ec2_announcement.dismiss.tooltip": "Закрыть это уведомление. Оно больше не появится до следующего входа в мир.",
+  "enhancedcelestials.ec2_announcement.message": "Вышел Enhanced Celestials 2 — с нативной поддержкой шейдеров и множеством исправлений ошибок.",
+  "enhancedcelestials.ec2_announcement.modrinth": "Открыть на Modrinth",
+  "enhancedcelestials.ec2_announcement.modrinth.tooltip": "Посмотрите моды Core, Default Lunar Events и Shader Support для Enhanced Celestials 2 на Modrinth.",
+  "enhancedcelestials.ec2_announcement.title": "Enhanced Celestials 2 уже здесь!",
+  "enhancedcelestials.ec2_links.core.tooltip": "Требуется для всех остальных модов Enhanced Celestials 2. Добавляет систему фаз Луны, основу лунных событий и API, на котором строятся другие моды.",
+  "enhancedcelestials.ec2_links.lunar_events": "Стандартные лунные события",
+  "enhancedcelestials.ec2_links.lunar_events.tooltip": "Добавляет встроенные лунные события (Кровавая луна, Голубая луна, Урожайная луна, Суперлуние и их варианты), работающие поверх Core.",
+  "enhancedcelestials.ec2_links.shader_support": "Поддержка шейдеров",
+  "enhancedcelestials.ec2_links.shader_support.tooltip": "Добавляет нативную совместимость, чтобы отрисовка неба и Луны в Enhanced Celestials 2 корректно работала с наборами шейдеров."
+}

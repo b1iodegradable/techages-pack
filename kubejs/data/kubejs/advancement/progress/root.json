@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "kubejs:navigator"
+    },
+    "title": {
+      "text": "Прогресс мира",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Эпохи открываются для всего сервера сразу. Наведите на следующую эпоху — там написано, что нужно. Шаги каждой эпохи — в её вкладке."
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "start": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

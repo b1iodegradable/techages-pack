@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age6/root",
+  "display": {
+    "icon": {
+      "id": "northstar:titanium_ingot"
+    },
+    "title": {
+      "text": "Титан",
+      "color": "white"
+    },
+    "description": {
+      "text": "Новый металл космической эпохи."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:titanium_ingot",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

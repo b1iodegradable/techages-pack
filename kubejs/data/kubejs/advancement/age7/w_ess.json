@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age7/w_seal",
+  "display": {
+    "icon": {
+      "id": "kubejs:awakened_essence"
+    },
+    "title": {
+      "text": "Эссенция пробуждённых",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Повторяемый: сдайте эссенцию — получите печати."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:awakened_essence",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

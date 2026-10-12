@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age3/a3_stove",
+  "display": {
+    "icon": {
+      "id": "tfmg:steel_ingot"
+    },
+    "title": {
+      "text": "Сталь",
+      "color": "white"
+    },
+    "description": {
+      "text": "Основной металл индустрии."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:steel_ingot",
+            "count": {
+              "min": 32
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

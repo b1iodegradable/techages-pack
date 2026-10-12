@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age6/a6_astro",
+  "display": {
+    "icon": {
+      "id": "northstar:targeting_computer"
+    },
+    "title": {
+      "text": "Компьютер наведения",
+      "color": "white"
+    },
+    "description": {
+      "text": "Без него ракета не найдёт Луну."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:targeting_computer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:creative/c_ultimate",
+  "display": {
+    "icon": {
+      "id": "ae2:creative_storage_cell"
+    },
+    "title": {
+      "text": "Творческая ячейка хранения",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол 9×9."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:creative_storage_cell"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

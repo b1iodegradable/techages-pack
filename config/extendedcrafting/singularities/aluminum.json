@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.aluminum",
+  "colors": [
+    "d5dfe3",
+    "8fa1a8"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/aluminum"
+  },
+  "materialCount": 2000
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_steel",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Затонувший город",
+      "color": "white"
+    },
+    "description": {
+      "text": "Найдите Затонувший город в океане (дирижабль или подлодка)."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "cataclysm:sunken_city"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

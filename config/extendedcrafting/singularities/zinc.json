@@ -1,0 +1,11 @@
+{
+  "name": "singularity.kubejs.zinc",
+  "colors": [
+    "c9d6c4",
+    "8a9a85"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/zinc"
+  },
+  "materialCount": 4000
+}

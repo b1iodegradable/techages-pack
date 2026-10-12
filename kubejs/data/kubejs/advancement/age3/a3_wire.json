@@ -1,0 +1,52 @@
+{
+  "parent": "kubejs:age3/a3_alt",
+  "display": {
+    "icon": {
+      "id": "immersiveengineering:wirecoil_copper"
+    },
+    "title": {
+      "text": "Провода",
+      "color": "white"
+    },
+    "description": {
+      "text": "Провода Immersive Engineering и катушка среднего напряжения."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:wirecoil_copper",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:coil_mv"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

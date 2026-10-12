@@ -1,0 +1,7 @@
+{
+  "block.railways.track_phantom_narrow": "Узкий фантомный железнодорожный путь",
+  "block.railways.track_phantom_wide": "Широкий фантомный железнодорожный путь",
+  "item.railways.track_incomplete_phantom_narrow": "Незавершённый узкий фантомный путь",
+  "item.railways.track_incomplete_phantom_wide": "Незавершённый широкий фантомный путь",
+  "railways.station.icon_type": "Значок поезда"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.nickel",
+  "colors": [
+    "d6d3a8",
+    "9e9a72"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/nickel"
+  },
+  "materialCount": 2000
+}

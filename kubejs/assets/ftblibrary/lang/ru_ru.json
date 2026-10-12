@@ -1,0 +1,6 @@
+{
+  "ftblibrary.client_settings.tooltips.entity_modname": "Показывать название мода в меню выбора сущности",
+  "ftblibrary.read_only": "только для чтения",
+  "ftblibrary.select_entity.all_entities": "Все живые сущности",
+  "ftblibrary.server_settings": "Настройки сервера"
+}

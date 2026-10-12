@@ -1,0 +1,49 @@
+{
+  "parent": "kubejs:age6/a6_comp",
+  "display": {
+    "icon": {
+      "id": "northstar:rocket_station"
+    },
+    "title": {
+      "text": "Ракетная станция",
+      "color": "white"
+    },
+    "description": {
+      "text": "Здесь собирается ракета."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:rocket_station"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:rocket_controls"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

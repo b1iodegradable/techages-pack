@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_casing",
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:gas_burning_generator"
+    },
+    "title": {
+      "text": "Газовый генератор",
+      "color": "white"
+    },
+    "description": {
+      "text": "Энергия из газа — продолжение нефтяной цепочки."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:gas_burning_generator"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

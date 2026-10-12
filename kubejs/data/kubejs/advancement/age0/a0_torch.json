@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age0/a0_pick",
+  "display": {
+    "icon": {
+      "id": "minecraft:torch"
+    },
+    "title": {
+      "text": "Свет",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Монстры не спавнятся на свету."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torch",
+            "count": {
+              "min": 32
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

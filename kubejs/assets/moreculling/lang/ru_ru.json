@@ -1,0 +1,6 @@
+{
+  "moreculling.config.category.item_frame": "Отсечение рамок",
+  "moreculling.config.category.leaves": "Отсечение листвы",
+  "moreculling.config.option.paintingCulling": "Отсечение картин",
+  "moreculling.config.option.paintingCulling.tooltip": "Отсекает задние и внутренние грани картин"
+}

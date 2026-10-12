@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age0/a0_shelter",
+  "display": {
+    "icon": {
+      "id": "kubejs:primitive_gear"
+    },
+    "title": {
+      "text": "Примитивная шестерня",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Первая механическая деталь. Скрафтите её — откроется Эпоха I и Create."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:primitive_gear"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

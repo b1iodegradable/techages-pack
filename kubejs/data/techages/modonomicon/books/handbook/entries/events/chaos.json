@@ -1,0 +1,53 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "events",
+  "description": "book.techages.handbook.events.chaos.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "name": "book.techages.handbook.events.chaos.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.events.chaos.p0_0.text",
+      "title": "book.techages.handbook.events.chaos.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.events.chaos.p1_0.text",
+      "title": "book.techages.handbook.events.chaos.p1_0.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "events/coop",
+      "line_enabled": true,
+      "line_reversed": false
+    },
+    {
+      "draw_arrow": true,
+      "entry": "events/economy",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 27,
+  "x": 9,
+  "y": 0
+}

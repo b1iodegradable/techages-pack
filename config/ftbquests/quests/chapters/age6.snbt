@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age6"
+	group: "66ADC382DA4DC6DC"
+	icon: { id: "northstar:rocket_thruster" }
+	id: "3910CC65918EB70C"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["729EC6A284E2EA46"]
+			hide_until_deps_complete: true
+			id: "44113D3A02B5152B"
+			rewards: [
+				{
+					id: "26F7AB735F5D59F0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "0C76CD746F8E03DA"
+					item: { count: 1, id: "northstar:titanium_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44113D3A02B5152B"]
+			hide_until_deps_visible: true
+			id: "45D39C7B7CB85BE1"
+			rewards: [
+				{
+					id: "4FC606FACA2F08EF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "157E93AA3E51D2E9"
+					item: { count: 1, id: "northstar:astronomy_table" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "5323740E0CEB5D82"
+					item: { count: 1, id: "northstar:telescope" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["45D39C7B7CB85BE1"]
+			hide_until_deps_visible: true
+			id: "2F0A4F4EC76359D6"
+			rewards: [
+				{
+					id: "6139BABDB626814F"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "78CC8B62450D4192"
+					item: { count: 1, id: "northstar:targeting_computer" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44113D3A02B5152B"]
+			hide_until_deps_visible: true
+			id: "206C47BB306261B2"
+			rewards: [
+				{
+					id: "1994F556A958A840"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "4A5FC8A300D8380A"
+					item: { count: 1, id: "kubejs:meteor_fragment" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["206C47BB306261B2"]
+			hide_until_deps_visible: true
+			id: "7EC72A629C3D3659"
+			rewards: [
+				{
+					id: "7BAAD69E9CA1D13B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "2519E2117D458057"
+					item: { count: 1, id: "kubejs:meteor_steel" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EC72A629C3D3659"]
+			hide_until_deps_visible: true
+			id: "7D6842FE5D70DB31"
+			rewards: [
+				{
+					id: "739DD83CC382AF66"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "3A9C69A2019A4FF3"
+					item: { count: 1, id: "northstar:rocket_combustion_chamber" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7CA3473974722289"
+					item: { count: 1, id: "northstar:rocket_thruster" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F0A4F4EC76359D6" "7D6842FE5D70DB31"]
+			hide_until_deps_visible: true
+			id: "5C6AEA2C99294642"
+			rewards: [
+				{
+					id: "6EB583D9F4D2E1DA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "6D9203412CBC9342"
+					item: { count: 1, id: "northstar:rocket_station" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "675D59A61BD9BC08"
+					item: { count: 1, id: "northstar:rocket_controls" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44113D3A02B5152B"]
+			hide_until_deps_visible: true
+			id: "768E4759FECE6608"
+			rewards: [
+				{
+					id: "3DEA4F846FD829E5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "4CC73F236A530281"
+					item: { count: 1, id: "northstar:oxygen_filler" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C6AEA2C99294642" "768E4759FECE6608"]
+			hide_until_deps_visible: true
+			id: "153BEF9E400472A9"
+			rewards: [
+				{
+					id: "529BDF47721E25BD"
+					remove: false
+					stage: "age_7"
+					type: "astages:server"
+				}
+				{
+					id: "586B9F2AA70ACF2A"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					dimension: "northstar:moon"
+					id: "63DAAAE6BD5636DF"
+					type: "dimension"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["768E4759FECE6608"]
+			hide_until_deps_visible: true
+			id: "478614A8C014DF2C"
+			rewards: [
+				{
+					id: "5281D0408BC63725"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "532F41E72B101F05"
+					item: { count: 1, id: "northstar:oxygen_sealer" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["153BEF9E400472A9"]
+			invisible: true
+			hide_until_deps_visible: true
+			id: "5AB57833E9854CBF"
+			rewards: [
+				{
+					id: "614D8284C5E6A54E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "45B0B765E24B77AB"
+					structure: "northstar:lunar_base"
+					type: "structure"
+				}
+			]
+			x: 12.5d
+			y: 4.5d
+		}
+	]
+}

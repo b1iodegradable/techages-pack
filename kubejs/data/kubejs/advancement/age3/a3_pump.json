@@ -1,0 +1,49 @@
+{
+  "parent": "kubejs:age3/a3_mech",
+  "display": {
+    "icon": {
+      "id": "tfmg:pumpjack_base"
+    },
+    "title": {
+      "text": "Станок-качалка",
+      "color": "white"
+    },
+    "description": {
+      "text": "Нефть добывают качалкой из месторождений."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:pumpjack_base"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:pumpjack_hammer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

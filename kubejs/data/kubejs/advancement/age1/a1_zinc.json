@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age1/a1_crush",
+  "display": {
+    "icon": {
+      "id": "create:zinc_ingot"
+    },
+    "title": {
+      "text": "Цинк",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Руда цинка теперь видна в мире. Пригодится для латуни."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:zinc_ingot",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

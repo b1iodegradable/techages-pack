@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_2",
+  "display": {
+    "icon": {
+      "id": "createaddition:alternator"
+    },
+    "title": {
+      "text": "Эпоха III · Электрическая"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "ток (FE): генераторы и сталь TFMG, нефть, провода IE, Occultism, Malum, книги Iron's Spells.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "взлететь на дирижабле, затем скрафтить Паровое сердце.",
+        "color": "gray"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

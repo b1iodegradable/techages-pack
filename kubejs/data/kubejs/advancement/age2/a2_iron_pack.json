@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_brass",
+  "display": {
+    "icon": {
+      "id": "sophisticatedbackpacks:iron_backpack"
+    },
+    "title": {
+      "text": "Железный рюкзак",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Больше места."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sophisticatedbackpacks:iron_backpack"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

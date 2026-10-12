@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "depot"
+	group: "14C5A9C131CD7D9B"
+	icon: { id: "create:item_vault" }
+	id: "5D11ED27B832CCAC"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["153BEF9E400472A9"]
+			hide_until_deps_complete: true
+			id: "1AC7BA263D52A361"
+			rewards: [
+				{
+					id: "7DD8FF9C1A12A1D7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7BB96599824B5462"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AC7BA263D52A361"]
+			hide_until_deps_visible: true
+			id: "53DA6A0AEE736CAC"
+			rewards: [
+				{
+					id: "089E22CF46274B91"
+					item: { count: 4, id: "kubejs:meteor_fragment" }
+					type: "item"
+				}
+				{
+					id: "4183F31740B8C9F6"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 512L
+					consume_items: true
+					id: "6F1D4AC7EB62FEFD"
+					item: { count: 1, id: "tfmg:steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AC7BA263D52A361"]
+			hide_until_deps_visible: true
+			id: "2459D61A172083AE"
+			rewards: [
+				{
+					id: "74F8FF71807C8253"
+					item: { count: 8, id: "irons_spellbooks:arcane_essence" }
+					type: "item"
+				}
+				{
+					id: "49A989F58DA14762"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 512L
+					consume_items: true
+					id: "5E1BE72EA77A1CE9"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.2d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AC7BA263D52A361"]
+			hide_until_deps_visible: true
+			id: "06F055918700F6E3"
+			rewards: [
+				{
+					id: "6F01679034CDB48A"
+					item: { count: 1, id: "occultism:afrit_essence" }
+					type: "item"
+				}
+				{
+					id: "5551D5A3162AE49C"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 256L
+					consume_items: true
+					id: "2747D824E77E4B50"
+					item: { count: 1, id: "tfmg:plastic_sheet" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -6.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AC7BA263D52A361"]
+			hide_until_deps_visible: true
+			id: "570AF653674DF137"
+			rewards: [
+				{
+					id: "5C29AB9FC71F5B99"
+					item: { count: 1, id: "ae2:singularity" }
+					type: "item"
+				}
+				{
+					id: "5E5F49D4AAE018AA"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 64L
+					consume_items: true
+					id: "61E7A5E751ED61AA"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 1.2d
+			y: -6.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AC7BA263D52A361"]
+			hide_until_deps_visible: true
+			id: "251FDE1F25125BCD"
+			rewards: [
+				{
+					id: "4434D759F6E0D5A6"
+					item: { count: 1, id: "minecraft:nether_star" }
+					type: "item"
+				}
+				{
+					id: "754ABC74BC4295C1"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 64L
+					consume_items: true
+					id: "51E9B09306DB61D6"
+					item: { count: 1, id: "tfmg:diesel_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -7.7d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1AC7BA263D52A361"]
+			hide_until_deps_visible: true
+			id: "24C85581A39508A1"
+			rewards: [
+				{
+					id: "7477A370E21F624A"
+					item: { count: 1, id: "kubejs:awakening_seal" }
+					type: "item"
+				}
+				{
+					id: "266CB6E9D4D4A93F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 256L
+					consume_items: true
+					id: "34E31D58CA0B5557"
+					item: { count: 1, id: "northstar:titanium_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.2d
+			y: -7.7d
+		}
+	]
+}

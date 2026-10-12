@@ -1,0 +1,51 @@
+{
+  "type": "modonomicon:dense",
+  "mapping": {
+    "C": {
+      "type": "modonomicon:block",
+      "block": "mekanismgenerators:fission_reactor_casing"
+    },
+    "G": {
+      "type": "modonomicon:block",
+      "block": "mekanismgenerators:reactor_glass"
+    },
+    "P": {
+      "type": "modonomicon:block",
+      "block": "mekanismgenerators:fission_reactor_port"
+    },
+    "L": {
+      "type": "modonomicon:block",
+      "block": "mekanismgenerators:fission_reactor_logic_adapter"
+    },
+    "R": {
+      "type": "modonomicon:block",
+      "block": "mekanismgenerators:control_rod_assembly"
+    },
+    "0": {
+      "type": "modonomicon:block",
+      "block": "mekanismgenerators:fission_fuel_assembly"
+    }
+  },
+  "pattern": [
+    [
+      "CCC",
+      "CGC",
+      "CCC"
+    ],
+    [
+      "CGC",
+      "GRG",
+      "CLC"
+    ],
+    [
+      "CGC",
+      "P0G",
+      "CGC"
+    ],
+    [
+      "CCC",
+      "CCC",
+      "CCC"
+    ]
+  ]
+}

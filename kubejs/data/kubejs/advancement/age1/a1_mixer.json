@@ -1,0 +1,49 @@
+{
+  "parent": "kubejs:age1/a1_press",
+  "display": {
+    "icon": {
+      "id": "create:mechanical_mixer"
+    },
+    "title": {
+      "text": "Смеситель",
+      "color": "white"
+    },
+    "description": {
+      "text": "Смеситель делает андезитовый сплав в масштабе."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:mechanical_mixer"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:basin"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "kubejs:age4/a4_infuser",
+  "display": {
+    "icon": {
+      "id": "mekanism:alloy_infused"
+    },
+    "title": {
+      "text": "Сплавы",
+      "color": "white"
+    },
+    "description": {
+      "text": "Пропитанный сплав и базовая схема."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:alloy_infused",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_control_circuit",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

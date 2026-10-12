@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:creative/c_ultimate",
+  "display": {
+    "icon": {
+      "id": "create:creative_motor"
+    },
+    "title": {
+      "text": "Творческий мотор",
+      "color": "white"
+    },
+    "description": {
+      "text": "Стол 9×9."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:creative_motor"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

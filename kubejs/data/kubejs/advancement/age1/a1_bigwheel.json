@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_wheel",
+  "display": {
+    "icon": {
+      "id": "create:large_water_wheel"
+    },
+    "title": {
+      "text": "Большое колесо",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Больше крутящего момента."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:large_water_wheel"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

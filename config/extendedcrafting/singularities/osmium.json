@@ -1,0 +1,11 @@
+{
+  "name": "singularity.kubejs.osmium",
+  "colors": [
+    "a8c4d6",
+    "6a8799"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/osmium"
+  },
+  "materialCount": 2000
+}

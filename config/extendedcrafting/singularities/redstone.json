@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.redstone",
+  "colors": [
+    "ff0000",
+    "8b0000"
+  ],
+  "ingredient": {
+    "tag": "c:dusts/redstone"
+  },
+  "materialCount": 4000
+}

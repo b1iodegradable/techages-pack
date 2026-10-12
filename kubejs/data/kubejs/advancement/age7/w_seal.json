@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/root",
+  "display": {
+    "icon": {
+      "id": "kubejs:awakening_seal"
+    },
+    "title": {
+      "text": "Печать пробуждения",
+      "color": "white"
+    },
+    "description": {
+      "text": "ПКМ по боссу Cataclysm: ×2 здоровья, повторно — ×3. Больше эссенции."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:awakening_seal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "mech",
+  "description": "book.techages.handbook.mech.ore.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "create:crushed_raw_iron"
+  },
+  "name": "book.techages.handbook.mech.ore.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.mech.ore.p0_0.text",
+      "title": "book.techages.handbook.mech.ore.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "item": "create:crushed_raw_iron"
+      },
+      "text": "book.techages.handbook.mech.ore.p1.text",
+      "title": ""
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.mech.ore.p2_0.text",
+      "title": "book.techages.handbook.mech.ore.p2_0.title",
+      "use_markdown_in_title": false
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "mech/rotation",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 7,
+  "x": 3,
+  "y": -2,
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "kubejs:progress/age_1"
+  }
+}

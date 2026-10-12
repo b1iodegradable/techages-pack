@@ -1,0 +1,470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "creative"
+	group: "14C5A9C131CD7D9B"
+	icon: { id: "create:creative_motor" }
+	id: "565AE3DF85FC15E1"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72CFDB8F94AF6B77"]
+			hide_until_deps_complete: true
+			id: "2E21EECBAAF3E693"
+			rewards: [
+				{
+					id: "5813AF53E279C975"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2B0D225482CDC35E"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E21EECBAAF3E693"]
+			hide_until_deps_visible: true
+			id: "45BF5B98D39C402B"
+			rewards: [
+				{
+					id: "1410E76494BEB868"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "77A8434EB489B51E"
+					item: { count: 1, id: "extendedcrafting:compressor" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45BF5B98D39C402B"]
+			hide_until_deps_visible: true
+			id: "1B214E66F30A70E5"
+			rewards: [
+				{
+					id: "59EFA3EDFCF0E826"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "0DBF77F9C05C893D"
+					item: { count: 1, id: "extendedcrafting:ultimate_singularity" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "28BF3B817CA2D08C"
+			rewards: [
+				{
+					id: "7E3530B260125D3D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "713029A2EDBFC298"
+					item: { count: 1, id: "create:creative_motor" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "29E22FF9149E88D3"
+			rewards: [
+				{
+					id: "546DBD7BDF734EB5"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "70A17D15F7D3D872"
+					item: { count: 1, id: "create:creative_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "7D2D8894F7A549F5"
+			rewards: [
+				{
+					id: "155853FA4E6577C1"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "61201E621B443506"
+					item: { count: 1, id: "create:creative_crate" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "501EE27DFEF28408"
+			rewards: [
+				{
+					id: "2A16AF54A99E1B0E"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "2DAD63E4B3C57273"
+					item: { count: 1, id: "create:creative_blaze_cake" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "3E64408A7DCDAAA3"
+			rewards: [
+				{
+					id: "5A153B0BD95018E4"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "1A0514A283658FAA"
+					item: { count: 1, id: "mekanism:creative_energy_cube" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "4A3E82A1707A7A72"
+			rewards: [
+				{
+					id: "63805B0EF0F41D56"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "68855774F908A033"
+					item: { count: 1, id: "mekanism:creative_chemical_tank" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "3BF849AFA7CCD682"
+			rewards: [
+				{
+					id: "69F4A4A79F8D068F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "73BE5D740FBB43F4"
+					item: { count: 1, id: "mekanism:creative_fluid_tank" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "079AD942791BDAA8"
+			rewards: [
+				{
+					id: "75C6DB5EBEEE7F97"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "25FDB5B11851A603"
+					item: { count: 1, id: "mekanism:creative_bin" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "05F2E2245694EC0C"
+			rewards: [
+				{
+					id: "6EA35042018641E2"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "3619CA9BFAB36F07"
+					item: { count: 1, id: "ae2:creative_energy_cell" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "6BCE489ACC16411B"
+			rewards: [
+				{
+					id: "06F7BFF52131E696"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "3FB1BEDD0BF867F4"
+					item: { count: 1, id: "ae2:creative_storage_cell" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "19570F5088CD1F3C"
+			rewards: [
+				{
+					id: "28F47E740ACC48AD"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "4CE72C7C74A9AF01"
+					item: { count: 1, id: "ars_nouveau:creative_source_jar" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "7D53095AFAFCF4B7"
+			rewards: [
+				{
+					id: "64CC715DDE319334"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "230ACF55EBA84C17"
+					item: { count: 1, id: "createaddition:creative_energy" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "129ABD23BC45C0FB"
+			rewards: [
+				{
+					id: "69C0C4129CC2BBA5"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "1619F5B70321473D"
+					item: { count: 1, id: "tfmg:creative_generator" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "512389C1D4360629"
+			rewards: [
+				{
+					id: "5277E9C948022CBD"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "25C3FFB7D0C675A3"
+					item: { count: 1, id: "immersiveengineering:capacitor_creative" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1B214E66F30A70E5"]
+			hide_until_deps_visible: true
+			id: "1263388F57C88851"
+			rewards: [
+				{
+					id: "17FC3C472B441471"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "78282CFCD5E8AE85"
+					item: { count: 1, id: "sophisticatedbackpacks:infinity_upgrade" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["28BF3B817CA2D08C" "29E22FF9149E88D3" "7D2D8894F7A549F5" "501EE27DFEF28408" "3E64408A7DCDAAA3" "4A3E82A1707A7A72" "3BF849AFA7CCD682" "079AD942791BDAA8" "05F2E2245694EC0C" "6BCE489ACC16411B" "19570F5088CD1F3C" "7D53095AFAFCF4B7" "129ABD23BC45C0FB" "512389C1D4360629" "1263388F57C88851"]
+			hide_until_deps_visible: true
+			id: "1518C0F4BD1F2F86"
+			rewards: [
+				{
+					id: "7C875F342E67B6E4"
+					remove: false
+					stage: "tier_infinity"
+					type: "astages:server"
+				}
+				{
+					id: "09E08C702F9334A7"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					id: "23ADCB66149F0160"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

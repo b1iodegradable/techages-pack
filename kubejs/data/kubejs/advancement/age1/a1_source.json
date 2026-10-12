@@ -1,0 +1,52 @@
+{
+  "parent": "kubejs:age1/a1_alloy",
+  "display": {
+    "icon": {
+      "id": "ars_nouveau:imbuement_chamber"
+    },
+    "title": {
+      "text": "Камень силы",
+      "color": "white"
+    },
+    "description": {
+      "text": "Магия Ars Nouveau: камера наполнения превращает аметист в Source Gem."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:imbuement_chamber"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:source_gem",
+            "count": {
+              "min": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

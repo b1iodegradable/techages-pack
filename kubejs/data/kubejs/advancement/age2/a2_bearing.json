@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age2/a2_casing",
+  "display": {
+    "icon": {
+      "id": "aeronautics:propeller_bearing"
+    },
+    "title": {
+      "text": "Пропеллерный подшипник",
+      "color": "white"
+    },
+    "description": {
+      "text": "Сердце любого дирижабля Aeronautics."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aeronautics:propeller_bearing",
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

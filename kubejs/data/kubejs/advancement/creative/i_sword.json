@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:creative/i_ingot",
+  "display": {
+    "icon": {
+      "id": "avaritia:infinity_sword"
+    },
+    "title": {
+      "text": "Меч бесконечности",
+      "color": "white"
+    },
+    "description": {
+      "text": ""
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_sword"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

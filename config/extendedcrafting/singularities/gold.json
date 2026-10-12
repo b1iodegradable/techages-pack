@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.gold",
+  "colors": [
+    "f8e44b",
+    "d9a334"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/gold"
+  },
+  "materialCount": 4000
+}

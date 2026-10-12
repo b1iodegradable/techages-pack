@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_4",
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:fission_reactor_casing"
+    },
+    "title": {
+      "text": "Эпоха V · Атомная"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "реактор деления, Энд, руда ×5, солнечные панели и ветряки, Astral Sorcery.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "победить Харбинджера (Древняя фабрика), газовый генератор, обработка руды Mekanism → Логическое ядро.",
+        "color": "gray"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

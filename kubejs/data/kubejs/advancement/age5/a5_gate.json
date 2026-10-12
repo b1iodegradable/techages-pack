@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age5/a5_fuel",
+  "display": {
+    "icon": {
+      "id": "kubejs:reactor_core"
+    },
+    "title": {
+      "text": "Ядро реактора",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Корпус реактора, топливная сборка и турбина. Откроет космос."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:reactor_core"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

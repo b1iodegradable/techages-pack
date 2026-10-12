@@ -1,0 +1,87 @@
+{
+  "parent": "kubejs:age5/a5_casing",
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:turbine_casing"
+    },
+    "title": {
+      "text": "Турбина",
+      "color": "white"
+    },
+    "description": {
+      "text": "Пар реактора крутит турбину."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:turbine_casing",
+            "count": {
+              "min": 32
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:turbine_rotor",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    },
+    "t2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:turbine_blade",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    },
+    "t3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:turbine_valve",
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ],
+    [
+      "t2"
+    ],
+    [
+      "t3"
+    ]
+  ]
+}

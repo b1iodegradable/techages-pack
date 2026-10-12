@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.silver",
+  "colors": [
+    "e6ecf0",
+    "a5b3bd"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/silver"
+  },
+  "materialCount": 2000
+}

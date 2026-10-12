@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age5/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Пылающая арена",
+      "color": "dark_aqua"
+    },
+    "description": {
+      "text": "Здесь ждёт Игнис."
+    },
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "cataclysm:burning_arena"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

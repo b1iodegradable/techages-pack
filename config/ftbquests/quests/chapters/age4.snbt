@@ -1,0 +1,593 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "age4"
+	group: "66ADC382DA4DC6DC"
+	icon: { id: "ae2:controller" }
+	id: "2BAB5942285170F9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1FD68E86980F3BFE"]
+			hide_until_deps_complete: true
+			id: "1EE38E0E89C1481C"
+			rewards: [
+				{
+					id: "6E0037458A549A59"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "667475D6ECE2CBB7"
+					item: { count: 1, id: "mekanism:metallurgic_infuser" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1EE38E0E89C1481C"]
+			hide_until_deps_visible: true
+			id: "66369229657C4590"
+			rewards: [
+				{
+					id: "3313E03D168DDA1A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 8L
+					id: "35CDEBF46026B5E2"
+					item: { count: 1, id: "mekanism:alloy_infused" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B524ABE55E06D30"
+					item: { count: 1, id: "mekanism:basic_control_circuit" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66369229657C4590"]
+			hide_until_deps_visible: true
+			id: "0B4134BA93E67D71"
+			rewards: [
+				{
+					id: "5EEB71D089273519"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6E661A32EB9C9607"
+					item: { count: 1, id: "mekanism:steel_casing" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B4134BA93E67D71"]
+			hide_until_deps_visible: true
+			id: "3E4FA200B48968AC"
+			rewards: [
+				{
+					id: "1FFA6225B7A22F3A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "00251E6083BC803C"
+					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0B4134BA93E67D71"]
+			hide_until_deps_visible: true
+			id: "2C52C2A03F4E4BEE"
+			rewards: [
+				{
+					id: "72D9E0D587576801"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "32F2070283CFB9B0"
+					item: { count: 1, id: "mekanism:basic_energy_cube" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "12B5875B8E07895A"
+					item: { count: 1, id: "mekanism:basic_universal_cable" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C52C2A03F4E4BEE"]
+			hide_until_deps_visible: true
+			id: "563E8999A7B7EBBA"
+			rewards: [
+				{
+					id: "50A0A3CA3CEADD3A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "3DE39332C3005764"
+					item: { count: 1, id: "mekanism:basic_enriching_factory" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FD68E86980F3BFE"]
+			hide_until_deps_complete: true
+			id: "53EA1CBB237F4961"
+			rewards: [
+				{
+					id: "185C77FAFECBC3C0"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1AF71738AC4A3874"
+					structure: "ae2:meteorite"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["53EA1CBB237F4961"]
+			hide_until_deps_visible: true
+			id: "66FEF45A935B2286"
+			rewards: [
+				{
+					id: "03A53D5C02D03A6E"
+					type: "xp"
+					xp: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 16L
+					id: "3C9E5327DA962BC1"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["66FEF45A935B2286"]
+			hide_until_deps_visible: true
+			id: "286B623AAD67BE1A"
+			rewards: [
+				{
+					id: "2C14F459E3CF7E26"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "0ABA77B9FE12FC14"
+					item: { count: 1, id: "ae2:inscriber" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["286B623AAD67BE1A"]
+			hide_until_deps_visible: true
+			id: "2B428711844D652B"
+			rewards: [
+				{
+					id: "4B26BDF374458FC8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "79666D65670B9187"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "653374BF3D1E989B"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6355C82F2019AEE2"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B428711844D652B"]
+			hide_until_deps_visible: true
+			id: "28D3F5A790A76AEE"
+			rewards: [
+				{
+					id: "4C2F3D217653735A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "711E7D83B15A9DE4"
+					item: { count: 1, id: "kubejs:void_alloy" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28D3F5A790A76AEE"]
+			hide_until_deps_visible: true
+			id: "59B00852734CEEC9"
+			rewards: [
+				{
+					id: "730722E9CD169962"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "68CD0751D68FBB28"
+					item: { count: 1, id: "ae2:controller" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59B00852734CEEC9"]
+			hide_until_deps_visible: true
+			id: "5E86E7D4C9290119"
+			rewards: [
+				{
+					id: "6ACDD19DA502918F"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "76C3F49A8924FE82"
+					structure: "cataclysm:ancient_factory"
+					type: "structure"
+				}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E86E7D4C9290119"]
+			hide_until_deps_visible: true
+			id: "2AF5B3702333E815"
+			rewards: [
+				{
+					id: "489DC028774FC525"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:the_harbinger"
+					id: "57C887B93B14093A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF5B3702333E815" "563E8999A7B7EBBA" "3E4FA200B48968AC"]
+			hide_until_deps_visible: true
+			id: "04DD37D30551F247"
+			rewards: [
+				{
+					id: "129A5DDAB5BAA965"
+					remove: false
+					stage: "age_5"
+					type: "astages:server"
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					count: 1L
+					id: "4D41BEFAF9CC0C80"
+					item: { count: 1, id: "kubejs:logic_core" }
+					type: "item"
+				}
+			]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FD68E86980F3BFE"]
+			hide_until_deps_complete: true
+			id: "1A44CBBE398F16E9"
+			rewards: [
+				{
+					id: "64C2F6E304DE93E4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 2L
+					id: "2403AFDFCA4CAFBF"
+					item: { count: 1, id: "minecraft:netherite_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["59B00852734CEEC9"]
+			hide_until_deps_visible: true
+			id: "09A2B39524717C03"
+			rewards: [
+				{
+					id: "22ACDA523403628F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "57AF037FBEBCDA9D"
+					item: { count: 1, id: "ae2:wireless_terminal" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B4134BA93E67D71"]
+			hide_until_deps_visible: true
+			id: "2392E37618050D7D"
+			rewards: [
+				{
+					id: "7235BE89DA3C7AC7"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "6457F2A212CA74A7"
+					item: { count: 1, id: "mekanism:teleporter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B4134BA93E67D71"]
+			hide_until_deps_visible: true
+			id: "4818375B5630C344"
+			rewards: [
+				{
+					id: "308B7561C6589634"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "1E7A4AF788798A3F"
+					item: { count: 1, id: "extendedcrafting:advanced_table" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "10AB434291D2B1E0"
+					item: { count: 1, id: "extendedcrafting:elite_table" }
+					type: "item"
+				}
+			]
+			x: 6.2d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66369229657C4590"]
+			hide_until_deps_visible: true
+			id: "2ACB7732F1BA0826"
+			rewards: [
+				{
+					id: "3D22BF33241DF030"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					count: 1L
+					id: "28E5E0172FC4AA97"
+					item: { count: 1, id: "sophisticatedbackpacks:diamond_backpack" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A44CBBE398F16E9"]
+			invisible: true
+			hide_until_deps_visible: true
+			id: "428A440B84D5ED13"
+			rewards: [
+				{
+					id: "2D61D76DFED0977B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "7160FD96C249BA0A"
+					structure: "cataclysm:soul_black_smith"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["428A440B84D5ED13"]
+			hide_until_deps_visible: true
+			id: "0823F723F8B4C2A0"
+			rewards: [
+				{
+					id: "72262751495148D9"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					id: "4C843268F39713CB"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 1.2d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A44CBBE398F16E9"]
+			hide_until_deps_visible: true
+			id: "4FD012CA3291B46A"
+			rewards: [
+				{
+					id: "1A36F13205A1337B"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "minecraft:wither"
+					id: "7FCB0A330946FF54"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 0.0d
+			y: 6.1d
+		}
+	]
+}

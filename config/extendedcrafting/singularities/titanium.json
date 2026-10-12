@@ -1,0 +1,11 @@
+{
+  "name": "singularity.kubejs.titanium",
+  "colors": [
+    "c2c7d9",
+    "7d8299"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/titanium"
+  },
+  "materialCount": 1000
+}

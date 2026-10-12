@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_precision",
+  "display": {
+    "icon": {
+      "id": "kubejs:kinetic_core"
+    },
+    "title": {
+      "text": "Кинетическое ядро",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Корпуса, прецизионные механизмы и блок Source Gem. Откроет Эпоху II."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:kinetic_core"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

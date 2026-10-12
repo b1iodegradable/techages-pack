@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_engine",
+  "display": {
+    "icon": {
+      "id": "create:steam_whistle"
+    },
+    "title": {
+      "text": "Свисток",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Котёл должен петь."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:steam_whistle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

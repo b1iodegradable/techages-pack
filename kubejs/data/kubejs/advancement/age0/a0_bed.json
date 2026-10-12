@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age0/a0_pick",
+  "display": {
+    "icon": {
+      "id": "minecraft:white_bed"
+    },
+    "title": {
+      "text": "Кровать",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Кровать — точка возрождения и способ пропустить ночь."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_bed"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

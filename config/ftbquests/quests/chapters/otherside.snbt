@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "otherside"
+	group: "14C5A9C131CD7D9B"
+	icon: { id: "deeperdarker:echo_log" }
+	id: "1E6C2C3C28573695"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["153BEF9E400472A9"]
+			hide_until_deps_complete: true
+			id: "7505C5E51928C9DA"
+			rewards: [
+				{
+					id: "21F0E326E50A0961"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "36971EF39CEE5730"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7505C5E51928C9DA"]
+			hide_until_deps_visible: true
+			id: "7E45865DE035B36A"
+			rewards: [
+				{
+					id: "10988DC408DC8B8D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					dimension: "deeperdarker:otherside"
+					id: "3D7BC6F77DB8743D"
+					type: "dimension"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E45865DE035B36A"]
+			hide_until_deps_visible: true
+			id: "06C60F6C23DBEA13"
+			rewards: [
+				{
+					id: "6CDF54BBBA1A90DA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "50941FAC05610CA0"
+					structure: "deeperdarker:ancient_temple"
+					type: "structure"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E45865DE035B36A"]
+			hide_until_deps_visible: true
+			id: "34C59E741DB2F66A"
+			rewards: [
+				{
+					id: "5C934488E107B454"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.3d
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "50A046E118652794"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 2.5d
+			y: 4.5d
+		}
+	]
+}

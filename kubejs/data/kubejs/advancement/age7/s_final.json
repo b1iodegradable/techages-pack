@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_star",
+  "display": {
+    "icon": {
+      "id": "kubejs:final_heart"
+    },
+    "title": {
+      "text": "Пробуждённый Харбинджер",
+      "color": "red"
+    },
+    "description": {
+      "text": "Используйте Звезду на Луне. Финальный босс: ×4 здоровья, прислужники и магнитная буря. Победа приносит Сердце финала."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:final_heart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

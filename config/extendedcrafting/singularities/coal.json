@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.coal",
+  "colors": [
+    "3b3b3b",
+    "1b1b1b"
+  ],
+  "ingredient": {
+    "item": "minecraft:coal"
+  },
+  "materialCount": 4000
+}

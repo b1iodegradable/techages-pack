@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_venus",
+  "display": {
+    "icon": {
+      "id": "kubejs:alien_crystal"
+    },
+    "title": {
+      "text": "Внеземной кристалл",
+      "color": "white"
+    },
+    "description": {
+      "text": "Материалы трёх планет и трофей Стража Края."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:alien_crystal"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

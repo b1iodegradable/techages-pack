@@ -1,0 +1,32 @@
+{
+  "parent": "kubejs:age6/a6_station",
+  "display": {
+    "icon": {
+      "id": "northstar:iron_space_suit_helmet"
+    },
+    "title": {
+      "text": "Высадка на Луну",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Долетите до Луны. Эндгейм открыт!"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "northstar:moon"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

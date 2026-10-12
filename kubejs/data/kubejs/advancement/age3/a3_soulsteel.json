@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age3/a3_altar",
+  "display": {
+    "icon": {
+      "id": "malum:soul_stained_steel_ingot"
+    },
+    "title": {
+      "text": "Душевная сталь",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Сталь, пропитанная духами."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "malum:soul_stained_steel_ingot",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

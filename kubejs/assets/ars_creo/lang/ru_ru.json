@@ -1,0 +1,18 @@
+{
+  "ars_creo.display_link": "Ars Creo: Дисплейная связь",
+  "ars_creo.display_source.for_source_status": "для состояния источника",
+  "ars_creo.display_source.source_count": "Источник: %s",
+  "ars_creo.display_source.source_jar": "Количество источника",
+  "ars_creo.display_source.turret": "Заклинание",
+  "ars_creo.display_source.turret.for_turret_status": "для состояния турели",
+  "ars_creo.display_source.turret.no_spell": "Заклинание не задано.",
+  "ars_creo.display_source.turret.not_enough_space": "Недостаточно места ",
+  "ars_creo.display_source.turret.spell_name": "Заклинание: %s",
+  "ars_creo.display_source.turret_target": "Турель заклинаний",
+  "ars_creo.fluid_tank": "Ars Creo: Бак для жидкости",
+  "ars_creo.page.behaviors": "Ars Creo добавляет особое поведение механизмов для блоков из Ars Nouveau, включая турели заклинаний и банки источника. Обычная турель заклинаний — запускает заклинание на механизме при взаимодействии. Турель-таймер — запускает заклинание через заданный интервал. Зачарованная турель заклинаний — запускает заклинание при посещении нового блока. Банка источника — может использоваться турелями на механизме.",
+  "ars_creo.page1.ars_creo.display_link": "Дисплейную связь можно прикрепить к банке источника, чтобы отображать количество источника в банке, или к турели заклинаний, чтобы отображать текущее заклинание на дисплейной доске.",
+  "ars_creo.page1.ars_creo.fluid_tank": "Зелья можно хранить и передавать между баком для жидкости Create с помощью труб и бака.",
+  "ars_creo.page1.starbuncle_wheel": "Создаёт вращательную силу для Create. Размещение золотого блока перед колесом увеличивает скорость вращения.",
+  "block.ars_creo.starbuncle_wheel": "Колесо старбанкла"
+}

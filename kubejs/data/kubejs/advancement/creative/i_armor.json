@@ -1,0 +1,75 @@
+{
+  "parent": "kubejs:creative/i_ingot",
+  "display": {
+    "icon": {
+      "id": "avaritia:infinity_helmet"
+    },
+    "title": {
+      "text": "Доспех бесконечности",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Победа. Сборка пройдена."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_helmet"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_chestplate"
+          }
+        ]
+      }
+    },
+    "t2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_pants"
+          }
+        ]
+      }
+    },
+    "t3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ],
+    [
+      "t2"
+    ],
+    [
+      "t3"
+    ]
+  ]
+}

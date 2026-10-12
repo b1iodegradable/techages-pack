@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_table",
+  "display": {
+    "icon": {
+      "id": "kubejs:engineer_star"
+    },
+    "title": {
+      "text": "Звезда Инженера",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Всё вместе на столе 9×9."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:engineer_star"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

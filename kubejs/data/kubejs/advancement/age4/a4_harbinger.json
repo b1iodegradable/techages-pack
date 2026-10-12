@@ -1,0 +1,34 @@
+{
+  "parent": "kubejs:age4/a4_factory",
+  "display": {
+    "icon": {
+      "id": "kubejs:trophy_harbinger"
+    },
+    "title": {
+      "text": "Харбинджер",
+      "color": "red"
+    },
+    "description": {
+      "text": "Обязательный босс эпохи. Механический — в тему."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cataclysm:the_harbinger"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

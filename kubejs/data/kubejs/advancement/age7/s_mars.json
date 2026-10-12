@@ -1,0 +1,32 @@
+{
+  "parent": "kubejs:age7/s_start",
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sandstone"
+    },
+    "title": {
+      "text": "Марс",
+      "color": "white"
+    },
+    "description": {
+      "text": "Летите дальше."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "northstar:mars"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

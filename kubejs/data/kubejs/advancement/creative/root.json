@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "create:creative_motor"
+    },
+    "title": {
+      "text": "Творение и Бесконечность",
+      "color": "gold"
+    },
+    "description": [
+      "",
+      {
+        "text": "Творческие предметы и Re:Avaritia\n"
+      },
+      {
+        "text": "Ворота: ",
+        "color": "gold"
+      },
+      {
+        "text": "Мастер творения",
+        "color": "yellow"
+      }
+    ],
+    "background": "minecraft:textures/block/crying_obsidian.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

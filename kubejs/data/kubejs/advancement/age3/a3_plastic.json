@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age3/a3_distill",
+  "display": {
+    "icon": {
+      "id": "tfmg:plastic_sheet"
+    },
+    "title": {
+      "text": "Пластик",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Продукт нефтепереработки — нужен для плат."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tfmg:plastic_sheet",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

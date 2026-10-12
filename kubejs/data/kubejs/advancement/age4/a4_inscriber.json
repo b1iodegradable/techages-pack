@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_certus",
+  "display": {
+    "icon": {
+      "id": "ae2:inscriber"
+    },
+    "title": {
+      "text": "Высекатель",
+      "color": "white"
+    },
+    "description": {
+      "text": "Печатает процессоры с прессов."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:inscriber"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

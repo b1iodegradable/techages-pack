@@ -1,0 +1,55 @@
+{
+  "parent": "kubejs:age5/a5_atomic",
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:fission_reactor_casing"
+    },
+    "title": {
+      "text": "Корпус реактора",
+      "color": "white"
+    },
+    "description": {
+      "text": "Реактор деления — мультиблок."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:fission_reactor_casing",
+            "count": {
+              "min": 32
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:fission_reactor_port",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

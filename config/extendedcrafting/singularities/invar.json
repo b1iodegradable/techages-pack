@@ -1,0 +1,13 @@
+{
+  "name": "singularity.extendedcrafting.invar",
+  "colors": [
+    "b3b8a5",
+    "7a7f6c"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/invar"
+  },
+  "materialCount": 2000,
+  "enabled": false,
+  "inUltimateSingularity": false
+}

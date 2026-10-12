@@ -1,0 +1,13 @@
+name = "ExtendedCrafting-1.21.1-7.0.9"
+filename = "ExtendedCrafting-1.21.1-7.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/5JMG1gql/versions/Oxp773uX/ExtendedCrafting-1.21.1-7.0.9.jar"
+hash-format = "sha512"
+hash = "643a123df03d9a6cd597dce657b41914618093db8cf854b23c7d890434f41081380a2a675bde82943303d8114cb902e25f80d4eed267e15d74822e24ad15d196"
+
+[update]
+[update.modrinth]
+mod-id = "5JMG1gql"
+version = "Oxp773uX"

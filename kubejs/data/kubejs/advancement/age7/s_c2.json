@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_start",
+  "display": {
+    "icon": {
+      "id": "kubejs:storm_coil_2"
+    },
+    "title": {
+      "text": "Грозовая катушка II",
+      "color": "white"
+    },
+    "description": {
+      "text": "Нужен трофей Сциллы."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:storm_coil_2"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:creative/i_cat",
+  "display": {
+    "icon": {
+      "id": "avaritia:infinity_ingot"
+    },
+    "title": {
+      "text": "Слиток бесконечности",
+      "color": "white"
+    },
+    "description": {
+      "text": "Материал, ломающий законы игры."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_ingot",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

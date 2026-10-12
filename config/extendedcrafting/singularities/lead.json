@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.lead",
+  "colors": [
+    "6d6d8c",
+    "3e3e5a"
+  ],
+  "ingredient": {
+    "tag": "c:ingots/lead"
+  },
+  "materialCount": 2000
+}

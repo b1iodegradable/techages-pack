@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age2/a2_brass",
+  "display": {
+    "icon": {
+      "id": "create:brass_casing"
+    },
+    "title": {
+      "text": "Латунный корпус",
+      "color": "white"
+    },
+    "description": {
+      "text": "Корпус для умной механики."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:brass_casing",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

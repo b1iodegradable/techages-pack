@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_alloy",
+  "display": {
+    "icon": {
+      "id": "sophisticatedbackpacks:diamond_backpack"
+    },
+    "title": {
+      "text": "Алмазный рюкзак",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Ещё больше места."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "sophisticatedbackpacks:diamond_backpack"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

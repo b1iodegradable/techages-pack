@@ -1,0 +1,65 @@
+{
+  "parent": "kubejs:age1/a1_mixer",
+  "display": {
+    "icon": {
+      "id": "create:fluid_tank"
+    },
+    "title": {
+      "text": "Жидкости",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Баки, разливщик и слив — основа жидкостной логистики."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:fluid_tank",
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:spout"
+          }
+        ]
+      }
+    },
+    "t2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:item_drain"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ],
+    [
+      "t2"
+    ]
+  ]
+}

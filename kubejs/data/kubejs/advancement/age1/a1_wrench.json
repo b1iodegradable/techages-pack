@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_alloy",
+  "display": {
+    "icon": {
+      "id": "create:wrench"
+    },
+    "title": {
+      "text": "Гаечный ключ",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Поворачивает и разбирает механизмы."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:wrench"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

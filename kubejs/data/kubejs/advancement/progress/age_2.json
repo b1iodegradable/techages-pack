@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_1",
+  "display": {
+    "icon": {
+      "id": "create:steam_engine"
+    },
+    "title": {
+      "text": "Эпоха II · Паровая"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "паровые двигатели, латунь, поезда, дирижабли Aeronautics, Нижний мир, свитки Iron's Spells.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "скрафтить Кинетическое ядро на механическом крафтере (нужен камень силы Ars Nouveau).",
+        "color": "gray"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

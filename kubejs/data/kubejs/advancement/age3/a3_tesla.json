@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_alt",
+  "display": {
+    "icon": {
+      "id": "createaddition:tesla_coil"
+    },
+    "title": {
+      "text": "Тесла-катушка",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Заряжает предметы и бьёт током."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "createaddition:tesla_coil"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_nether",
+  "display": {
+    "icon": {
+      "id": "irons_spellbooks:scroll"
+    },
+    "title": {
+      "text": "Свиток",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Свитки заклинаний Iron's Spells встречаются в данжах. Один выстрел — и в бой с боссом проще."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "irons_spellbooks:scroll"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

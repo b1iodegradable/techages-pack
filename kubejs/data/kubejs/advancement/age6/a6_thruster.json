@@ -1,0 +1,52 @@
+{
+  "parent": "kubejs:age6/a6_msteel",
+  "display": {
+    "icon": {
+      "id": "northstar:rocket_combustion_chamber"
+    },
+    "title": {
+      "text": "Ракетный двигатель",
+      "color": "white"
+    },
+    "description": {
+      "text": "Требует метеоритную сталь."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:rocket_combustion_chamber"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "northstar:rocket_thruster",
+            "count": {
+              "min": 2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

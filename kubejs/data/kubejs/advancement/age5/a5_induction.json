@@ -1,0 +1,65 @@
+{
+  "parent": "kubejs:age5/a5_atomic",
+  "display": {
+    "icon": {
+      "id": "mekanism:induction_casing"
+    },
+    "title": {
+      "text": "Индукционная матрица",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Огромное хранилище энергии."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:induction_casing",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_induction_cell"
+          }
+        ]
+      }
+    },
+    "t2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_induction_provider"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ],
+    [
+      "t2"
+    ]
+  ]
+}

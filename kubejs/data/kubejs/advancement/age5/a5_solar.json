@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age5/a5_atomic",
+  "display": {
+    "icon": {
+      "id": "mekanismgenerators:solar_generator"
+    },
+    "title": {
+      "text": "Солнечная панель",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Дешёвая энергия — только теперь."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:solar_generator",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

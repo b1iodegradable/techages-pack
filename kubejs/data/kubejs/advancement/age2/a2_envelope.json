@@ -1,0 +1,52 @@
+{
+  "parent": "kubejs:age2/a2_bearing",
+  "display": {
+    "icon": {
+      "id": "aeronautics:white_envelope"
+    },
+    "title": {
+      "text": "Оболочка",
+      "color": "white"
+    },
+    "description": {
+      "text": "Оболочки с горячим воздухом держат корабль в небе."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aeronautics:white_envelope",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aeronautics:adjustable_burner"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

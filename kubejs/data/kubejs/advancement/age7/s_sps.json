@@ -1,0 +1,55 @@
+{
+  "parent": "kubejs:age7/s_start",
+  "display": {
+    "icon": {
+      "id": "mekanism:sps_casing"
+    },
+    "title": {
+      "text": "Антиматерия",
+      "color": "white"
+    },
+    "description": {
+      "text": "SPS Mekanism и гранулы антиматерии."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:sps_casing",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:pellet_antimatter",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

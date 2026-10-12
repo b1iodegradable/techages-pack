@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age7/s_start",
+  "display": {
+    "icon": {
+      "id": "kubejs:steam_heart_2"
+    },
+    "title": {
+      "text": "Паровое сердце II",
+      "color": "white"
+    },
+    "description": {
+      "text": "Нужен трофей Древнего Остатка."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:steam_heart_2"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

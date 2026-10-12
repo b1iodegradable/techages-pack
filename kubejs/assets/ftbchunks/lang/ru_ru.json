@@ -1,0 +1,16 @@
+{
+  "ftbchunks.claim_mode.circle": "Круговое притязание",
+  "ftbchunks.claim_mode.freehand": "Свободное притязание",
+  "ftbchunks.claim_mode.rectangle": "Прямоугольное притязание",
+  "ftbchunks.config.client": "Настройки клиента",
+  "ftbchunks.config.client.appearance.claim_mode": "Режим притязания чанков",
+  "ftbchunks.config.client.minimap.reticle": "Линии прицела",
+  "ftbchunks.config.client.minimap.text_above_minimap": "Показывать текст над миникартой",
+  "ftbchunks.config.server": "Настройки сервера",
+  "ftbchunks.config.server.fire_spread_protection": "Защита от распространения огня",
+  "ftbchunks.config.server.fire_spread_protection.tooltip": "Если включено, огонь не распространяется на притязания, принадлежащие другим командам (если только у целевого притязания не заданы публичные права на «изменение блоков»).\nПо умолчанию выключено; включение может привести к проблемам с производительностью сервера, особенно когда горит много блоков.\nЕсли параметр 'disable_protection' установлен в true, эта настройка игнорируется.",
+  "ftbchunks.config.server.flowing_fluid_protection": "Защита от растекания жидкостей",
+  "ftbchunks.config.server.flowing_fluid_protection.tooltip": "Если включено, жидкости не растекаются горизонтально на притязания, принадлежащие другим командам (если только у целевого притязания не заданы публичные права на «изменение блоков»).\nПо умолчанию выключено; включение может привести к проблемам с производительностью сервера, так как такты течения жидкостей проверяются очень часто, особенно для больших объёмов текущих жидкостей.\nЕсли параметр 'disable_protection' установлен в true, эта настройка игнорируется.",
+  "ftbchunks.gui.edit": "Изменить",
+  "ftbchunks.gui.edit_waypoint": "Изменить путевую точку"
+}

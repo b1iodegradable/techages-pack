@@ -1,0 +1,37 @@
+{
+  "parent": "kubejs:progress/age_5",
+  "display": {
+    "icon": {
+      "id": "kubejs:reactor_core"
+    },
+    "title": {
+      "text": "Эпоха VI · Космическая"
+    },
+    "description": [
+      "",
+      {
+        "text": "Откроет: ",
+        "color": "gold"
+      },
+      {
+        "text": "ракеты Northstar, Луна, ракетное топливо.\n"
+      },
+      {
+        "text": "Как открыть: ",
+        "color": "aqua"
+      },
+      {
+        "text": "топливо для реактора, турбина и победа над Эндер-драконом → Ядро реактора.",
+        "color": "gray"
+      }
+    ],
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

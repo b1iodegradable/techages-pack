@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "infinity"
+	group: "14C5A9C131CD7D9B"
+	icon: { id: "avaritia:infinity_catalyst" }
+	id: "6E2FAA233AA3B43F"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1518C0F4BD1F2F86"]
+			hide_until_deps_complete: true
+			id: "754F38468BB3D0D9"
+			rewards: [
+				{
+					id: "193C829E1761B45C"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "5C7C959929B168D6"
+					item: { count: 1, id: "avaritia:infinity_catalyst" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["754F38468BB3D0D9"]
+			hide_until_deps_visible: true
+			id: "0CEFC822C8AB3DAC"
+			rewards: [
+				{
+					id: "2A45DDCC7E5DEFFB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "6F46F9A03664BBE0"
+					item: { count: 1, id: "avaritia:infinity_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CEFC822C8AB3DAC"]
+			hide_until_deps_visible: true
+			id: "5BEFD2CDB57C29E3"
+			rewards: [
+				{
+					id: "0224E92B8832FC80"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "4ACB471028E9D968"
+					item: { count: 1, id: "avaritia:infinity_sword" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CEFC822C8AB3DAC"]
+			hide_until_deps_visible: true
+			id: "348AB759CB6B11B6"
+			rewards: [
+				{
+					id: "3AD6A5BBFC92C21E"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "15DED052EBD8DEE5"
+					item: { count: 1, id: "avaritia:infinity_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CEFC822C8AB3DAC"]
+			hide_until_deps_visible: true
+			id: "0F4466F769E8240E"
+			rewards: [
+				{
+					id: "229AA4BC0B4F68FC"
+					type: "xp"
+					xp: 5000
+				}
+			]
+			shape: "gear"
+			size: 1.6d
+			tasks: [
+				{
+					count: 1L
+					id: "0594CE464B6AE0E6"
+					item: { count: 1, id: "avaritia:infinity_helmet" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "231C5AEBC7AEBAA4"
+					item: { count: 1, id: "avaritia:infinity_chestplate" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "7C17EE1F4361A589"
+					item: { count: 1, id: "avaritia:infinity_pants" }
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "3BD5936BBFDC4364"
+					item: { count: 1, id: "avaritia:infinity_boots" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+}

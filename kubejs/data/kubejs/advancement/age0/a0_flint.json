@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age0/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:flint"
+    },
+    "title": {
+      "text": "Кремень",
+      "color": "white"
+    },
+    "description": {
+      "text": "Деревянных инструментов нет. Наберите кремня из гравия."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:flint",
+            "count": {
+              "min": 3
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

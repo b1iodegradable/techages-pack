@@ -1,0 +1,52 @@
+{
+  "parent": "kubejs:age4/a4_casing",
+  "display": {
+    "icon": {
+      "id": "mekanism:basic_energy_cube"
+    },
+    "title": {
+      "text": "Энергокуб",
+      "color": "white"
+    },
+    "description": {
+      "text": "Хранение энергии Mekanism."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_energy_cube"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_universal_cable",
+            "count": {
+              "min": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "ftbquests.overlay.astages.action.add": "Действие: Добавить этап",
+  "ftbquests.overlay.astages.action.remove": "Действие: Удалить этап",
+  "ftbquests.overlay.astages.placeholder": "Вставьте этап сюда...",
+  "ftbquests.reward.astages.player": "AStages: игрок",
+  "ftbquests.reward.astages.player.remove": "Удалить",
+  "ftbquests.reward.astages.player.stage": "Этап",
+  "ftbquests.reward.astages.server": "AStages: сервер",
+  "ftbquests.reward.astages.server.remove": "Удалить",
+  "ftbquests.reward.astages.server.stage": "Этап",
+  "ftbquests.reward.astages.stage_description": "Этап: "
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age2/a2_casing",
+  "display": {
+    "icon": {
+      "id": "create:mechanical_crafter"
+    },
+    "title": {
+      "text": "Механический крафтер",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Большие рецепты собираются сеткой крафтеров."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:mechanical_crafter",
+            "count": {
+              "min": 9
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

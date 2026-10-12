@@ -1,0 +1,34 @@
+{
+  "parent": "kubejs:age1/a1_alloy",
+  "display": {
+    "icon": {
+      "id": "kubejs:trophy_wroughtnaut"
+    },
+    "title": {
+      "text": "Железный Рыцарь",
+      "color": "red"
+    },
+    "description": {
+      "text": "Мини-босс Mowzie's Mobs. Бейте в спину после его удара. Трофей понадобится в эндгейме."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mowziesmobs:ferrous_wroughtnaut"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

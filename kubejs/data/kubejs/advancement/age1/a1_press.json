@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age1/a1_wheel",
+  "display": {
+    "icon": {
+      "id": "create:mechanical_press"
+    },
+    "title": {
+      "text": "Механический пресс",
+      "color": "white"
+    },
+    "description": {
+      "text": "Листы металла для сложных деталей."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:mechanical_press"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

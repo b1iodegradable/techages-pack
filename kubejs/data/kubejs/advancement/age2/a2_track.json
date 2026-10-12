@@ -1,0 +1,52 @@
+{
+  "parent": "kubejs:age2/a2_casing",
+  "display": {
+    "icon": {
+      "id": "create:track"
+    },
+    "title": {
+      "text": "Рельсы",
+      "color": "white"
+    },
+    "description": {
+      "text": "Поезда Create — первый массовый транспорт."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:track",
+            "count": {
+              "min": 32
+            }
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create:track_station"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

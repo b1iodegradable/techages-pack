@@ -1,0 +1,24 @@
+{
+  "parent": "kubejs:age2/a2_envelope",
+  "display": {
+    "icon": {
+      "id": "minecraft:paper"
+    },
+    "title": {
+      "text": "Первый взлёт",
+      "color": "white"
+    },
+    "description": {
+      "text": "Соберите дирижабль, поднимитесь в небо и отметьте квест. Награда — карта мира."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

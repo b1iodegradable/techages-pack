@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_coke",
+  "display": {
+    "icon": {
+      "id": "malum:spirit_altar"
+    },
+    "title": {
+      "text": "Алтарь духов",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Malum: алтарь пропитки духами."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "malum:spirit_altar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

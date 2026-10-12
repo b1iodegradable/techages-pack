@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_harbinger",
+  "display": {
+    "icon": {
+      "id": "kubejs:logic_core"
+    },
+    "title": {
+      "text": "Логическое ядро",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Процессоры, каркас Mekanism и трофей Харбинджера. Откроет Эпоху V."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:logic_core"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

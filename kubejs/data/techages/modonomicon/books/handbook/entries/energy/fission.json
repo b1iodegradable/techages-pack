@@ -1,0 +1,74 @@
+{
+  "background_u_index": 0,
+  "background_v_index": 0,
+  "category": "energy",
+  "description": "book.techages.handbook.energy.fission.description",
+  "hide_while_locked": true,
+  "icon": {
+    "item": "mekanismgenerators:fission_reactor_casing"
+  },
+  "name": "book.techages.handbook.energy.fission.name",
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.energy.fission.p0_0.text",
+      "title": "book.techages.handbook.energy.fission.p0_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:multiblock",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "multiblock_id": "techages:fission",
+      "multiblock_name": "book.techages.handbook.energy.fission.p1.name",
+      "show_visualize_button": true,
+      "text": "book.techages.handbook.energy.fission.p1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": true,
+      "text": "book.techages.handbook.energy.fission.p2_0.text",
+      "title": "book.techages.handbook.energy.fission.p2_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "item": {
+        "item": "mekanism:hazmat_mask"
+      },
+      "text": "book.techages.handbook.energy.fission.p3.text",
+      "title": ""
+    }
+  ],
+  "parents": [
+    {
+      "draw_arrow": true,
+      "entry": "energy/mekanism",
+      "line_enabled": true,
+      "line_reversed": false
+    }
+  ],
+  "show_when_any_parent_unlocked": false,
+  "sort_number": 14,
+  "x": 6,
+  "y": -2,
+  "condition": {
+    "type": "modonomicon:advancement",
+    "advancement_id": "kubejs:progress/age_5"
+  }
+}

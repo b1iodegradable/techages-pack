@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_flight",
+  "display": {
+    "icon": {
+      "id": "kubejs:steam_heart"
+    },
+    "title": {
+      "text": "Паровое сердце",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Пар и небо в одном механизме. Откроет Эпоху III — электричество."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:steam_heart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "kubejs:age3/a3_sunken",
+  "display": {
+    "icon": {
+      "id": "kubejs:trophy_leviathan"
+    },
+    "title": {
+      "text": "Левиафан",
+      "color": "red"
+    },
+    "description": {
+      "text": "Обязательный босс эпохи. Трофей нужен для Грозовой катушки."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "cataclysm:the_leviathan"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

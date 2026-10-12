@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age3/a3_leviathan",
+  "display": {
+    "icon": {
+      "id": "kubejs:storm_coil"
+    },
+    "title": {
+      "text": "Грозовая катушка",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Электросеть, сталь и трофей Левиафана. Откроет Эпоху IV."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "kubejs:storm_coil"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

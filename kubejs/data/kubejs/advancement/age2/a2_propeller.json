@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age2/a2_bearing",
+  "display": {
+    "icon": {
+      "id": "aeronautics:smart_propeller"
+    },
+    "title": {
+      "text": "Умный пропеллер",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Точное управление тягой."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "aeronautics:smart_propeller"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

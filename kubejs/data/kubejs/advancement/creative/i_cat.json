@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:creative/c_all",
+  "display": {
+    "icon": {
+      "id": "avaritia:infinity_catalyst"
+    },
+    "title": {
+      "text": "Катализатор бесконечности",
+      "color": "white"
+    },
+    "description": {
+      "text": "Сингулярности, творческие предметы, Звезда и эссенция пробуждённых."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_catalyst"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

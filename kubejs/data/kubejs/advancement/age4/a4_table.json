@@ -1,0 +1,49 @@
+{
+  "parent": "kubejs:age4/a4_casing",
+  "display": {
+    "icon": {
+      "id": "extendedcrafting:advanced_table"
+    },
+    "title": {
+      "text": "Продвинутые столы",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "Extended Crafting: столы 5×5 и 7×7."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "extendedcrafting:advanced_table"
+          }
+        ]
+      }
+    },
+    "t1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "extendedcrafting:elite_table"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ],
+    [
+      "t1"
+    ]
+  ]
+}

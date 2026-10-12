@@ -1,0 +1,36 @@
+{
+  "parent": "kubejs:age4/a4_netherite",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": {
+      "text": "Кузница душ",
+      "color": "dark_aqua"
+    },
+    "description": {
+      "text": "Логово Незеритового Чудовища."
+    },
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "cataclysm:soul_black_smith"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}

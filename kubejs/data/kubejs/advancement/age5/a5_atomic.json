@@ -1,0 +1,39 @@
+{
+  "parent": "kubejs:age5/root",
+  "display": {
+    "icon": {
+      "id": "mekanism:alloy_atomic"
+    },
+    "title": {
+      "text": "Атомный сплав",
+      "color": "white"
+    },
+    "description": {
+      "text": "Высший сплав Mekanism."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "t0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:alloy_atomic",
+            "count": {
+              "min": 8
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "t0"
+    ]
+  ]
+}
