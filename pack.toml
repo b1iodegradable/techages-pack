@@ -1,6 +1,6 @@
 name = "TechAges"
 author = "biodegradable"
-version = "0.9.3"
+version = "0.9.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
