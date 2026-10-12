@@ -1,15 +1,15 @@
 {
-  "parent": "kubejs:age1/a1_deployer",
+  "parent": "kubejs:age2/a2_brass",
   "display": {
     "icon": {
-      "id": "create:precision_mechanism"
+      "id": "create:deployer"
     },
     "title": {
-      "text": "Прецизионный механизм",
+      "text": "Деплойер",
       "color": "white"
     },
     "description": {
-      "text": "Собирается на поточной линии из листов золота, шестерён и деплойеров."
+      "text": "Механическая рука с латунной кистью, которая «держит» предмет. Нужна для сборочных линий."
     },
     "frame": "task",
     "hidden": false,
@@ -22,10 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": "create:precision_mechanism",
-            "count": {
-              "min": 4
-            }
+            "items": "create:deployer"
           }
         ]
       }

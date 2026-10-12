@@ -46,10 +46,10 @@ const peSeasonCheck = s => {
   if (d.season.month == m) return
   const pts = d.season.pts, ids = Object.keys(pts).sort((a, b) => pts[b] - pts[a])
   if (ids.length) {
-    const champ = ids[0]
+    var champ = ids[0]
     peSay(s, Text.gold(`🏆 Сезон ${d.season.month} окончен! Чемпион — ${peName(s, champ)} (${pts[champ]} очков)`))
     peCoinsUid(s, champ, 300)
-    const prize = Item.of('minecraft:netherite_chestplate', 1)
+    var prize = Item.of('minecraft:netherite_chestplate', 1)
     peGive(s, champ, prize, '🏆 Награда чемпиона сезона')
     if (!d.titles[champ]) d.titles[champ] = []
     if (d.titles[champ].indexOf('Чемпион сезона') < 0) d.titles[champ].push('Чемпион сезона')

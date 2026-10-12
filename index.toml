@@ -146,11 +146,11 @@ hash = "4c1daa22012a952d89785930276f983499f3161cdcbc7fd85042c735a65addc0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age1.snbt"
-hash = "7b3a46a09906bc0f2fb73ddce37734a5bde226492c2b930574e252c5f957671e"
+hash = "e41f5096e1e2dde532be0c0425ace38847849c009f26f3e9e88627b4051b9243"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age2.snbt"
-hash = "bd6697273c2b56496e1e10bfc00d5e420e7002cf1310e61eb12f6e6db2838de3"
+hash = "98420f442a7c293dab5be9b976567178d3ed703668aa3c3d3a11ac0b7a132044"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age3.snbt"
@@ -202,7 +202,7 @@ hash = "ade20a0565fe71a90b2a5fdc3b60e14d098bd68d430ad63bf1ae6c697bddebc0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "c09675d403dadea31bede6a0da8bbc7b5b276ed6e62837348feca4bfe0ce1e58"
+hash = "e2cbf11b37682faf9bbe25d83925d67a61c50bcfe3e6d5a816ec7777a8f4aa43"
 
 [[files]]
 file = "config/immersiveengineering-server.toml"
@@ -498,11 +498,11 @@ hash = "a61a889b4d9bea1e834cc3c1d17c479f425862e401c7dce4c8e2d6c41fb1d2c4"
 
 [[files]]
 file = "kubejs/assets/techages/lang/en_us.json"
-hash = "8f09cc6ea40912b4b8c378191b3ea58fa61a7c352ce36f6433b20654cd777e60"
+hash = "c97c1339e73a2154c377a77da2ebba2e8ffa7b5311cbb8613b8dabd23750ea54"
 
 [[files]]
 file = "kubejs/assets/techages/lang/ru_ru.json"
-hash = "417ff55a686984df09f1b5e25f50e3250aa6b2319e009b255c38ad24b20b3871"
+hash = "b0d35142e85895a6edf2fe142c16f7c07e050f4b205e65caa97973327cb999a1"
 
 [[files]]
 file = "kubejs/assets/techages/sidebar_buttons/guide.json"
@@ -2145,16 +2145,8 @@ file = "kubejs/data/kubejs/advancement/age1/a1_bigwheel.json"
 hash = "5d32475c55117227b70cf4d6e0a309b91274902f70a0f0bfb56d2d2ffd919a92"
 
 [[files]]
-file = "kubejs/data/kubejs/advancement/age1/a1_crush.json"
-hash = "6249aa180ec5c80d60ad9fd499490a9f767dae93e184b216a8df9d66b657c65a"
-
-[[files]]
-file = "kubejs/data/kubejs/advancement/age1/a1_deployer.json"
-hash = "c0d07de6b10c577e8c8d34c320add09bf3b7528ff0510bf105b33c83164236d1"
-
-[[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_gate.json"
-hash = "5c2cc4f8cb3bc3a49a767af1b2ff0feee148359871e3f45fe0884255070420bc"
+hash = "e8f314ec8df736339856b6aa9a66cea3dae3060d4013084f4a7da50810a7b942"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_goggles.json"
@@ -2175,10 +2167,6 @@ hash = "847e83f3653077352f5f3b9ce94aa8601e3f7f11669418b61b856236817dcd8c"
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_pickup.json"
 hash = "03f564d9f21e41e7ed8969d7db042b68c2dea7a77355fd335822874177111eb1"
-
-[[files]]
-file = "kubejs/data/kubejs/advancement/age1/a1_precision.json"
-hash = "676aa08cc7f35d5272abfc6d540573b1939f70bf65cefaae1f6b529f1aa3e95c"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_press.json"
@@ -2226,7 +2214,7 @@ hash = "eabd419ffc1a2c3edd57424a313ffdfe197599f318d77a5307deff4b8f8ca1e7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_zinc.json"
-hash = "2b9b294f888ec34679476e8ded04995c1c396377fceb6fdd8c28a978ed6ab7e4"
+hash = "f7a39c54258d049cfdd4b4e0603293bd1615b1d85168e9f2a92863d5f68118ee"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/root.json"
@@ -2254,7 +2242,15 @@ hash = "31f2e47228737d85d52855a92a4969f94cf93ff256c52d5766961bdb6ccc8be2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_crafter.json"
-hash = "abc1402872215184339297b3425ce823b432f87e33e88cd7aca15dc9b1ab4e73"
+hash = "11fb2a2b7e1337525dfefb3183cb67ba402b825ae453f090be1084d7d129893b"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/age2/a2_crush.json"
+hash = "50ee198bf3bac0d65f20e434bea892dc838b75748ebc53ce8b37ac08c9433629"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/age2/a2_deployer.json"
+hash = "8bcb3629333f1dc42327c1eb851e7c8dc3dca911c25db3aa75b002c84207fc51"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_engine.json"
@@ -2291,6 +2287,10 @@ hash = "20dfe8c8973c010c1130d2313ca8f5b108b94cf2c3d8dffe521d414afdd63484"
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_packager.json"
 hash = "a0d868a1179b3b3d5801a15144d62c224011310e990533d38bccaf7acedfe43f"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/age2/a2_precision.json"
+hash = "3780c89bc706e778a966cddb0d4d36be1512604eace2cc88093aec5b21771771"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_propeller.json"
@@ -2878,11 +2878,11 @@ hash = "88d6429d99fd8b54a447cfd4e4998c264466d730f1d92874c8cae00dfa89fc81"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/progress/age_1.json"
-hash = "4439f201ee097306633655679cdd1eac1b7e73c754256200006381f8f8d8794c"
+hash = "cb2d1b09a5331d5c4184867d1012291caea58e7eda544ae83a2530774b957426"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/progress/age_2.json"
-hash = "b2071568df2f5de6e8c61f191a9fa40f7d1904a51dcd1d48ad5c984177b6e347"
+hash = "5950f6bfc31406dd34ccc0a5b5e6c61766de409b27c1ed8301b49806f03f14ef"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/progress/age_3.json"
@@ -5002,19 +5002,19 @@ hash = "4d5ef0b8c81388a8eabbfa8c04a2c9ce2511340f794f2bce8d158a2834fe3bc2"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/40_core.js"
-hash = "26b36e68b5931c4c2c40b0e1dac648c3cd9cbd6ab48c444478630113eea3bc22"
+hash = "9cdd02b75f891e92bb9d03981f175f545d5fee28af42d16972ec85064059dc7d"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/41_pvp.js"
-hash = "a9fe7cbf31182110edeaf6bf6112d06d3c2fc98d11888c090eb489e12d1fecd3"
+hash = "33539389db016d1735b3f39d24fdd8b0ad7161b9faf044682f2dbedd590a91f0"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/42_contests.js"
-hash = "7937cd2c57e49fac93552fbf8bae71be3c2e428b3a262a538ef08ff47b54667b"
+hash = "f6f99ecfe71beef14705cbfb62eea21903aa9d17c290a738acc73afa78561184"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/43_coop.js"
-hash = "0722f3f6adf879e919300fe528d777b5618d77d4a346485b4222b189f0ce86c4"
+hash = "60380ccf7f841a8caa4f0e6dab0b5588787dd53fb185ac9434bbf01ad9599107"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/44_social.js"
@@ -5026,15 +5026,15 @@ hash = "b252e92ef55ae9b6b193bf9774fd80626ab82b8f5f6717e01377f1df0ceed994"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/46_endgame.js"
-hash = "8eaf4f4702716efd7fb2671b750db3dd67e8e3e318484dfb05fe19cf7e9c72f9"
+hash = "a655348961f3973655e23aa6ad3520e4c4082022443ed5a520e08ce6337ed51b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/20_cleanup.js"
-hash = "64cb94d5cf610d411ddbad4244a1a26bac91c5c472c082ba7c4450e092339508"
+hash = "064b375278e57b94cabe86c521d75142792f36701b38d1abe647240eb286681e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/21_gates_bridges.js"
-hash = "7284f73a86950a19133792f72f2adc2f47821f7bd981f4ba14ed23f35bd1d694"
+hash = "1797d692ded3ee8bad0e1783b939737ee23860263f206ea5e44af70a9340e2a7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/22_endgame.js"
@@ -5066,11 +5066,11 @@ hash = "b741023109ee8716d570f8a02a40918e2b91d9011c5ddc1bba41fb09fe112a12"
 
 [[files]]
 file = "kubejs/server_scripts/systems/32_bosses.js"
-hash = "d9b7c0a9da45015057a20aab4dd98f4ceee2622957bbbb3c7c82e45755bcb733"
+hash = "afcf07073c715761ad9ef0b6ecb4e240e8d71a2c0bd10e0366aff16be4a5f1e1"
 
 [[files]]
 file = "kubejs/server_scripts/systems/33_events.js"
-hash = "a38fea8a7ee5e320cdaa54e2ed80edbd6d912185d620b292f3a9d310d1ee9f37"
+hash = "62f11eb71b976c7c6c10cab485d7eb7a7edea1b57c773826202b77caaa5c265f"
 
 [[files]]
 file = "kubejs/server_scripts/systems/34_difficulty.js"
@@ -5097,6 +5097,11 @@ metafile = true
 [[files]]
 file = "mods/BadOptimizations-2.4.1-1.21.1.pw.toml"
 hash = "38bc63366a854eb4100e3a31757cbae48f8541d1a26ae3948fde4aedc86d21a5"
+metafile = true
+
+[[files]]
+file = "mods/BetterAdvancements-NeoForge-1.21.1-0.4.3.21.pw.toml"
+hash = "7fcee8c946ea2a9495f51b7df9ba2d259c75a08fcb2f8ea94b05bf242cdc4d61"
 metafile = true
 
 [[files]]

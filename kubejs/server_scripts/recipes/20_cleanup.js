@@ -13,6 +13,8 @@ ServerEvents.recipes(event => {
   // Печь — из обожжённого кирпича (сначала костёр/обжиг глины)
   event.remove({ output: 'minecraft:furnace' })
   event.shaped('minecraft:furnace', ['BBB', 'B B', 'BBB'], { B: 'minecraft:brick' }).id('kubejs:brick_furnace')
+  // Без этого рецепта старт заблокирован: кирпич иначе обжигается только в печи
+  event.campfireCooking('minecraft:brick', 'minecraft:clay_ball', 0.1, 600).id('kubejs:campfire_brick')
 
   // Медь с поверхности: самородки из гравия (просеивание руками — Create появится позже)
   event.shapeless('2x minecraft:raw_copper', ['4x minecraft:gravel', 'minecraft:flint']).id('kubejs:gravel_copper')

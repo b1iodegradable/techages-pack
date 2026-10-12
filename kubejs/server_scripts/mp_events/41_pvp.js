@@ -59,7 +59,7 @@ peDef('koth', {
     const d = ev.data
     peCmd(s, `execute in ${PE.OW} run particle minecraft:end_rod ${d.x} ${d.y + 1} ${d.z} 3 0.3 3 0 40 force`)
     const inside = ev.players.map(n => peP(s, n)).filter(p => p && peDim(p) == PE.OW && Math.abs(p.x - d.x) <= 5 && Math.abs(p.z - d.z) <= 5 && Math.abs(p.y - d.y) <= 6)
-    if (inside.length == 1) { const n = inside[0].username; d.pts[n] = (d.pts[n] || 0) + 1 }
+    if (inside.length == 1) { var n = inside[0].username; d.pts[n] = (d.pts[n] || 0) + 1 }
     const lead = peWinnersBy(ev, d.pts)
     peBar(s, `Царь горы — ${inside.length == 1 ? inside[0].username + ' держит холм' : inside.length > 1 ? 'спорная зона!' : 'холм свободен'} · лидер: ${lead.join(', ') || '—'} · ${peFmt(ev.end - s.tickCount)}`, ev.end - s.tickCount, ev.end - ev.t0)
   },
@@ -88,8 +88,8 @@ peDef('manhunt', {
   },
   onKO: (s, ev, victim, att) => { if (victim.username == ev.data.target && att) { ev.data.hunter = att.username; peEnd(s, 'ko') } },
   finish: (s, ev, reason) => {
-    if (ev.data.hunter) { const h = peP(s, ev.data.hunter); peSay(s, Text.gold(`🏹 ${ev.data.hunter} поймал цель!`)); if (h) peReward(s, h, 60, 4, 'охота за головой') }
-    else if (reason == 'time') { const t = peP(s, ev.data.target); peSay(s, Text.gold(`🛡 ${ev.data.target} ушёл от погони!`)); if (t) peReward(s, t, 80, 5, 'выжил на охоте') }
+    if (ev.data.hunter) { var h = peP(s, ev.data.hunter); peSay(s, Text.gold(`🏹 ${ev.data.hunter} поймал цель!`)); if (h) peReward(s, h, 60, 4, 'охота за головой') }
+    else if (reason == 'time') { var t = peP(s, ev.data.target); peSay(s, Text.gold(`🛡 ${ev.data.target} ушёл от погони!`)); if (t) peReward(s, t, 80, 5, 'выжил на охоте') }
   }
 })
 
@@ -114,7 +114,7 @@ peDef('bounty', {
   finish: (s, ev) => {
     const h = ev.data.hunter ? peP(s, ev.data.hunter) : null
     if (h) { peSay(s, Text.gold(`💰 ${h.username} получает награду за ${ev.args.to}!`)); peReward(s, h, ev.args.coins, 3, 'награда за голову') }
-    else { const f = peP(s, ev.args.from); if (f) peCoins(s, f, ev.args.coins, 'награда вернулась'); else peCoinsUid(s, ev.data.fromUid || '', ev.args.coins) }
+    else { var f = peP(s, ev.args.from); if (f) peCoins(s, f, ev.args.coins, 'награда вернулась'); else peCoinsUid(s, ev.data.fromUid || '', ev.args.coins) }
   }
 })
 

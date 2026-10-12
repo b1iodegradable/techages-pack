@@ -67,8 +67,8 @@ const finalPhases = (s, ent) => {
 
   if (ratio < 0.66 && phase < 1) {
     data.putInt('mpPhase', 1)
-    for (let i = 0; i < 4; i++) {
-      const a = i * Math.PI / 2
+    for (var i = 0; i < 4; i++) {
+      var a = i * Math.PI / 2
       s.runCommandSilent(`execute in ${ent.level.dimension} run summon cataclysm:the_prowler ${ent.x + Math.cos(a) * 8} ${ent.y} ${ent.z + Math.sin(a) * 8}`)
     }
     near.forEach(p => p.tell(Text.red('Харбинджер призывает механических прислужников!')))

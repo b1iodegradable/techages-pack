@@ -33,7 +33,7 @@ const peCmd = (s, c) => s.runCommandSilent(c)
 const peDim = p => String(p.level.dimension)
 const peAge = () => { let n = 0; for (let i = 1; i <= 7; i++) if (AStages.serverHasStage(`age_${i}`)) n = i; return n }
 const peFmt = t => { const sec = Math.max(0, Math.ceil(t / 20)); return `${Math.floor(sec / 60)}:${('0' + (sec % 60)).slice(-2)}` }
-const peShuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); const t = arr[i]; arr[i] = arr[j]; arr[j] = t } return arr }
+const peShuffle = arr => { for (let i = arr.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = arr[i]; arr[i] = arr[j]; arr[j] = t } return arr }
 const peTp = (s, name, dim, x, y, z) => peCmd(s, `execute in ${dim} run tp ${name} ${x} ${y} ${z}`)
 const peJson = t => JSON.stringify({ text: t })
 
@@ -41,7 +41,7 @@ const peJson = t => JSON.stringify({ text: t })
 const peLoad = s => {
   if (PE.data) return PE.data
   let d = {}
-  try { const raw = s.persistentData.getString('peData'); if (raw) d = JSON.parse(raw) } catch (err) { d = {} }
+  try { var raw = s.persistentData.getString('peData'); if (raw) d = JSON.parse(raw) } catch (err) { d = {} }
   const def = { coins: {}, names: {}, season: { month: '', pts: {} }, titles: {}, title: {}, stats: {}, records: {},
                 long: {}, planets: {}, contracts: [], nextContract: 1 }
   Object.keys(def).forEach(k => { if (d[k] === undefined) d[k] = def[k] })
@@ -114,8 +114,8 @@ const peMailClaim = (s, p) => {
   const list = root.getList(uid, 10)
   let n = 0
   for (let i = 0; i < list.size(); i++) {
-    const tag = list.getCompound(i)
-    const st = PE_ItemStack.parseOptional(s.registryAccess(), tag.getCompound('item'))
+    var tag = list.getCompound(i)
+    var st = PE_ItemStack.parseOptional(s.registryAccess(), tag.getCompound('item'))
     if (!st.isEmpty()) { p.give(st); n++ }
     if (tag.getString('note')) p.tell(Text.aqua('✉ ' + tag.getString('note')))
   }
@@ -221,7 +221,7 @@ const peCanPropose = (s, id, args) => {
   if (peAge() < (def.age || 0)) return `Ивент откроется в эпохе ${def.age}.`
   const voters = def.voters ? def.voters(s, args) : peOnline(s).map(p => p.username)
   if (voters.length < (def.min || 1)) return `Нужно игроков онлайн: ${def.min}.`
-  if (def.canStart) { const err = def.canStart(s, args); if (err) return err }
+  if (def.canStart) { var err = def.canStart(s, args); if (err) return err }
   return null
 }
 
@@ -240,7 +240,7 @@ const pePropose = (s, id, args, by) => {
   peSay(s, Text.gold('━━━━━━━━━━━━━━━━━━━━━━━━'))
   peSay(s, Text.gold(`▶ Ивент: ${def.name}`).append(Text.gray(tags.length ? `  (${tags.join(', ')})` : '')))
   peSay(s, Text.white(def.desc))
-  if (def.info) { const extra = def.info(PE.vote.args); if (extra) peSay(s, Text.aqua(extra)) }
+  if (def.info) { var extra = def.info(PE.vote.args); if (extra) peSay(s, Text.aqua(extra)) }
   peSay(s, Text.gray(`Предложил: ${PE.vote.by}. Запустится, только если согласны все: ${names.join(', ')}.`))
   s.players.forEach(p => {
     if (voters[p.username] === undefined) return
@@ -281,7 +281,7 @@ const peStart = (s, id, args, names) => {
   const def = PE.defs[id]
   const ev = { id: id, def: def, args: args, t0: s.tickCount, end: s.tickCount + (def.minutes || 5) * 60 * 20, players: names, data: {} }
   if (def.long) {
-    const d = peLoad(s)
+    var d = peLoad(s)
     d.long[id] = { endMs: Date.now() + (def.minutes || 60) * 60000, args: args, players: names, data: {} }
     peSave(s)
     peSay(s, Text.gold(`★ Начался долгий ивент «${def.name}»`))
@@ -325,7 +325,7 @@ ServerEvents.tick(e => {
   peLoad(s)
   // голосование: тайм-аут
   if (PE.vote && t >= PE.vote.deadline) {
-    const silent = Object.keys(PE.vote.voters).filter(n => PE.vote.voters[n] !== true)
+    var silent = Object.keys(PE.vote.voters).filter(n => PE.vote.voters[n] !== true)
     peSay(s, Text.red(`✖ Ивент «${PE.defs[PE.vote.id].name}» отменён: не ответили ${silent.join(', ')}.`))
     PE.vote = null
   }
@@ -337,7 +337,7 @@ ServerEvents.tick(e => {
   }
   // долгие ивенты (недели и т.п.)
   if (t % 200 == 0) {
-    const d = PE.data
+    var d = PE.data
     Object.keys(d.long).forEach(id => {
       const L = d.long[id], def = PE.defs[id]
       if (!def) { delete d.long[id]; return }
@@ -350,7 +350,7 @@ ServerEvents.tick(e => {
   // авто-предложение
   if (!PE.vote && !PE.cur && t >= PE.nextAuto && s.players.size() > 0) {
     PE.nextAuto = t + PE.AUTO_EVERY
-    const ok = PE.order.filter(id => PE.defs[id].auto && !peCanPropose(s, id, {}))
+    var ok = PE.order.filter(id => PE.defs[id].auto && !peCanPropose(s, id, {}))
     if (ok.length) pePropose(s, pePick(ok), {}, null)
   }
 })
@@ -426,7 +426,7 @@ ServerEvents.commandRegistry(e => {
       // команды долгих ивентов (сдать в мега-проект и т.п.)
       const d = peLoad(s)
       const ids = Object.keys(d.long)
-      for (let i = 0; i < ids.length; i++) { const def = PE.defs[ids[i]]; if (def && def.cmd && def.cmd(s, p, parts, d.long[ids[i]])) return }
+      for (let i = 0; i < ids.length; i++) { var def = PE.defs[ids[i]]; if (def && def.cmd && def.cmd(s, p, parts, d.long[ids[i]])) return }
       if (!ev || !ev.def.cmd || !ev.def.cmd(s, p, parts, ev)) p.tell(Text.gray('Сейчас эта команда не нужна.'))
     }))))
     .then(C.literal('stop').requires(src => src.hasPermission(2)).executes(c => { if (PE.cur) peEnd(c.source.server, 'stop'); PE.vote = null; return 1 }))

@@ -125,7 +125,7 @@
 				}
 			]
 			x: 10.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["12B87730F57F7587"]
@@ -169,6 +169,78 @@
 					count: 2L
 					id: "565A2FB65B1448D0"
 					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A2CD00D18E526B8"]
+			hide_until_deps_visible: true
+			id: "6F083F457527FCC6"
+			rewards: [
+				{
+					id: "0E2DACD46E32555E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 2L
+					id: "10588E4135A3D275"
+					item: { count: 1, id: "create:crushing_wheel" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47FE75B6CF9F39CE"]
+			hide_until_deps_visible: true
+			id: "279077F5221E2ACB"
+			rewards: [
+				{
+					id: "72D277E00070D9FC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 1L
+					id: "346DDCCD0ED67B24"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["279077F5221E2ACB"]
+			hide_until_deps_visible: true
+			id: "7A0516CBFCFE8C9D"
+			rewards: [
+				{
+					id: "6DCB07DBCEDB450D"
+					item: { count: 8, id: "create:golden_sheet" }
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 4L
+					id: "4BEC59DC4B978A34"
+					item: { count: 1, id: "create:precision_mechanism" }
 					type: "item"
 				}
 			]
@@ -227,7 +299,7 @@
 				}
 			]
 			x: 15.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1C740651DCA06687"]
@@ -281,7 +353,7 @@
 				}
 			]
 			x: 15.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5363FC4877DC2513" "7F0FFC71B3CF1931"]
@@ -371,8 +443,8 @@
 					xp: 20
 				}
 			]
-			shape: "circle"
-			size: 0.9d
+			shape: "hexagon"
+			size: 1.0d
 			tasks: [
 				{
 					count: 9L
@@ -381,8 +453,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -4.5d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C740651DCA06687"]
@@ -405,7 +477,7 @@
 					type: "item"
 				}
 			]
-			x: 11.2d
+			x: 10.0d
 			y: -4.5d
 		}
 		{

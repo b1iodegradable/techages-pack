@@ -111,30 +111,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["3588727C7705FE28"]
-			hide_until_deps_visible: true
-			id: "6954DF62FE1DDFD1"
-			rewards: [
-				{
-					id: "2B0476AB013928CA"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [
-				{
-					count: 2L
-					id: "7CA170E6E54737B3"
-					item: { count: 1, id: "create:crushing_wheel" }
-					type: "item"
-				}
-			]
-			x: 10.0d
-			y: -2.0d
-		}
-		{
 			dependencies: ["75D3B6887BBA35AA"]
 			hide_until_deps_visible: true
 			id: "67366363048EDA7F"
@@ -186,55 +162,7 @@
 				}
 			]
 			x: 10.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["591FA0CB7CA99152"]
-			hide_until_deps_visible: true
-			id: "7C29ADC79980CF96"
-			rewards: [
-				{
-					id: "74762D63229E99CA"
-					type: "xp"
-					xp: 20
-				}
-			]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [
-				{
-					count: 1L
-					id: "74CAFE19DD9C8F5F"
-					item: { count: 1, id: "create:deployer" }
-					type: "item"
-				}
-			]
-			x: 12.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7C29ADC79980CF96" "6954DF62FE1DDFD1"]
-			hide_until_deps_visible: true
-			id: "4CAE393D833A47D0"
-			rewards: [
-				{
-					id: "3A5116530B403734"
-					item: { count: 8, id: "create:golden_sheet" }
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [
-				{
-					count: 4L
-					id: "6C07E481C359E8E2"
-					item: { count: 1, id: "create:precision_mechanism" }
-					type: "item"
-				}
-			]
-			x: 15.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["53C5550D2A090DC4"]
@@ -289,10 +217,10 @@
 				}
 			]
 			x: 10.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["4CAE393D833A47D0" "5D87352D958C477D" "394EBF0E72F1A4D3"]
+			dependencies: ["591FA0CB7CA99152" "5D87352D958C477D" "394EBF0E72F1A4D3"]
 			hide_until_deps_visible: true
 			id: "3E36B417FE8AD30F"
 			rewards: [
@@ -318,7 +246,7 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -418,7 +346,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["6954DF62FE1DDFD1"]
+			dependencies: ["3588727C7705FE28"]
 			hide_until_deps_visible: true
 			id: "46777F81E3A752A5"
 			rewards: [
@@ -438,7 +366,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -462,7 +390,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.7d
 			y: -4.5d
 		}
 		{
@@ -498,7 +426,7 @@
 					type: "item"
 				}
 			]
-			x: 11.2d
+			x: 10.0d
 			y: -4.5d
 		}
 		{
@@ -522,8 +450,8 @@
 					type: "item"
 				}
 			]
-			x: 8.7d
-			y: -4.5d
+			x: 7.5d
+			y: -6.1d
 		}
 		{
 			dependencies: ["53C5550D2A090DC4"]

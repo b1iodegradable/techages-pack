@@ -36,7 +36,7 @@ peDef('chest_race', {
     peSay(s, Text.gold(`📦 Сундук: X ${x}  Y ${y}  Z ${z}. На старт!`))
   }),
   fast: (s, ev) => pePollPoint(s, ev),
-  tick: (s, ev) => { if (ev.data.chest) { const c = ev.data.chest; peCmd(s, `execute in ${PE.OW} run particle minecraft:end_rod ${c.x + 0.5} ${c.y + 2} ${c.z + 0.5} 0.2 4 0.2 0 15 force`); peBar(s, `Гонка за сундуком: X ${c.x} Z ${c.z} — ${peFmt(ev.end - s.tickCount)}`, ev.end - s.tickCount, ev.end - ev.t0) } },
+  tick: (s, ev) => { if (ev.data.chest) { var c = ev.data.chest; peCmd(s, `execute in ${PE.OW} run particle minecraft:end_rod ${c.x + 0.5} ${c.y + 2} ${c.z + 0.5} 0.2 4 0.2 0 15 force`); peBar(s, `Гонка за сундуком: X ${c.x} Z ${c.z} — ${peFmt(ev.end - s.tickCount)}`, ev.end - s.tickCount, ev.end - ev.t0) } },
   finish: (s, ev) => {
     if (ev.data.winner) { var p = peP(s, ev.data.winner); peSay(s, Text.gold(`📦 Сундук достался ${ev.data.winner}!`)); if (p) peReward(s, p, 30, 3, 'гонка за сундуком') }
     else peSay(s, Text.gray('Сундук никто не нашёл — он остался на месте.'))
@@ -118,7 +118,7 @@ EntityEvents.death(e => {
 BlockEvents.broken(e => {
   if (!e.player || !e.block.hasTag('c:ores')) return
   peHunt(e.server, e.player, 'ores')
-  if (PE.cur && PE.cur.id == 'mining_race' && peIn(PE.cur, e.player)) { const d = PE.cur.data.pts; d[e.player.username] = (d[e.player.username] || 0) + 1 }
+  if (PE.cur && PE.cur.id == 'mining_race' && peIn(PE.cur, e.player)) { var d = PE.cur.data.pts; d[e.player.username] = (d[e.player.username] || 0) + 1 }
 })
 
 // ---------- 12. Гонка до точки (рекорды)
@@ -176,7 +176,7 @@ peDef('build', {
   cmd: (s, p, a, ev) => {
     const d = ev.data, voting = s.tickCount >= d.voteAt
     if (a[0] == 'заявка') { if (voting) { p.tell(Text.red('Стройка закончилась.')); return true } d.entries[p.username] = { dim: peDim(p), x: Math.floor(p.x), y: Math.floor(p.y), z: Math.floor(p.z) }; p.tell(Text.green('Заявка принята — здесь будут смотреть.')); return true }
-    if (a[0] == 'смотреть' && a[1]) { const e2 = d.entries[a[1]]; if (!voting || !e2) { p.tell(Text.red('Смотреть можно во время голосования, по нику с заявкой.')); return true } peStashPos(p); peTp(s, p.username, e2.dim, e2.x, e2.y, e2.z); return true }
+    if (a[0] == 'смотреть' && a[1]) { var e2 = d.entries[a[1]]; if (!voting || !e2) { p.tell(Text.red('Смотреть можно во время голосования, по нику с заявкой.')); return true } peStashPos(p); peTp(s, p.username, e2.dim, e2.x, e2.y, e2.z); return true }
     if (a[0] == 'голос' && a[1]) {
       if (!voting) { p.tell(Text.red('Голосование ещё не началось.')); return true }
       if (a[1] == p.username || !d.entries[a[1]]) { p.tell(Text.red('Нельзя за себя и за того, у кого нет заявки.')); return true }

@@ -1,5 +1,5 @@
 {
-  "parent": "kubejs:age1/a1_precision",
+  "parent": "kubejs:age1/a1_mixer",
   "display": {
     "icon": {
       "id": "kubejs:kinetic_core"
@@ -9,7 +9,7 @@
       "color": "gold"
     },
     "description": {
-      "text": "Корпуса, прецизионные механизмы и блок Source Gem. Откроет Эпоху II."
+      "text": "Андезитовые корпуса, прессы, смесители и блок Source Gem — на верстаке. Откроет Эпоху II."
     },
     "frame": "goal",
     "hidden": false,

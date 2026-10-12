@@ -1,5 +1,5 @@
 {
-  "parent": "kubejs:age1/a1_crush",
+  "parent": "kubejs:age1/a1_mill",
   "display": {
     "icon": {
       "id": "create:zinc_ingot"

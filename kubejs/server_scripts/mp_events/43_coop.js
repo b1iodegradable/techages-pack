@@ -3,7 +3,7 @@
 // Призвать мобов вокруг точки на поверхности: summon + spreadplayers по тегу
 const peSpawnAround = (s, dim, x, z, types, n, tag, rMin, rMax) => {
   for (let i = 0; i < n; i++) {
-    const t = pePick(types)
+    var t = pePick(types)
     peCmd(s, `execute in ${dim} run summon ${t} ${x} 200 ${z} {Tags:["${tag}","pe_new"],PersistenceRequired:1b}`)
   }
   peCmd(s, `execute in ${dim} run spreadplayers ${x} ${z} ${Math.max(1, Math.floor(rMin / 3))} ${rMax} false @e[tag=pe_new]`)
@@ -33,7 +33,7 @@ peDef('siege', {
     const d = ev.data, age = peAge()
     if (d.wave < d.waves && s.tickCount >= d.next) {
       d.wave++
-      const n = 4 + 2 * ev.players.length + age + d.wave
+      var n = 4 + 2 * ev.players.length + age + d.wave
       peSpawnAround(s, PE.OW, d.x, d.z, PE_SIEGE_MOBS[Math.min(4, Math.floor(age / 1.5))], n, 'pe_siege', 14, 28)
       peSay(s, Text.red(`⚔ Волна ${d.wave}/${d.waves}: ${n} монстров!`))
       d.next = s.tickCount + 1200
@@ -160,7 +160,7 @@ peDef('meteor', {
     const a = on(d.x - 3), b = on(d.x + 3)
     if (a.length && b.length && a[0].username != b[0].username) {
       d.open = true; d.openers = [a[0].username, b[0].username]
-      const W = (c) => peCmd(s, `execute in ${PE.OW} run ${c}`)
+      var W = (c) => peCmd(s, `execute in ${PE.OW} run ${c}`)
       W(`setblock ${d.x} ${d.y + 1} ${d.z} minecraft:chest`)
       W(`item replace block ${d.x} ${d.y + 1} ${d.z} container.0 with kubejs:meteor_fragment ${4 + peAge()}`)
       W(`item replace block ${d.x} ${d.y + 1} ${d.z} container.1 with minecraft:diamond ${1 + Math.floor(peAge() / 2)}`)

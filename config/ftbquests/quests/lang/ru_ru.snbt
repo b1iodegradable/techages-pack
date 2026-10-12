@@ -59,7 +59,7 @@
 	quest.0A0DED83469642A1.quest_desc: ["Стальной провод IE для дальних линий."]
 	quest.0A0DED83469642A1.title: "&dВысокое напряжение&r"
 	quest.0A2CD00D18E526B8.quest_desc: ["Большие рецепты собираются сеткой крафтеров."]
-	quest.0A2CD00D18E526B8.title: "&dМеханический крафтер&r"
+	quest.0A2CD00D18E526B8.title: "&6Механический крафтер&r"
 	quest.0A9F4516AA2A44CC.quest_desc: ["Поезд ездит сам по расписанию."]
 	quest.0A9F4516AA2A44CC.title: "&6Расписание&r"
 	quest.0B4134BA93E67D71.quest_desc: ["Основа всех машин Mekanism."]
@@ -143,6 +143,8 @@
 	quest.2485E970843DB750.title: "&dАлюминий&r"
 	quest.24C85581A39508A1.title: "&dПоставка: титан&r"
 	quest.251FDE1F25125BCD.title: "&dПоставка: дизель&r"
+	quest.279077F5221E2ACB.quest_desc: ["Механическая рука с латунной кистью, которая «держит» предмет. Нужна для сборочных линий."]
+	quest.279077F5221E2ACB.title: "&6Деплойер&r"
 	quest.286B623AAD67BE1A.quest_desc: ["Печатает процессоры с прессов."]
 	quest.286B623AAD67BE1A.title: "&6Высекатель&r"
 	quest.28BF3B817CA2D08C.quest_desc: ["Стол 9×9."]
@@ -202,7 +204,7 @@
 	quest.3BF849AFA7CCD682.title: "&6Творческий бак Mekanism&r"
 	quest.3D62A882C04F037A.quest_desc: ["Обязательный босс эпохи. Трофей нужен для Грозовой катушки."]
 	quest.3D62A882C04F037A.title: "&cЛевиафан&r"
-	quest.3E36B417FE8AD30F.quest_desc: ["Корпуса, прецизионные механизмы и блок Source Gem. Откроет Эпоху II."]
+	quest.3E36B417FE8AD30F.quest_desc: ["Андезитовые корпуса, прессы, смесители и блок Source Gem — на верстаке. Откроет Эпоху II."]
 	quest.3E36B417FE8AD30F.title: "&6&lКинетическое ядро&r"
 	quest.3E38F36E0B3C649C.quest_desc: ["Требует звёздный стержень."]
 	quest.3E38F36E0B3C649C.title: "&6Топливная сборка&r"
@@ -268,8 +270,6 @@
 	quest.4A3E82A1707A7A72.title: "&6Творческий бак химикатов&r"
 	quest.4B6C2D37B84BA9A9.quest_desc: ["Новые руды TFMG теперь видны."]
 	quest.4B6C2D37B84BA9A9.title: "&dСвинец и никель&r"
-	quest.4CAE393D833A47D0.quest_desc: ["Собирается на поточной линии из листов золота, шестерён и деплойеров."]
-	quest.4CAE393D833A47D0.title: "&6Прецизионный механизм&r"
 	quest.4CD7140C71299F67.quest_desc: ["Ещё горячее. Здесь вольфрам."]
 	quest.4CD7140C71299F67.title: "&6Меркурий&r"
 	quest.4E0D56A2F9D28A18.quest_desc: ["Баки, разливщик и слив — основа жидкостной логистики."]
@@ -360,8 +360,6 @@
 	quest.678A31294E440074.title: "&6Сфера антиматерии&r"
 	quest.683C8603707F7198.quest_desc: ["Кремень + палки = каменные инструменты."]
 	quest.683C8603707F7198.title: "&6Кремнёвая кирка&r"
-	quest.6954DF62FE1DDFD1.quest_desc: ["Пара дробильных колёс: из сырой руды — дроблёная, а это больше слитков."]
-	quest.6954DF62FE1DDFD1.title: "&6Дробилка&r"
 	quest.69713AE143D8FB96.quest_desc: ["Malum: алтарь пропитки духами."]
 	quest.69713AE143D8FB96.title: "&dАлтарь духов&r"
 	quest.6AFD844B7528D3E5.quest_desc: ["Высший сплав Mekanism."]
@@ -380,6 +378,8 @@
 	quest.6CCFCC619E7CE6C4.title: "&6Великий проект&r"
 	quest.6D09DCBB0587E98D.quest_desc: ["Побочный босс. Трофей нужен для Сплава душ."]
 	quest.6D09DCBB0587E98D.title: "&cМаледиктус&r"
+	quest.6F083F457527FCC6.quest_desc: ["Пара дробильных колёс (собираются механическим крафтером): из сырой руды — дроблёная, а это больше слитков."]
+	quest.6F083F457527FCC6.title: "&6Дробилка&r"
 	quest.709C03C734B7A1B0.quest_desc: ["Электросеть с напряжением."]
 	quest.709C03C734B7A1B0.title: "&6Генератор TFMG&r"
 	quest.729EC6A284E2EA46.quest_desc: ["Корпус реактора, топливная сборка и турбина. Откроет космос."]
@@ -408,12 +408,12 @@
 	quest.77834E77A9CD569E.title: "&dУпаковщик&r"
 	quest.77A8541FF4AB46CB.quest_desc: ["Кровать — точка возрождения и способ пропустить ночь."]
 	quest.77A8541FF4AB46CB.title: "&dКровать&r"
+	quest.7A0516CBFCFE8C9D.quest_desc: ["Собирается на поточной линии из листов золота, шестерён и деплойеров."]
+	quest.7A0516CBFCFE8C9D.title: "&6Прецизионный механизм&r"
 	quest.7C0C7039A0EA56FB.quest_desc: ["Энергию нужно где-то хранить."]
 	quest.7C0C7039A0EA56FB.title: "&6Аккумулятор&r"
 	quest.7C1A2F5C2C286F96.quest_desc: ["Доменная печь TFMG — единственный источник стали до Эпохи IV."]
 	quest.7C1A2F5C2C286F96.title: "&6Доменная печь&r"
-	quest.7C29ADC79980CF96.quest_desc: ["Механическая рука, которая «держит» предмет. Нужна для сборочных линий."]
-	quest.7C29ADC79980CF96.title: "&6Деплойер&r"
 	quest.7CCD1D47B7E0A585.quest_desc: ["Ифриты живут в крепостях Нижнего мира."]
 	quest.7CCD1D47B7E0A585.title: "&6Стержни ифрита&r"
 	quest.7D2D8894F7A549F5.quest_desc: ["Стол 9×9."]

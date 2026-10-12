@@ -11,9 +11,10 @@ ServerEvents.recipes(event => {
     S: '#c:rods/wooden', F: 'minecraft:flint', C: '#c:ingots/copper'
   }).id('kubejs:gate/primitive_gear')
 
-  // Эпоха I → II (верстак: механический крафтер требует латунь, а она с эпохи II)
-  event.shaped('kubejs:kinetic_core', ['APA', 'PGP', 'APA'], {
-    A: 'create:andesite_casing', P: 'create:precision_mechanism', G: 'ars_nouveau:source_gem_block'
+  // Эпоха I → II (верстак, без латунных деталей: механический крафтер, деплойер и прецизионный
+  // механизм требуют латунь, а она с эпохи II)
+  event.shaped('kubejs:kinetic_core', ['AMA', 'PGP', 'AMA'], {
+    A: 'create:andesite_casing', M: 'create:mechanical_mixer', P: 'create:mechanical_press', G: 'ars_nouveau:source_gem_block'
   }).id('kubejs:gate/kinetic_core')
 
   // Эпоха II → III: пар + дирижабль

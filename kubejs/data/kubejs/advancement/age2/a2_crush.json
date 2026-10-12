@@ -1,5 +1,5 @@
 {
-  "parent": "kubejs:age1/a1_mill",
+  "parent": "kubejs:age2/a2_crafter",
   "display": {
     "icon": {
       "id": "create:crushing_wheel"
@@ -9,7 +9,7 @@
       "color": "white"
     },
     "description": {
-      "text": "Пара дробильных колёс: из сырой руды — дроблёная, а это больше слитков."
+      "text": "Пара дробильных колёс (собираются механическим крафтером): из сырой руды — дроблёная, а это больше слитков."
     },
     "frame": "task",
     "hidden": false,

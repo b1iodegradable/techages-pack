@@ -96,10 +96,10 @@ ServerEvents.tick(e => {
 
   // 3. Пора планировать следующее (прогноз за сутки)
   if (!planned && now >= d.getLong('mpEvNextPlan')) {
-    const last = d.getString('mpEvLast')
-    const pool = Object.keys(EVENTS).filter(k => k != last && AStages.serverHasStage(EVENTS[k].stage))
+    var last = d.getString('mpEvLast')
+    var pool = Object.keys(EVENTS).filter(k => k != last && AStages.serverHasStage(EVENTS[k].stage))
     if (pool.length == 0) { d.putLong('mpEvNextPlan', now + DAY); return }
-    const next = pool[rnd(0, pool.length - 1)]
+    var next = pool[rnd(0, pool.length - 1)]
     d.putString('mpEvPlanned', next)
     d.putLong('mpEvAt', now + DAY)
     say(s, Text.aqua(`Прогноз: ${EVENTS[next].forecast}`))
