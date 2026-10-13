@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": {
+      "text": "Один в поле воин"
+    },
+    "description": {
+      "text": "Победить босса Cataclysm, когда рядом нет других игроков."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

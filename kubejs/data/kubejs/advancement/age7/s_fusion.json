@@ -8,29 +8,91 @@
       "text": "Ядро синтеза",
       "color": "white"
     },
-    "description": {
-      "text": "Стол 7×7. Нужен трофей Игниса."
-    },
+    "description": [
+      "",
+      {
+        "text": "Стол 7×7. Нужен трофей Игниса.\n"
+      },
+      {
+        "text": "Крафт ",
+        "color": "gold"
+      },
+      {
+        "text": "на элитном столе:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "block.mekanismgenerators.fusion_reactor_frame",
+        "color": "white"
+      },
+      {
+        "text": " ×20\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.mekanism.alloy_atomic",
+        "color": "white"
+      },
+      {
+        "text": " ×4\n",
+        "color": "gray"
+      },
+      {
+        "translate": "item.kubejs.trophy_ignis",
+        "color": "white"
+      },
+      {
+        "text": " ×4\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.kubejs.reactor_core",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Ядро синтеза",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "kubejs:fusion_core"
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

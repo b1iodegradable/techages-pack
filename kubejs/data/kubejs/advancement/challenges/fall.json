@@ -1,0 +1,30 @@
+{
+  "parent": "kubejs:challenges/deep",
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": {
+      "text": "Свободное падение"
+    },
+    "description": {
+      "text": "Пережить падение с высоты 60 блоков."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 60
+          }
+        }
+      }
+    }
+  }
+}

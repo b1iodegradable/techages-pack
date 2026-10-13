@@ -6,31 +6,199 @@
     },
     "title": {
       "text": "Сфера антиматерии",
-      "color": "white"
+      "color": "white",
+      "extra": [
+        {
+          "text": "",
+          "font": "kubejs:recipe",
+          "color": "white"
+        }
+      ]
     },
-    "description": {
-      "text": "Стол 5×5."
-    },
+    "description": [
+      "",
+      {
+        "text": "Стол 5×5.\n"
+      },
+      {
+        "text": "Крафт ",
+        "color": "gold"
+      },
+      {
+        "text": "на продвинутом столе:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.mekanism.pellet_antimatter",
+        "color": "white"
+      },
+      {
+        "text": " ×16\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.mekanism.hdpe_sheet",
+        "color": "white"
+      },
+      {
+        "text": " ×4\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "block.mekanism.sps_casing",
+        "color": "white"
+      },
+      {
+        "text": " ×4\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.minecraft.nether_star",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Сфера антиматерии",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "kubejs:antimatter_sphere"
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

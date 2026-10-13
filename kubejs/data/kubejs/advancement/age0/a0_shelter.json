@@ -5,12 +5,19 @@
       "id": "minecraft:paper"
     },
     "title": {
-      "text": "Убежище",
+      "text": "Крыша над головой",
       "color": "white"
     },
-    "description": {
-      "text": "Переночуйте в кровати под крышей. Мир опасен: хищники и умные зомби."
-    },
+    "description": [
+      "",
+      {
+        "text": "Переночуйте в кровати под крышей. Мир опасен: хищники и умные зомби.\n"
+      },
+      {
+        "text": "Квест: Убежище",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,

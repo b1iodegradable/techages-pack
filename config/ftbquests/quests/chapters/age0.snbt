@@ -176,7 +176,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["63218B9C209774D5"]
+			dependencies: ["1250C0885E2A257C"]
 			id: "28DDB582213C855C"
 			rewards: [
 				{
@@ -195,7 +195,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -287,7 +287,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.7d
 			y: -4.5d
 		}
 		{

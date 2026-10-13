@@ -5,32 +5,188 @@
       "id": "tfmg:generator"
     },
     "title": {
-      "text": "Генератор TFMG",
-      "color": "white"
+      "text": "Есть контакт",
+      "color": "white",
+      "extra": [
+        {
+          "text": "",
+          "font": "kubejs:recipe",
+          "color": "white"
+        }
+      ]
     },
-    "description": {
-      "text": "Электросеть с напряжением."
-    },
+    "description": [
+      "",
+      {
+        "text": "Электросеть с напряжением.\n"
+      },
+      {
+        "text": "Как сделать: ",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "text": "сборочная линия:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "block.create.shaft",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.tfmg.capacitor_item",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.immersiveengineering.plate_steel",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.tfmg.copper_spool",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.tfmg.magnet",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.tfmg.steel_mechanism",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.tfmg.screwdriver",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Генератор TFMG",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "tfmg:generator"
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

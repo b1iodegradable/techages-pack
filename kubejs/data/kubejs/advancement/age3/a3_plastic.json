@@ -5,35 +5,79 @@
       "id": "tfmg:plastic_sheet"
     },
     "title": {
-      "text": "Пластик",
+      "text": "Пластиковый мир",
       "color": "light_purple"
     },
-    "description": {
-      "text": "Продукт нефтепереработки — нужен для плат."
-    },
+    "description": [
+      "",
+      {
+        "text": "Продукт нефтепереработки — нужен для плат.\n"
+      },
+      {
+        "text": "Как сделать: ",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "text": "литейный стол TFMG (расплав из доменной печи):\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.tfmg.molten_plastic_bucket",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Пластик",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "tfmg:plastic_sheet",
-            "count": {
-              "min": 16
-            }
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

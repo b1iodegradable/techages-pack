@@ -5,30 +5,27 @@
       "id": "minecraft:dragon_head"
     },
     "title": {
-      "text": "Эндер-дракон",
+      "text": "Драконоборец",
       "color": "red"
     },
-    "description": {
-      "text": "Обязательный босс эпохи."
-    },
+    "description": [
+      "",
+      {
+        "text": "Обязательный босс эпохи.\n"
+      },
+      {
+        "text": "Квест: Эндер-дракон",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:ender_dragon"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

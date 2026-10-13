@@ -5,30 +5,27 @@
       "id": "kubejs:trophy_wroughtnaut"
     },
     "title": {
-      "text": "Железный Рыцарь",
+      "text": "Ржавый рыцарь повержен",
       "color": "red"
     },
-    "description": {
-      "text": "Мини-босс Mowzie's Mobs. Бейте в спину после его удара. Трофей понадобится в эндгейме."
-    },
+    "description": [
+      "",
+      {
+        "text": "Мини-босс Mowzie's Mobs. Бейте в спину после его удара. Трофей понадобится в эндгейме.\n"
+      },
+      {
+        "text": "Квест: Железный Рыцарь",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "mowziesmobs:ferrous_wroughtnaut"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

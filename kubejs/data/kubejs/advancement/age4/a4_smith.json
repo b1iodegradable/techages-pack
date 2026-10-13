@@ -8,29 +8,24 @@
       "text": "Кузница душ",
       "color": "dark_aqua"
     },
-    "description": {
-      "text": "Логово Незеритового Чудовища."
-    },
+    "description": [
+      "",
+      {
+        "text": "Логово Незеритового Чудовища.\n"
+      },
+      {
+        "text": "Квест: Кузница душ",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": true,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "structures": "cataclysm:soul_black_smith"
-          }
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

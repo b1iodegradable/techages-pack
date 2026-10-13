@@ -8,32 +8,76 @@
       "text": "Атомный сплав",
       "color": "white"
     },
-    "description": {
-      "text": "Высший сплав Mekanism."
-    },
+    "description": [
+      "",
+      {
+        "text": "Высший сплав Mekanism.\n"
+      },
+      {
+        "text": "Как сделать: ",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "text": "металлургический заправщик:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.mekanism.alloy_reinforced",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Атомный сплав",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "mekanism:alloy_atomic",
-            "count": {
-              "min": 8
-            }
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

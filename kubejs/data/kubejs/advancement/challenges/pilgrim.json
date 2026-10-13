@@ -1,0 +1,58 @@
+{
+  "parent": "kubejs:challenges/fall",
+  "display": {
+    "icon": {
+      "id": "northstar:iron_space_suit_helmet"
+    },
+    "title": {
+      "text": "Звёздный пилигрим"
+    },
+    "description": {
+      "text": "Побывать на Луне, Марсе, Венере и Меркурии."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "moon": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "northstar:moon"
+      }
+    },
+    "mars": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "northstar:mars"
+      }
+    },
+    "venus": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "northstar:venus"
+      }
+    },
+    "mercury": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "northstar:mercury"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "moon"
+    ],
+    [
+      "mars"
+    ],
+    [
+      "venus"
+    ],
+    [
+      "mercury"
+    ]
+  ]
+}

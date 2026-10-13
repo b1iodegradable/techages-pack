@@ -1,0 +1,35 @@
+{
+  "parent": "kubejs:challenges/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "text": "Выше облаков… ещё выше"
+    },
+    "description": {
+      "text": "Подняться выше 300 блоков в обычном мире."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:overworld",
+            "position": {
+              "y": {
+                "min": 300
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

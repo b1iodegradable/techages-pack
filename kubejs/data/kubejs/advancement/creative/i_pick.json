@@ -5,32 +5,120 @@
       "id": "avaritia:infinity_pickaxe"
     },
     "title": {
-      "text": "Кирка бесконечности",
+      "text": "Копать вечно",
       "color": "white"
     },
-    "description": {
-      "text": ""
-    },
+    "description": [
+      "",
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Крафт ",
+        "color": "gold"
+      },
+      {
+        "text": "на столе Avaritia:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.avaritia.infinity_ingot",
+        "color": "white"
+      },
+      {
+        "text": " ×16\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "block.avaritia.neutron",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "block.avaritia.crystal_matrix",
+        "color": "white"
+      },
+      {
+        "text": " ×7\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.avaritia.infinity_catalyst",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.avaritia.neutron_ingot",
+        "color": "white"
+      },
+      {
+        "text": " ×4\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Кирка бесконечности",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "avaritia:infinity_pickaxe"
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

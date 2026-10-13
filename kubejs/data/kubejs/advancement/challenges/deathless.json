@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/marathon",
+  "display": {
+    "icon": {
+      "id": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "text": "Неубиваемый"
+    },
+    "description": {
+      "text": "Дожить до Эпохи III, ни разу не умерев."
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

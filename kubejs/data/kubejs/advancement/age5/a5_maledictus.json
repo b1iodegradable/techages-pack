@@ -5,30 +5,27 @@
       "id": "kubejs:trophy_maledictus"
     },
     "title": {
-      "text": "Маледиктус",
+      "text": "Снятое проклятие",
       "color": "red"
     },
-    "description": {
-      "text": "Побочный босс. Трофей нужен для Сплава душ."
-    },
+    "description": [
+      "",
+      {
+        "text": "Побочный босс. Трофей нужен для Сплава душ.\n"
+      },
+      {
+        "text": "Квест: Маледиктус",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "cataclysm:maledictus"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

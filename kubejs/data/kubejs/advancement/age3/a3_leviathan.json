@@ -5,30 +5,27 @@
       "id": "kubejs:trophy_leviathan"
     },
     "title": {
-      "text": "Левиафан",
+      "text": "Гроза глубин",
       "color": "red"
     },
-    "description": {
-      "text": "Обязательный босс эпохи. Трофей нужен для Грозовой катушки."
-    },
+    "description": [
+      "",
+      {
+        "text": "Обязательный босс эпохи. Трофей нужен для Грозовой катушки.\n"
+      },
+      {
+        "text": "Квест: Левиафан",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "cataclysm:the_leviathan"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

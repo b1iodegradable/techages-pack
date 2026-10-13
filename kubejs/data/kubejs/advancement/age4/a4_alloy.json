@@ -5,51 +5,155 @@
       "id": "mekanism:alloy_infused"
     },
     "title": {
-      "text": "Сплавы",
+      "text": "Сплав будущего",
       "color": "white"
     },
-    "description": {
-      "text": "Пропитанный сплав и базовая схема."
-    },
+    "description": [
+      "",
+      {
+        "text": "Пропитанный сплав и базовая схема.\n"
+      },
+      {
+        "text": "— ",
+        "color": "dark_gray"
+      },
+      {
+        "translate": "item.mekanism.alloy_infused",
+        "color": "yellow"
+      },
+      {
+        "text": " ×8\n",
+        "color": "yellow"
+      },
+      {
+        "text": "Как сделать: ",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "text": "металлургический заправщик:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.minecraft.copper_ingot",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "— ",
+        "color": "dark_gray"
+      },
+      {
+        "translate": "item.mekanism.basic_control_circuit",
+        "color": "yellow"
+      },
+      {
+        "text": " ×4\n",
+        "color": "yellow"
+      },
+      {
+        "text": "Как сделать: ",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "text": "металлургический заправщик:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.mekanism.ingot_osmium",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Сплавы",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "mekanism:alloy_infused",
-            "count": {
-              "min": 8
-            }
-          }
-        ]
-      }
-    },
-    "t1": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "mekanism:basic_control_circuit",
-            "count": {
-              "min": 4
-            }
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ],
-    [
-      "t1"
-    ]
-  ]
+  }
 }

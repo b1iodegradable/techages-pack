@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_boots"
+    },
+    "title": {
+      "text": "Марафонец"
+    },
+    "description": {
+      "text": "Пройти пешком 100 километров."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -5,35 +5,43 @@
       "id": "minecraft:blaze_rod"
     },
     "title": {
-      "text": "Стержни ифрита",
+      "text": "Огненные палочки",
       "color": "white"
     },
-    "description": {
-      "text": "Ифриты живут в крепостях Нижнего мира."
-    },
+    "description": [
+      "",
+      {
+        "text": "Ифриты живут в крепостях Нижнего мира.\n"
+      },
+      {
+        "text": "Как добыть: ",
+        "color": "gold"
+      },
+      {
+        "text": "выпадает из моба ",
+        "color": "gold"
+      },
+      {
+        "translate": "entity.minecraft.blaze",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Стержни ифрита",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:blaze_rod",
-            "count": {
-              "min": 4
-            }
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

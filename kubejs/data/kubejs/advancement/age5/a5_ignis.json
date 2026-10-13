@@ -5,30 +5,27 @@
       "id": "kubejs:trophy_ignis"
     },
     "title": {
-      "text": "Игнис",
+      "text": "Укротитель пламени",
       "color": "red"
     },
-    "description": {
-      "text": "Побочный босс. Трофей нужен для Ядра синтеза."
-    },
+    "description": [
+      "",
+      {
+        "text": "Побочный босс. Трофей нужен для Ядра синтеза.\n"
+      },
+      {
+        "text": "Квест: Игнис",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "cataclysm:ignis"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

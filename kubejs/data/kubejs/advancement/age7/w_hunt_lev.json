@@ -1,0 +1,31 @@
+{
+  "parent": "kubejs:age7/w_seal",
+  "display": {
+    "icon": {
+      "id": "kubejs:trophy_leviathan"
+    },
+    "title": {
+      "text": "Охота: Левиафан",
+      "color": "red"
+    },
+    "description": [
+      "",
+      {
+        "text": "Повторяемый.\n"
+      },
+      {
+        "text": "Квест: Охота: Левиафан",
+        "color": "dark_gray"
+      }
+    ],
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -5,35 +5,86 @@
       "id": "avaritia:infinity_ingot"
     },
     "title": {
-      "text": "Слиток бесконечности",
+      "text": "Слиток вечности",
       "color": "white"
     },
-    "description": {
-      "text": "Материал, ломающий законы игры."
-    },
+    "description": [
+      "",
+      {
+        "text": "Материал, ломающий законы игры.\n"
+      },
+      {
+        "text": "Крафт ",
+        "color": "gold"
+      },
+      {
+        "text": "на столе Avaritia:\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.avaritia.neutron_ingot",
+        "color": "white"
+      },
+      {
+        "text": " ×24\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.avaritia.crystal_matrix_ingot",
+        "color": "white"
+      },
+      {
+        "text": " ×10\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": " ",
+        "color": "gray"
+      },
+      {
+        "translate": "item.avaritia.infinity_catalyst",
+        "color": "white"
+      },
+      {
+        "text": " ×11\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Слиток бесконечности",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "avaritia:infinity_ingot",
-            "count": {
-              "min": 4
-            }
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

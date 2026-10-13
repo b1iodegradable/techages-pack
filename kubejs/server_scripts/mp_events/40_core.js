@@ -280,6 +280,7 @@ const peCheckVote = s => {
 const peStart = (s, id, args, names) => {
   const def = PE.defs[id]
   const ev = { id: id, def: def, args: args, t0: s.tickCount, end: s.tickCount + (def.minutes || 5) * 60 * 20, players: names, data: {} }
+  names.forEach(n => { var pl = peP(s, n); if (pl) peStat(s, pl, 'events') })  // для испытания «Завсегдатай»
   if (def.long) {
     var d = peLoad(s)
     d.long[id] = { endMs: Date.now() + (def.minutes || 60) * 60000, args: args, players: names, data: {} }

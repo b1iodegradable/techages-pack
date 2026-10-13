@@ -5,30 +5,27 @@
       "id": "minecraft:cooked_beef"
     },
     "title": {
-      "text": "Хозяин леса",
+      "text": "Кто здесь хозяин",
       "color": "dark_aqua"
     },
-    "description": {
-      "text": "Вы победили медведя. Поздравляем — или сочувствуем."
-    },
+    "description": [
+      "",
+      {
+        "text": "Вы победили медведя. Поздравляем — или сочувствуем.\n"
+      },
+      {
+        "text": "Квест: Хозяин леса",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": true,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "naturalist:bear"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

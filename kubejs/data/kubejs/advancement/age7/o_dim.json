@@ -5,28 +5,27 @@
       "id": "minecraft:sculk"
     },
     "title": {
-      "text": "Otherside",
+      "text": "Там, где тихо",
       "color": "white"
     },
-    "description": {
-      "text": "Мир эха и скалка."
-    },
+    "description": [
+      "",
+      {
+        "text": "Мир эха и скалка.\n"
+      },
+      {
+        "text": "Квест: Otherside",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "deeperdarker:otherside"
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

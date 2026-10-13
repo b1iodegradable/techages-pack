@@ -5,35 +5,31 @@
       "id": "aeronautics:levitite"
     },
     "title": {
-      "text": "Левитит",
+      "text": "Невесомость",
       "color": "light_purple"
     },
-    "description": {
-      "text": "Материал, который сам хочет вверх."
-    },
+    "description": [
+      "",
+      {
+        "text": "Материал, который сам хочет вверх.\n"
+      },
+      {
+        "text": "Где взять — в EMI: наведите на предмет и нажмите R.\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Левитит",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "aeronautics:levitite",
-            "count": {
-              "min": 8
-            }
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

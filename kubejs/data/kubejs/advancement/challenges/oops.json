@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "text": "Ой."
+    },
+    "description": {
+      "text": "Умереть в первый раз. Бывает."
+    },
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

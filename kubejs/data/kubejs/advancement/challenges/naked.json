@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/solo",
+  "display": {
+    "icon": {
+      "id": "minecraft:leather_chestplate"
+    },
+    "title": {
+      "text": "В чём мать родила"
+    },
+    "description": {
+      "text": "Победить босса Cataclysm без единого предмета брони."
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

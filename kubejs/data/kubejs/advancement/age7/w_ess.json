@@ -5,35 +5,31 @@
       "id": "kubejs:awakened_essence"
     },
     "title": {
-      "text": "Эссенция пробуждённых",
+      "text": "Эссенция пробуждения",
       "color": "light_purple"
     },
-    "description": {
-      "text": "Повторяемый: сдайте эссенцию — получите печати."
-    },
+    "description": [
+      "",
+      {
+        "text": "Повторяемый: сдайте эссенцию — получите печати.\n"
+      },
+      {
+        "text": "Где взять — в EMI: наведите на предмет и нажмите R.\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Эссенция пробуждённых",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "kubejs:awakened_essence",
-            "count": {
-              "min": 8
-            }
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

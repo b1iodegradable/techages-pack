@@ -5,28 +5,27 @@
       "id": "northstar:iron_space_suit_helmet"
     },
     "title": {
-      "text": "Высадка на Луну",
+      "text": "Маленький шаг",
       "color": "gold"
     },
-    "description": {
-      "text": "Долетите до Луны. Эндгейм открыт!"
-    },
+    "description": [
+      "",
+      {
+        "text": "Долетите до Луны. Эндгейм открыт!\n"
+      },
+      {
+        "text": "Квест: Высадка на Луну",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "goal",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "northstar:moon"
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

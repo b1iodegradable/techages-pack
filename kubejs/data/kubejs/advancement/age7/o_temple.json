@@ -8,29 +8,24 @@
       "text": "Древний храм",
       "color": "white"
     },
-    "description": {
-      "text": ""
-    },
+    "description": [
+      "",
+      {
+        "text": "\n"
+      },
+      {
+        "text": "Квест: Древний храм",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "structures": "deeperdarker:ancient_temple"
-          }
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

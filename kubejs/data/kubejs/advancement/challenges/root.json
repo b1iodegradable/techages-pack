@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Испытания",
+      "color": "gold"
+    },
+    "description": {
+      "text": "То, чего нет в квестах: рекорды, челленджи и секреты. Часть испытаний скрыта, пока не получишь."
+    },
+    "background": "minecraft:textures/block/blackstone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "start": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

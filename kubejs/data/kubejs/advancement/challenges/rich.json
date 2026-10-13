@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/regular",
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "text": "Шестерёночный магнат"
+    },
+    "description": {
+      "text": "Накопить 1000 ⚙ монет."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

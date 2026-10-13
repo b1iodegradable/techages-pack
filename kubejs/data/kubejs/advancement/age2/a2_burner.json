@@ -5,32 +5,61 @@
       "id": "create:blaze_burner"
     },
     "title": {
-      "text": "Горелка ифрита",
+      "text": "Ифрит в банке",
       "color": "white"
     },
-    "description": {
-      "text": "Поймайте ифрита в пустую горелку — источник нагрева для смесителя."
-    },
+    "description": [
+      "",
+      {
+        "text": "Поймайте ифрита в пустую горелку — источник нагрева для смесителя.\n"
+      },
+      {
+        "text": "Как добыть: ",
+        "color": "gold"
+      },
+      {
+        "text": "сломайте блок\n",
+        "color": "gold"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "",
+        "font": "kubejs:recipe",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "translate": "block.createaddition.liquid_blaze_burner",
+        "color": "white"
+      },
+      {
+        "text": "\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Горелка ифрита",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "create:blaze_burner"
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

@@ -5,28 +5,27 @@
       "id": "minecraft:end_stone"
     },
     "title": {
-      "text": "Энд",
+      "text": "Конец пути",
       "color": "white"
     },
-    "description": {
-      "text": "Энд открыт."
-    },
+    "description": [
+      "",
+      {
+        "text": "Энд открыт.\n"
+      },
+      {
+        "text": "Квест: Энд",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "minecraft:the_end"
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

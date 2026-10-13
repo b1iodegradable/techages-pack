@@ -8,9 +8,16 @@
       "text": "Великий проект",
       "color": "white"
     },
-    "description": {
-      "text": "Звезда собирается на столе Extended Crafting 9×9. Каждый компонент — отдельный мега-проект."
-    },
+    "description": [
+      "",
+      {
+        "text": "Звезда собирается на столе Extended Crafting 9×9. Каждый компонент — отдельный мега-проект.\n"
+      },
+      {
+        "text": "Квест: Великий проект",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,

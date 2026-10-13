@@ -8,29 +8,24 @@
       "text": "Лунная база",
       "color": "dark_aqua"
     },
-    "description": {
-      "text": "Заброшенная база на Луне."
-    },
+    "description": [
+      "",
+      {
+        "text": "Заброшенная база на Луне.\n"
+      },
+      {
+        "text": "Квест: Лунная база",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": true,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "structures": "northstar:lunar_base"
-          }
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

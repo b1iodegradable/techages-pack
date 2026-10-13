@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/oops",
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "text": "Наэлектризованный"
+    },
+    "description": {
+      "text": "Получить удар молнии."
+    },
+    "frame": "task",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

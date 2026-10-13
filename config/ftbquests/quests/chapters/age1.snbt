@@ -162,7 +162,7 @@
 				}
 			]
 			x: 10.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["53C5550D2A090DC4"]
@@ -206,8 +206,8 @@
 					type: "astages:server"
 				}
 			]
-			shape: "hexagon"
-			size: 1.0d
+			shape: "circle"
+			size: 0.9d
 			tasks: [
 				{
 					count: 1L
@@ -216,11 +216,11 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: 1.0d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
-			dependencies: ["591FA0CB7CA99152" "5D87352D958C477D" "394EBF0E72F1A4D3"]
+			dependencies: ["591FA0CB7CA99152" "5D87352D958C477D"]
 			hide_until_deps_visible: true
 			id: "3E36B417FE8AD30F"
 			rewards: [
@@ -366,7 +366,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.7d
 			y: -4.5d
 		}
 		{
@@ -390,8 +390,8 @@
 					type: "item"
 				}
 			]
-			x: 8.7d
-			y: -4.5d
+			x: 7.5d
+			y: -6.1d
 		}
 		{
 			dependencies: ["591FA0CB7CA99152"]
@@ -450,7 +450,7 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
+			x: 8.7d
 			y: -6.1d
 		}
 		{

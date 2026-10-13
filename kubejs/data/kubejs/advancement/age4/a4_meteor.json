@@ -5,32 +5,27 @@
       "id": "minecraft:filled_map"
     },
     "title": {
-      "text": "Метеорит",
+      "text": "Небесный камень",
       "color": "white"
     },
-    "description": {
-      "text": "Найдите метеорит AE2 — внутри прессы."
-    },
+    "description": [
+      "",
+      {
+        "text": "Найдите метеорит AE2 — внутри прессы.\n"
+      },
+      {
+        "text": "Квест: Метеорит",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "structures": "ae2:meteorite"
-          }
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

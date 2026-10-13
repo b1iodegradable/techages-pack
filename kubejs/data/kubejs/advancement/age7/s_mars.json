@@ -5,28 +5,27 @@
       "id": "minecraft:red_sandstone"
     },
     "title": {
-      "text": "Марс",
+      "text": "Красная планета",
       "color": "white"
     },
-    "description": {
-      "text": "Летите дальше."
-    },
+    "description": [
+      "",
+      {
+        "text": "Летите дальше.\n"
+      },
+      {
+        "text": "Квест: Марс",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "northstar:mars"
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

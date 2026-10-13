@@ -5,32 +5,27 @@
       "id": "minecraft:filled_map"
     },
     "title": {
-      "text": "Пылающая арена",
+      "text": "Огненная арена",
       "color": "dark_aqua"
     },
-    "description": {
-      "text": "Здесь ждёт Игнис."
-    },
+    "description": [
+      "",
+      {
+        "text": "Здесь ждёт Игнис.\n"
+      },
+      {
+        "text": "Квест: Пылающая арена",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": true,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "player": {
-          "location": {
-            "structures": "cataclysm:burning_arena"
-          }
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

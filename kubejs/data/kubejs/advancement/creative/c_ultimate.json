@@ -8,29 +8,28 @@
       "text": "Абсолютная сингулярность",
       "color": "white"
     },
-    "description": {
-      "text": "Собирается из всех сингулярностей пака."
-    },
+    "description": [
+      "",
+      {
+        "text": "Собирается из всех сингулярностей пака.\n"
+      },
+      {
+        "text": "Где взять — в EMI: наведите на предмет и нажмите R.\n",
+        "color": "gray"
+      },
+      {
+        "text": "Квест: Абсолютная сингулярность",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "extendedcrafting:ultimate_singularity"
-          }
-        ]
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

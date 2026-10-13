@@ -5,28 +5,27 @@
       "id": "minecraft:netherrack"
     },
     "title": {
-      "text": "Нижний мир",
+      "text": "В пекло",
       "color": "white"
     },
-    "description": {
-      "text": "Нижний мир открыт — но только частично: незерит и боссы позже."
-    },
+    "description": [
+      "",
+      {
+        "text": "Нижний мир открыт — но только частично: незерит и боссы позже.\n"
+      },
+      {
+        "text": "Квест: Нижний мир",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "task",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": false
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:changed_dimension",
-      "conditions": {
-        "to": "minecraft:the_nether"
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

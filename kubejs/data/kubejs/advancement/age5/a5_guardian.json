@@ -5,30 +5,27 @@
       "id": "kubejs:trophy_guardian"
     },
     "title": {
-      "text": "Страж Края",
+      "text": "Страж пал",
       "color": "red"
     },
-    "description": {
-      "text": "Побочный босс. Трофей нужен для Внеземного кристалла."
-    },
+    "description": [
+      "",
+      {
+        "text": "Побочный босс. Трофей нужен для Внеземного кристалла.\n"
+      },
+      {
+        "text": "Квест: Страж Края",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "cataclysm:ender_guardian"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

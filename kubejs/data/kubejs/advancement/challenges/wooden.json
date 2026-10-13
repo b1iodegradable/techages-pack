@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/solo",
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": {
+      "text": "Деревянный герой"
+    },
+    "description": {
+      "text": "Добить Железного Рыцаря деревянным мечом."
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -5,30 +5,27 @@
       "id": "minecraft:sculk_shrieker"
     },
     "title": {
-      "text": "Хранитель",
+      "text": "Тишина",
       "color": "red"
     },
-    "description": {
-      "text": "Самый тихий бой в вашей жизни."
-    },
+    "description": [
+      "",
+      {
+        "text": "Самый тихий бой в вашей жизни.\n"
+      },
+      {
+        "text": "Квест: Хранитель",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:warden"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }

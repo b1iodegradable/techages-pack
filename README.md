@@ -8,7 +8,7 @@
 ![NeoForge](https://img.shields.io/badge/NeoForge-21.1.259-E04E14?style=flat-square)
 ![Mods](https://img.shields.io/badge/моды-120-4C8BF5?style=flat-square)
 ![Players](https://img.shields.io/badge/игроки-2–5-8A63D2?style=flat-square)
-![Version](https://img.shields.io/badge/версия-0.9.4-555?style=flat-square)
+![Version](https://img.shields.io/badge/версия-0.9.5-555?style=flat-square)
 
 ### [⬇️ Скачать TechAges-prism.zip](https://github.com/b1iodegradable/techages-pack/releases/latest/download/TechAges-prism.zip)
 

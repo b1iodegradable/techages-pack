@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "text": "Завсегдатай"
+    },
+    "description": {
+      "text": "Поучаствовать в 25 ивентах игроков."
+    },
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

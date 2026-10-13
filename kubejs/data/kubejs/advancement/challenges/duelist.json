@@ -1,0 +1,23 @@
+{
+  "parent": "kubejs:challenges/regular",
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_sword"
+    },
+    "title": {
+      "text": "Мастер клинка"
+    },
+    "description": {
+      "text": "Выиграть 10 дуэлей."
+    },
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

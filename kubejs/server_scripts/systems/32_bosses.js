@@ -18,7 +18,7 @@ const FINAL_MULT = 4
 
 const playersWithin = (server, ent, r) => {
   const out = []
-  server.players.forEach(p => { if (p.level == ent.level && p.distanceTo(ent) <= r) out.push(p) })
+  server.players.forEach(p => { if (p.level == ent.level && p.distanceToSqr(ent.x, ent.y, ent.z) <= r * r) out.push(p) })
   return out
 }
 const playersNear = (server, ent, r) => playersWithin(server, ent, r).length

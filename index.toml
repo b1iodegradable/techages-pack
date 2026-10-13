@@ -142,11 +142,11 @@ hash = "4796a5158970f688d582e8b513184da15a044e83fefc8e80db4875e1e2031f22"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age0.snbt"
-hash = "4c1daa22012a952d89785930276f983499f3161cdcbc7fd85042c735a65addc0"
+hash = "97722942b276ba55027b48d9e5d0ee8d4a4a5dd501491f48259ac5706366ef53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age1.snbt"
-hash = "e41f5096e1e2dde532be0c0425ace38847849c009f26f3e9e88627b4051b9243"
+hash = "4f0da36a612fc2ed0e1f981d6e113ca8f1000d04b84d0c2a63f3245bd77aa861"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/age2.snbt"
@@ -202,7 +202,7 @@ hash = "ade20a0565fe71a90b2a5fdc3b60e14d098bd68d430ad63bf1ae6c697bddebc0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "e2cbf11b37682faf9bbe25d83925d67a61c50bcfe3e6d5a816ec7777a8f4aa43"
+hash = "d1aff0ce06c0a53d000d220d0ad5d816a37fef8b45b3dceb0bb24f26e51f4802"
 
 [[files]]
 file = "config/immersiveengineering-server.toml"
@@ -405,12 +405,24 @@ file = "kubejs/assets/jei/lang/ru_ru.json"
 hash = "d699d603e2b2ede9aa9c54a672182d092c95fcda36bd0ca3814d762a2b9024a0"
 
 [[files]]
+file = "kubejs/assets/kubejs/font/recipe.json"
+hash = "fcd7b3af0730c1181674f5178d2703453865864b9e3674cb1b1009157eb11188"
+
+[[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
 hash = "e2e81cb2d9b65b7980522e825fcc98f7e7cb1256d3778408adf69ec4fb11a3c4"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/ru_ru.json"
 hash = "b4b90bcb1338b48bf7203d355fbcfe6bc77f97b6a54da6fa5a48eb30e6d2cf45"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/font/recipe_cells.png"
+hash = "4506871adbc27e6e77d9c0b7b82cf8f3c06e0e7cb9bb157c1de0fc3c57bd3c4b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/font/recipe_mini.png"
+hash = "4c47e606d0785d26b120a77e94f8775783449b7352879a3d4a58e0d0d0cf9360"
 
 [[files]]
 file = "kubejs/assets/lionfishapi/lang/ru_ru.json"
@@ -2082,55 +2094,55 @@ hash = "3b0b332c468fb37b644cd30d57690b2e3384f00c844b5c86f890035da2834c3e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_bear.json"
-hash = "c3549db36c6c6f091f05fb8d71111eb144a5a8e7e3570991f2d60d28a2791132"
+hash = "292ace9d1eac926abefe44bc27eb33cb12dbda6507cbc7aeada3e909b1e93863"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_bed.json"
-hash = "76287458384f55ed61d61aec4536734f7aadc59e12090b6fb753ca1f8b5e84d0"
+hash = "211ac825641a33dd931670ef8578e1ff171fd661e978c0fd8a0d27de5bb2f235"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_brick.json"
-hash = "27f85b1b046aaf29e04116651e9e395c9f689eacd29a1e98f07fc1f3328fb289"
+hash = "ac01a2f2154752bb82973dc5bad8605335ce0b470990313a146b64ad3f462be9"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_copper.json"
-hash = "1005360621b6ae65e7c9124dca87f6345c85b869ff4fe9b9d4ef426534f4aa32"
+hash = "6b11b13cb8b132456bd46e7376a264dd73736d31836a1b8463801ac3ae7caa77"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_flint.json"
-hash = "71ffe5572a2059b5d35eac6f8ed5db8603e661be9a7baf60dbc6fdf5f65f3e5b"
+hash = "94a5cbc4d3fb8e841b89801e25b988e165b16f5e2ada9fba7641730cba4b6e11"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_food.json"
-hash = "3fc9340ea015aed64c2f84982706adb36076331b245fdcab2b859e3f2a915624"
+hash = "1cd2ffcfebc478aea04d17b75017dbee82565d4a73d2a02aa47074ca5e8a116a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_furnace.json"
-hash = "3b885bbe8476a1a7f84ad577f2dc99410edf45b48c7ce3d9625782d3a3e684f3"
+hash = "7977c4ac29bd44ca177f41d7116100684f82adea7dd85bb093232651c1128660"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_gate.json"
-hash = "5e6d412a6f57cf53adcc287af0469778d2c67b185b8c2e7ea5d7c3e48f11a75f"
+hash = "bef214536680b3579957c926d97132021f6d5dc6bc225877843db9b5d0c09649"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_map.json"
-hash = "25a92475692bf2e6d30b3d529d7f1be8c81cc967dc1a7779fba7d16b1f3d743a"
+hash = "15eb822b2e299518e0ae10571923556abe5a66183e19dbf143b8043d9a6f37e7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_pick.json"
-hash = "3550a447310618a3427aeb2d9a567202da540811349376d3fe46a62c25f2d467"
+hash = "f6a9acd93e1e10503c3be347254b576fe100fb59f045af0fa3f7816ad9538a46"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_shelter.json"
-hash = "106450910bce33b6c347514458cdd3f802eac7ef8de658d7b5fc06ba9b645081"
+hash = "256069758957e01934a402808330336b2fda4bd964fade8cb3a8d6a8497d5d7a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_shield.json"
-hash = "a6f2601ee2cc753d18eb6734e8cd6f31b4fda722d01b31b1a005300e656f8aa9"
+hash = "d5994e89111965b1b29035d740c192778b8910b66cc2449578e8f9dc76ca281e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/a0_torch.json"
-hash = "0ed205ec42772ba5bf0d158595545b73e54f2d39cb50f2b5b7d4d104ac1ff5dd"
+hash = "bedcbc3d358c1b6aec18ffd6f20a16e8071b0ef041ff82b80a30fe851a1d4082"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age0/root.json"
@@ -2138,83 +2150,83 @@ hash = "067da343af9590ee25c406abf15c45734df011ccb2086ea2a0f63aa519ee6006"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_alloy.json"
-hash = "a4858095beac6a735cd07214262a2c8af950f8074c66109d6054d9c35688f386"
+hash = "022b292ec0d8577981af68c93b10ec653e4ca557134de644670652099c9fe6b3"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_bigwheel.json"
-hash = "5d32475c55117227b70cf4d6e0a309b91274902f70a0f0bfb56d2d2ffd919a92"
+hash = "5af33af14d9a6fecb7a6ff25b70daeaa75c9a0c279b60a6b365eee82b2229768"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_gate.json"
-hash = "e8f314ec8df736339856b6aa9a66cea3dae3060d4013084f4a7da50810a7b942"
+hash = "462a4255519682d2ed44b9c7fd86064f557eccee62b4a610c14571aa0daeec55"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_goggles.json"
-hash = "93806587da3c20d7c83aefcc9c43296f6ccdb460ba0af5eb14eba6d8f8e662f1"
+hash = "4f5c5d0d23afb694a3bfd12602608fcb2de0ae5503302e2cfc4776a1a4a64f21"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_mill.json"
-hash = "d36e6516d3482988b815d9e7100e37fdff2ece8b6746bdc609d916dc7196512b"
+hash = "a356ac56360041f9686a28eb9175d817de847b7e648ee80816c93c5e47c110a5"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_mixer.json"
-hash = "cee6fd2ef6b993d2b08a7755c87c74c081e24c36b6461dff073cd2ebcb4dba3b"
+hash = "378ea5df94b0addd31996728f8cd729ee40f1d166dbb6085b1578093501ea008"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_nav.json"
-hash = "847e83f3653077352f5f3b9ce94aa8601e3f7f11669418b61b856236817dcd8c"
+hash = "930a180ba0da820c38387bea89ee16dfa68a78c6d96fe36f4347ca7ba29085f6"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_pickup.json"
-hash = "03f564d9f21e41e7ed8969d7db042b68c2dea7a77355fd335822874177111eb1"
+hash = "1509a5850fa59ddf3d7284ceba91ef580caff692a2133225183ab5941e853830"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_press.json"
-hash = "da9beae6d3985911708425a2b35ce5fcbfd95de04dd02096f38a5d3d6c4cf25f"
+hash = "62b5a5f96ec457333eccbafb83be37d059d7b835339d35f3dfa87df1c3fc8538"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_shaft.json"
-hash = "2b6cc4f2f9c53128ec9e9dcab5d79ad0f31cff51a2a6b55138c292bcdf5b455c"
+hash = "37019a933437d0fc7bbf8e625f161cfd7de004f9487448b6db7ddde7692eeaab"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_source.json"
-hash = "d59b99c791607e3f6f0e5f8dcf3155780cc30a89cf2424ee3fa26664fabe802b"
+hash = "0e7a63256db7f4488870da5d4ac38a080b255cdb52fbf99cbe146eb0f4f4b23e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_tank.json"
-hash = "671d28712baef3eb01a1916e2a45b1d043a427517223fa2e49ca3e9be4d15e37"
+hash = "00a5ce90dac7c92b99e49394919d8abbde18f60a1281bfae7564923c801fc186"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_tube.json"
-hash = "44f2e3d4b2828c20924557f6269c46f081c37912de362f7055518236e54a7cda"
+hash = "fcdd19484e1ce416bcecc6fbfe21cbd9262d62581bb48d72539e21f28dbdbc5b"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_vault.json"
-hash = "1dd29aa7413b4c9e2c30a8171819efa0595c4df8be7a7ed93a3ab7179159da55"
+hash = "4a9f3c53c5450df16a79095078305ed22f5db6e7cc6dc601e0f0109e78f1634f"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_wheel.json"
-hash = "4eb6e62ff2f5c46ab8d5c3a6c63002302693effdcc0a29eb30ad59d8df389f46"
+hash = "8ad868d1fd28969065ab26175f88884cf99ec82667b6867f2655e6c01f7cf7c2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_windmill.json"
-hash = "89177482b382644a2cac407bcadb1375ee3e45be16105c8a95039efa68f40358"
+hash = "a1261f4ceaf43e38e4dc0c03dd9d60cd85ccb96f714a2ad6e11954ae81826120"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_wrench.json"
-hash = "9e78c0ebe689a5735e6313eb778d6b888d93f508ed831f69fc87bc0429c934da"
+hash = "909a12cc62d716aecc910cb726a43ff2a48734ad83a5be144f83495135a9474d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_wrought.json"
-hash = "bea6ae6effe00b6077324ac3ef5cab424aee02d68289f5ac229c325219db2279"
+hash = "85a63e8bd982314f404798737e651c1fddc6d697f958c392c90a41e56180916a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_wrought_find.json"
-hash = "eabd419ffc1a2c3edd57424a313ffdfe197599f318d77a5307deff4b8f8ca1e7"
+hash = "47fc0983b88452443826fe0f606d9c29321f64871fe7e3b3652ee3be79015f00"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/a1_zinc.json"
-hash = "f7a39c54258d049cfdd4b4e0603293bd1615b1d85168e9f2a92863d5f68118ee"
+hash = "a7e6b53e5884f9b0a5999be2b901eebb9d666668c31464978dffbcfa9f279bb9"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age1/root.json"
@@ -2222,107 +2234,107 @@ hash = "d1152993e58a88aceb450547881dc3140d865276b843ea76cedda1074093ffa5"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_bearing.json"
-hash = "d2df42c2ff0188386f3addf443b4eeeed8709c9a7565fcbd0aecdb3f8b091b24"
+hash = "723280b2fd56553d512746637f1cb893d50248f38be80d11183b994d62663d47"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_blaze.json"
-hash = "b20d9e9ad7f0bc7b633366e7bb4acaaa081f7545c97f34a82729f5b8e9d6a399"
+hash = "8bd724830431671dacddf149820a3c2befcb8362aa28b3da4e627610bc8bc07d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_brass.json"
-hash = "a801212bddbf0ddce7588882ce9d618b9caaa249a508f99796059b2e327da0ca"
+hash = "284c0e4caa489cfab3625e54d2cd7c745d7f34880ea99814f4b7b43c93cd2920"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_burner.json"
-hash = "a0ff62195db41ff681dcf5db908aa876127ae83a765a4775c885af9ae24ee0d3"
+hash = "ae41451910ce0cee93de0f531f9fdaca03acad997be1db21a3ac7e52d62f7f0c"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_casing.json"
-hash = "31f2e47228737d85d52855a92a4969f94cf93ff256c52d5766961bdb6ccc8be2"
+hash = "89731216c8b3ca02cd7ec5933a996cd494cd0d0f2038315c3301f1ced774516c"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_crafter.json"
-hash = "11fb2a2b7e1337525dfefb3183cb67ba402b825ae453f090be1084d7d129893b"
+hash = "f0fc76bcc6e669bc43667bcd10031274123716e06b0e5fc451fdb91be50d7fc4"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_crush.json"
-hash = "50ee198bf3bac0d65f20e434bea892dc838b75748ebc53ce8b37ac08c9433629"
+hash = "2d03c0f4c1fe0389910a4e9f613b0cf8a1e222be44fc2a7b9b2def551faebef0"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_deployer.json"
-hash = "8bcb3629333f1dc42327c1eb851e7c8dc3dca911c25db3aa75b002c84207fc51"
+hash = "2485cfcf71a96ce7f872ae877419259b7fd055cf97b8bcd9cb25949a86d1851e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_engine.json"
-hash = "f6f518d33a66b4845272bf62433c0be91e827688cda3879fcd8542ec9d2cccff"
+hash = "7ec3edfbcb83f5a62b44856c6548eaa69cc1acf1752003779cebbae2d1651168"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_envelope.json"
-hash = "4745d6cc1c7f55ee19b8ab167bcd9bbc4a5f877deac322ebaec40bc2d140aebc"
+hash = "78361fe185e147c8b167d202a80a21dbbbdf9ea11a3291a6f0e32c8a650cf295"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_flight.json"
-hash = "a45c05997009e8bf65c1fc3a8df3e3dc817b9d6d77160318d1d65b7cef7753fa"
+hash = "bb7c8c2b9895bb6e1bd135bd9ae23ec83d6ea7d6e66a6b1eec499670fa3db5c7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_gate.json"
-hash = "3483809210857d6335f73dea219c81d037c95ed22b3f0bcb2e50522c2354eec6"
+hash = "14ccb4d5176f18c74b148540569eafd79bd4830b43d7aaabc9fa2e77c0c76923"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_iron_pack.json"
-hash = "513712e92300ca03194540e280e13886661fdb6103dfc0b3a5a3e039c1594cd8"
+hash = "dd3e7aeeeec10e72e3a93e4ed536921ed93805c9c92ff000dddbd6e2e65b9760"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_levitite.json"
-hash = "e2a2334f82c19833d8da653ffb70e81faaa0bf8eb918320eaf5cf27bbbbf4c77"
+hash = "f04d872618399bd513e676d2756613c31e746925dec70e0131159455ad6d64fa"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_magnet.json"
-hash = "34300d36313b277d0c6755623071a01e216b2a1d94f5d54399b120edbd8808ec"
+hash = "0e23fe29c70bcfb8b317309c4d6e5627b5e45531e2d9d696443daa004d472e5b"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_nether.json"
-hash = "20dfe8c8973c010c1130d2313ca8f5b108b94cf2c3d8dffe521d414afdd63484"
+hash = "9dbd11aff0c627cbc092817177364d73350213163edc847f07803a8992350aed"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_packager.json"
-hash = "a0d868a1179b3b3d5801a15144d62c224011310e990533d38bccaf7acedfe43f"
+hash = "b20b2d1423c91bf2a3895f91ddf111e378a6c4f4a6510f6d1894e835762ccb40"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_precision.json"
-hash = "3780c89bc706e778a966cddb0d4d36be1512604eace2cc88093aec5b21771771"
+hash = "547b92fcaaf0150ac96ef17254f175d1edbd81d08bb99ad9dd7c362ca2e5cba3"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_propeller.json"
-hash = "5324e5c28ea1fc039ee159cb1de3171f3a68c6e7fa6cb27a06baff5a09cf718f"
+hash = "5eadf7e987ffebfacbff9a66f5f4d5aaf81c072cceddcc3c3a07f3a3d5c353b1"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_pyramid.json"
-hash = "2559bde5cd1f2655954999ceed04d7fe282c454afbe5abe873b84810369bbf6a"
+hash = "54467df30f20f6e3887f3199d79d8a7be9221ec2842275228c0bc6bed28760d1"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_quartz.json"
-hash = "18c41ad54159f227ec4bb7794d37087ff1eb620ca3a85f3fd6ad37445cbfe41a"
+hash = "3bef31548368d10df3362a69459fc632f0bf20a09a335ac3636f3d2afccd7b93"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_remnant.json"
-hash = "0b48c3a49e184400af355371fe3a8c545ba14dcd4f6342158b0a964b607fced7"
+hash = "0aadaf77502bb672cb0abb5ef42d1c0daf0580ce382ee2311370e21ec6a0f80a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_schedule.json"
-hash = "837938f88750a178d7f1e44b2e8198ffe4d997124f3f47692e6ae3636b3a98f6"
+hash = "1af8ef699469814fb19d6506868aed9b220e1a38fabaf422f40ee27fdb5f7c39"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_scroll.json"
-hash = "7a4fa1eb0c19c131b6e1374693e836827d786d1ad9829576695d889a12eaa5ae"
+hash = "8d8cda743ef9a7b8b19b9bb45f0be2ceb2d7927446b80f2c12cbcf1393879083"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_track.json"
-hash = "7dfb73980b19414613cc8227beda8ea72d7dc29d3626331933484c5dd6f8056b"
+hash = "fc34c71097d06213a79bf5db1f4d939b3ce3d9062bf1205654a6ad1ca5165c02"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/a2_whistle.json"
-hash = "f1422dead9bff87ff477e8bc01f30b9958e68d18db28b539b4cf733f7bc80e97"
+hash = "cea6bf64c66cd09d834477583976138f74a97dfb4f8a49e96dd0de659a5f7e85"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age2/root.json"
@@ -2330,123 +2342,123 @@ hash = "c0e7230e6f00fec8719912b7721bc258c3717af8f375667776c572904dfda615"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_acc.json"
-hash = "06704de9d63769835529f9c809fe66f3ec3909f31aa967aa023776f3f17b6f5a"
+hash = "cf9ee757efbdb6585dd4344db7815fd7c6779e20a4836c3ba414788597701630"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_acropolis.json"
-hash = "47514031072f3acabddda31ae82bb328e592087ca79285743fbb17fe03d9847d"
+hash = "3c901563c86fc9d536742a276df4c3a191d90d1437e8e0d5459b12fc5c574bca"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_alt.json"
-hash = "f9d1dd5b1894fb789c795413392a24e7321c384aa537a6d64f5d850cce1aab76"
+hash = "de7c3cc7a928740a53a56f685720ebf06e2b3acc63ae5a5cb12f3b1dd54221a1"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_altar.json"
-hash = "42be0bb3dc1680f970279e2406f06f7910b24f09e8ba0d44c0107ff2fc75913b"
+hash = "4b6aff993116e74b91f4315de14e0bde871652d9e41a3978883f6bb9c379dfa6"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_alu.json"
-hash = "251122955bcfadd7c872c8a772ed003c7bd6a19fcd9ccdc58edc959214a373fb"
+hash = "5f5a3a3d6b3c75be08ac299776ffc03e587ccc53a652bd57951ee6a74bf1b83a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_castiron.json"
-hash = "3869cd13754d0ff983d7a06820bcafed2eeeb790c7744ee57d5c0b7692382c40"
+hash = "ca1816ff70cebdb1a8dc35355478c2332ed486c442dde20649e68ec8420fa548"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_coke.json"
-hash = "9f5a5d0ae9e47253d8abfd8c531346bb8cfa98370965f1a7ac1765c4fdca8cda"
+hash = "3c83a5b56966c80cfe3169dfbb2f669b1dfe0acfef2f565551301a16e24a47b4"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_diesel.json"
-hash = "d9680ff462a5c365cb631279372e6075d1ff3d91db5d7e780bcca233841c6f67"
+hash = "e1be2b4ca1f84fe6e134d1eefb86a9ceba5e93d266cfe435e11901f2e9377148"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_distill.json"
-hash = "921ea895ff9be2d2d7ab460b9f31f1ce4393bc9be747e6d28250aedc3d25db7f"
+hash = "867458d4cec07d601d29ae08577ab90163d80ee4b9b88dae930cfd9610f5fdca"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_ether.json"
-hash = "adcd44c809e7effaf7274a036948bb9557d00f927582f0a5a8f4300f4e2847b1"
+hash = "677efcf97da7aaeb72a87e5e924365c2bbd2cac4a57556648a1fce0b53222a98"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_gate.json"
-hash = "62bfbcfac68101a63ccb406f858f00390a382cbc94883b9bd2e7cf8e6f668af1"
+hash = "bb353aa6167f52b6925f8354beb251ed5e962df4df7f66fb189b9048faab0934"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_gen.json"
-hash = "8f1089b8c863fc64b62a71da76db13ae938c19f55d1484543adee37176ec95c7"
+hash = "b39ba2482ebf6054653be20faae8946d12841504803f8560eec98d6a77e57850"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_hv.json"
-hash = "29a36a82d659edf71ea9b36d0aa3e56a52fe48c129529082fd7a47a20646460e"
+hash = "1b4b66e8557ea540c92cf96fe4ee4f6b503329875fccc0fa601f4c08f5129988"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_inscription.json"
-hash = "ee9853080eeceefb40f6abf0e4d25e4fe08e8469883a7c594c604cb3497a6aa8"
+hash = "2f4c6b15608d3fae0a6ee4f15c9439382be46678c136298ec4cc948920a06da6"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_insul.json"
-hash = "99baf8be84fee9ec2231a442c7b74fb5e4b8bd52b5749807739c4552f7134abd"
+hash = "e905d458ef2a74e51556a4dd71489ec0595edc1d3ef389ea572057f7f375f119"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_lead.json"
-hash = "f17b5e2e95a8f085a93413f1fe70855efe6145328b643ff5dfaeac9138e44b5b"
+hash = "5a9709638b70ef21957f4052e6853bcb3b01b7ca0ce152f4fe7a86c3107bd90d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_leviathan.json"
-hash = "890b3c0b291e7a6c0eb067d6d35e4714c4080d5cbe2c233fca7471007fbf9346"
+hash = "26ac2281e1413822fca6658ea22d723f298975e3306384a492dcb26034d86d6d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_mech.json"
-hash = "0c0f3b337779a43001693b47fcf612153454be91a8271b01dd40670770f6df5e"
+hash = "bd2ee2b4116085719184bed57129c9e6ccaaf3eda3b9103fdb6d98ff16953f70"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_motor.json"
-hash = "2a41a3741c73a28dd1827e3dc4d7ca37f1e00ff52688afde92d03b0e0222092f"
+hash = "039870a01f6276d45007e59823c291fba2162a5c1372d0eaf3a0ec9f1f9c9fe2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_oil.json"
-hash = "b4258cf1830bb024a3760dc4ef97f89ca67a587365ec0f65a587a3d1eebb9c48"
+hash = "896a4edcb75207e552ff398ccb0bb23f8be812d3ec640e607581c5fed9605490"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_plastic.json"
-hash = "3574dfe76316df0d1c4024afc3c9a48d1767c6e6e0ce8dbaad89f2506c135d07"
+hash = "e71d7263c1134b8521b78de2ee6b05aa3a539c11edced241fd48b62ba32b8e5a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_pump.json"
-hash = "79e33d98f1c8669fd15dc9612d7d6297ba25c10b9ae0f232d440bf5a7a51a6be"
+hash = "4492230beef80fb4a05a7e8ee22d8235bee1f931073316428ff2b3a73c5a78b3"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_scylla.json"
-hash = "df0f807fed4ba90f06bc59ff1d5d1d1c46c190375569d0445f433a7602b256a9"
+hash = "2ea59dc42956e1493c6b3242296674288fc1a9d486f0f682342a7067c2455144"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_soulsteel.json"
-hash = "6e5f0ce865ab13f7d737e4b2acca1a4afb7bdb4167a44bdce76ed9ac4ed03afb"
+hash = "8d5eb3ba71c0db2a1ca98bd4374ae8aac05ba70de4dbcd8bcc4b34e7bb434883"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_spirit.json"
-hash = "da031936581b00349b0204b6a191f3bc68e0edbf7b10864936350d77f3d4acd6"
+hash = "150e7a6578bf55d5c8c031a1101d93b5138d3ce38f3a60e8bb68aaa702fec200"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_steel.json"
-hash = "cad95033064402f440d994d801f0856a9eaac7aa2a9e41c621aba2be625c5a8b"
+hash = "21ca37e215cb24e2357b062f2a7a18e24fce2565f83c986e11cd2200b097003d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_stove.json"
-hash = "eaa806eb1030a16da0eeffcc86cdbf9f2afc6318a00472b7c1d5aba79f299d69"
+hash = "0b6beb9219af164047a8cc3ec2ca67fac93093e5e32d9a43c2c9cff0a35661b2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_sunken.json"
-hash = "7620cb6c743fe231ab6a902974dbe8abf7d3867a84644b335300154823227174"
+hash = "81c455cc0d98ad39848ea0580af83188187a062968ec046e7a5c9455a95295ce"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_tesla.json"
-hash = "50a3c83e57c3f7bbda1cf957233ea1c8975079c627bc5d0ea30f054fe4a32520"
+hash = "6c6d7797759518a9a0887fbd2920aff97af61ba28c86767ad1b409604ac1abf2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/a3_wire.json"
-hash = "9601951dfec1365e8aaa0eff68723168ac3968165148bfe1817530d05fc50147"
+hash = "53dc80455206bd117f51612fde1fb6e5653cf0f8bbb89ade67f47fabf6cfde3d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age3/root.json"
@@ -2454,95 +2466,95 @@ hash = "54f1c360c2ad00dfa6ec071b3f22df98315913b5a06239a4cc5619eec4820de2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_alloy.json"
-hash = "ea6d258d52bd66bd0c682a0f44d42b0955bc2fdba91d4346f5e79b809c42796e"
+hash = "1bf7c1dc4f1e8907c3c482b59dd9346a3f052419cc895ae779ed3968e8ee1862"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_casing.json"
-hash = "7858104a3d666c9f038471ad3e0ad29a22bcaf55f8e69af2be3422f233068378"
+hash = "12762b86d7fd04ee9ef8f2f6ed5704dbefc1deb5f6cc7a8c6eaf291d76c7dee1"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_certus.json"
-hash = "0c9d8eeb90fa0ca28c992a883e64161f0d125712001e93eeb18c31a594fddeba"
+hash = "09bc783c4db5f18d77d645bf2bf47864712a12f18a623ba941ff5cca405282e8"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_controller.json"
-hash = "7edc160185695d1ba14f227b6c7fc2434fc5d03d138b9c31097dbf34e4cba3fc"
+hash = "2f56cef6ddd3129f0e740850cbf09e9cc1fe0562770382bf65744e59f1f43541"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_cube.json"
-hash = "ef9bfd51c7d100450b1541eb020b08b01240b905248ee71d76f8909dba91649d"
+hash = "6d1a0e934ff334831984990c248ef704ee098db5169206817ab1706ae3abbb9a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_diamond_pack.json"
-hash = "ba9e0681b73dc4a35b5a3bae40d5dfdeb697b55cb4f49db3ca6566128379f481"
+hash = "1bc673774c5a726425446b6cdd2d57ece9198b3805604ad52ab6676a8145e52d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_factory.json"
-hash = "b49e1890aa48fcee3c9aa5642d76607277b83ea0dc4cbac7024ffe90af60e4af"
+hash = "d4325adfe4990af0ee706cff702def1d8880ddbfd6f946b519a19f4b4831d5a6"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_gas.json"
-hash = "fa65e811422c8e904b73bbf8aaeaa75f2da3c83ab9aa6cfc07b3cd0b7beab95a"
+hash = "871c5534c000e55bd12852b7d5d711112f71995b11174144a2fbcd9c51a1ba2e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_gate.json"
-hash = "b4238dde4ec1b6e779c2603da2661634c5659c910cd0679206bdbb05751d10f0"
+hash = "2b711eef30a4e71ce650bab6d773464275f987456f5f75fc53613e46ee07c080"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_harbinger.json"
-hash = "38b05070dbe7fae4c6c16aa5974ea0d41c858fd8cb4fefb6fad64dd26897f8f1"
+hash = "e752810e5a993140202b2e8aab22278b4669426b62f9c24febf5d9ed8c13b133"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_infuser.json"
-hash = "a28f9610279523c3036f751d876a7607b489892f3248cc7b4e8728dbb9661853"
+hash = "657f7b9d22d3e71d4a38b14842f6545e17b2895433c4cc0f182d6fc7836b5a5b"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_inscriber.json"
-hash = "a0ca6cbe8055699ba02dc2d04b6b236d5f069559f5ed2a9e9ea5c86c8599f465"
+hash = "be614811b7125e62b4a01bd4819b9915498f145b9a5c0b073f7de2e8334a3f81"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_meteor.json"
-hash = "952d0168942b8fb26391673fd877e4eaaa1300b72c6ce394c175b522336765ee"
+hash = "471a136e15ded0a77f42bea6b0c3329d96d5394e9475c2761e772fa3c8139d52"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_monstrosity.json"
-hash = "ac78955275cf3a130328d4a156fde62b0e0a124d5366e764827b0a0d0e6d4feb"
+hash = "63f2d303830a2c39d952a7aa90d18b1b0db3129668a1fb339f8b6a26ecbec0b0"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_netherite.json"
-hash = "a9fcfede97734440ed097f6b11a0a5a40fbd68639ba856686e2d477efb743ee8"
+hash = "b6cee2a5da16dda0500723aabe9e0eb64ee2c9582436c0ca56d4972766681e19"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_ore.json"
-hash = "718360dede2c4f24de62a784343a6859862694c93880871d3adda4a9caf80098"
+hash = "851f1f35eb6cb12a0d8debfe651dd14692a90385f2318d6f1de1e8261bd9c348"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_proc.json"
-hash = "45432663451ef0ea60087a16a88910f4ee5969d85e5a3f0a65a3ba8038409d78"
+hash = "c4adb00cffdb28f55207663121d79adf35840b17656c9e9508294a650777aebf"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_smith.json"
-hash = "3937a91df06ac9a11b2b41b6ba0e080b31434f27b58a066420fc682ac6d1a3b5"
+hash = "2e7119507ba25863422fc5eeb1783ff8555d62cb8e456b530564fdfdafa2077c"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_table.json"
-hash = "a3f036bc18f5c8cdf3b545dacbd8b5304517b4651ab238cf7e5998b23340eed1"
+hash = "ca3ee04b325312f301c62e87bc09a27b591ef0048937e0cdd6bcb9cd7bf09843"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_teleport.json"
-hash = "f9bb5aaca540394c5b72a3efede870d2fb343e4f6e6bb563aba5c59ce5268f6b"
+hash = "8e051562126ff6f886596af023727ac75d1920dcc4db198722ddd70caaeeea98"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_void.json"
-hash = "edc2d672260315d34a73490e48486254ea5201f74b7f41f90f56a2e869e4b0d2"
+hash = "91a73cf387c60f5c1c466ef398c3838a4ffc173c55207b3f551de911b62230d2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_wireless.json"
-hash = "5d744a3f6a833553a7a8969ba7111b395c271f6fbabe23ed1681b7bb7b437117"
+hash = "17ccadcc86c688b33a26447b3c6058a9983c1da02a0d69b772505690f7d39856"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/a4_wither.json"
-hash = "1971013923828f37bec81e92996d1c784132c77f637854ef25ded6e5da8c6be2"
+hash = "f45d6ec4eab9acfd5daa63854e1fb2e7329d82bd1c670ef6fe2b1c91be9f8fc7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age4/root.json"
@@ -2550,67 +2562,67 @@ hash = "d5efc50f3c9478212b43112e1c9ed9f3deced3360e45f16361bc4efd46c10a86"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_arena.json"
-hash = "d829a72ca9fb71e635519757baa89829e6c0b967a915a88442bcf1107aac9b82"
+hash = "e6be5584306521a99adea09ffa25c23fccc9e05a082dad21f0472df418df9e6c"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_atomic.json"
-hash = "a94ec0e533eb462c4bca5352e2fb9c5363ed0d1c762680c6770c5f68a4b5a4b8"
+hash = "d398dc298c3f896c4aa46413d3bfc49ff8bc0c259a6cfbd1c19f1297964a4ee4"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_casing.json"
-hash = "9d5606b931fc91844aa841cc91924023dbc1fd1ee437303b8e99bb1f739c08cb"
+hash = "911f34265f49aa7d09230bcce630c003bc2f5a02e6cc27c9cd593c66a0b5d139"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_citadel.json"
-hash = "ddf876630362bbcbcf01bcb968a4859f91c13ec3d8b57a27a21c11023ac42668"
+hash = "2c56ebdb28733b349fc5281487ade0c68cc28d958287877290b6941e2d65c51c"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_dragon.json"
-hash = "f50c04af488f205fcb1a79e5f90d4f97176475bc52ecd43272cf54c67c6be3d3"
+hash = "ff6783d0440bce04dd1b1d5852a7b35fd76848875c237a209d034d6d7997fb3a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_end.json"
-hash = "0c7af14a52f8c9170bc195df566f047de4b84c566217e4561dfe051371eb29d4"
+hash = "7740058c451965858c3d573c947c69b37d0b7086012d585f286e6374fd4b3ec2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_fuel.json"
-hash = "8375c9f5ec15c4eb876a213ebd17709cd2d74cdd19f251da1c73f2ef93534cb8"
+hash = "df621e48bb2eb11a2c54a0c4fe25fae718ff9fb704fa7c30d0744f35e92ccf76"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_gate.json"
-hash = "d1ee7e216385e954acf5f2435ad8b9042377e788d4ddc66b7f64452093965939"
+hash = "827d4c3e9a17ea5f1c6de3e044aab83aee7262b71ac4a45557fc1b1fa252a2c4"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_guardian.json"
-hash = "dc8933d4ed5eaa940117feaaf1fc768ab8051fda31a73251fe9f21274b3ee2ed"
+hash = "19f1ba8bb66020919df7e41057e93b36e713d738c4e591964edd9ec5fc526333"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_ignis.json"
-hash = "7aa0d0456cd0cc0451d7c5e58b5bd0eed7af0767a8b723e499ec554431ac6c31"
+hash = "476325efcbb1520a08fa880a3b0ffe4e7e0704f7674cf1c06f7d5e6f8ef3b054"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_induction.json"
-hash = "41b7061225647b9c0d5ccac51c344969c8d62d703b38d85bd671b4195ff960c4"
+hash = "de50ee428056cc690c8f100c6f20ea31d2c779844bed243d8f472db10bcc5a34"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_maledictus.json"
-hash = "36c4905a8e24af3727206b626884c46ac8c3a74f24c9726830ebca32a7dfae6f"
+hash = "7f0cd7ff5a352a55252b331cbd6db3c4bdfe2039d4a9bfb0add8c65f4a28e944"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_prison.json"
-hash = "2961dc65abbbb232e090f746b2c999f18de54234c343edbd8af363ce5ed7e149"
+hash = "123965f44f631e5d7627b006cc60f13c15edd745b27f3118c1e6a49d2c933164"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_rod.json"
-hash = "217b2354f1a99dc3f802b68125ca4d553aabd42d49006e125a55e71aacd2c760"
+hash = "eee90e5f071965f0fa43bc9d47c18636b08ac2160c8265f3d39591d516f23963"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_solar.json"
-hash = "3ae82acccac075d4aefeb1e11eca39365ef94b4f67be37de6923f523be026023"
+hash = "7ed56872b18eb40d419ff6e802ee23a86536a38f6717987f3ddcaf32bcfd12ee"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/a5_turbine.json"
-hash = "8b29aaf1ce4c75e9bb43969543d74914208557ce46a966919f46b664397c9d4e"
+hash = "b12fc52c22b162cc217c02581070abd9d96721219c81bba44991f221d49f7055"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age5/root.json"
@@ -2618,47 +2630,47 @@ hash = "5e5f08a4bb0cc4558696e00101f37ec9c3992a0aef513678d07ac37bb4e12b55"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_astro.json"
-hash = "ffde3316fa3d62b7c28d7b422d6bd3595980724da4194a5244bae947401ed882"
+hash = "e64bbaf235f5da1b46aa2a80dfbcfef476b152251f892fef0d75ee3fd20a2701"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_base.json"
-hash = "8045cbf16b777f9802390f0fbc912e1f417fbd60130fe62615f6acb581e57989"
+hash = "b6593f1adb073d9e543d5daa64dda27989f463fb03d0e1ec39a4f5d12759c4a9"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_comp.json"
-hash = "1b1ee7889d4e4baa8e447a1ad6b0e55f3a5f99dcf55c627dea08e2c40b7fd0d7"
+hash = "edf9fc914f2a94485a6295e911cdabe3282c4b00376ce357dbacf0787a89dd57"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_frag.json"
-hash = "f616e6440b075829d7b8dc42b87606f1a02520701a8a5621d7ae0fda11692c9d"
+hash = "3be6df34f2271f54cce35e131aff0d3f8aba38c888f58b187a3a352185f8cb22"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_moon.json"
-hash = "af7e5f0183aa1e38a2ce4316d2630bb8efeb5951dd7ac0c0219a8f8561217dce"
+hash = "dad035ec21dfa308d22458f8aa57c639e8aa506c28ba30cfb7daa126405a5618"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_msteel.json"
-hash = "260f5b6448f97e1f9822d5458dcec3f167328a3bda5d7399cbd3ecd9b3996c2c"
+hash = "45cdd272c74a6fb9a005c6f3eb2a2c6e0ad71765e0103df131b5052fa682d93f"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_oxygen.json"
-hash = "d0d39dea5e71360c8e4b9ac72b2dc4df20aab12d94e09e6a32320e855aff777c"
+hash = "8dae085ae3233ab0393511c91496e89c1bf1fd9e3907a6c9b3c88822ce040c70"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_sealer.json"
-hash = "6c909be8cee379848c532cbb3c7fdaca8e3259393b94652c965b6d61bc2cdfc8"
+hash = "e278b4e91ef65a69e01ddf1d8b0b64a5ff33c335812ac503339cdbb8ff3c9d67"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_station.json"
-hash = "c081852379944b47af36cd68e5f367feea9bfe86f26f2a351d070a4d62dff5a5"
+hash = "c466a2d498bc235480498f922f7572df0e76a9518f0fa83fd9d3e78c9cfa7aa9"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_thruster.json"
-hash = "3435d717ef761c1b70da358ac37ceec18ae9519696630a709740eb78922deeb7"
+hash = "2b206cf61e3ae8fa2968738ffa74b65bba070e8114feb0361433c3265b820a5e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/a6_ti.json"
-hash = "63e7427e8d4d129be6df4527c0a0f946869a95ce86a5d59d5e6fbf7439d36dea"
+hash = "a8c5b2476cb2e120ca98c8ddca157b0f5bbffc4a1d53702da1f77dec84c9e6ff"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age6/root.json"
@@ -2666,19 +2678,19 @@ hash = "8d0ae78844b48e3dee911ace10982a1e8cd0fb3a23332e0b9c648d283c8a88b4"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/o_city.json"
-hash = "2805775c13757e063bf65f8b00d906563fe68e8ee152d7533979e7b2ce1435db"
+hash = "efb690a7ea44c48c1527e2ca6744dad6c6ae391045d5ba95070767ef386d5908"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/o_dim.json"
-hash = "9454505d4a15fe232c713398be0fc7866ba5a80751ec9e93f528b32ad6e744ab"
+hash = "f73545afe07a4eff00c351d03d497c8bd73213a3b41ef486939b41b730d45dd1"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/o_temple.json"
-hash = "a85ce9dd6b92437f05b00e1693882c53839d0dc9c921168d7a7b6458cd1fd487"
+hash = "0949939d6d105368cebe899e8b38d166fcfd5530eaae51a61b0464ad7cad7d73"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/o_warden.json"
-hash = "a9cc0fd6fe3939cb1ecc9ac14b3a73bcedf5f8825271fc441604f12325a24f63"
+hash = "3a7f1499f33057a69b8106d6f2b138b83cd3e78d4e9225576020a7b103f21756"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/root.json"
@@ -2686,187 +2698,271 @@ hash = "81258aabd045ed23e2d6558f00dd5db632b8d900ad22a549a5b041a11189a391"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_alien.json"
-hash = "235d4ec2ea1e5473032283de9201c37351425b02a89487468110989bb87b7910"
+hash = "fe2c7a7b742db774cba9a49e6c754d8920907662dffe77e71c7a6c9295f22269"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_anti.json"
-hash = "ffc2c456362f45c8f5079b59c01b23b069d560b6ce7258722c643b2f5e6453de"
+hash = "46f32eeae602a07bca1e82478bf0f709e6e464fc75e64de269bff6b313612192"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_c2.json"
-hash = "96a4154d04e04049b426b4cdc5054ac18ca9a68f9f62d213012f57b5efc899a9"
+hash = "e2add921bec74cf410f2eabf29b10f3244157fdc9c1f82731dc07a94f0d46e90"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_chrono.json"
-hash = "5060ab92727ac1d7e588e0124ece003df9520bf866e76c01a63500b6b219563b"
+hash = "ea4521d05225a23a2b39516c6f23c28a526ebb533d1661e3dc389cfad5db35d2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_final.json"
-hash = "2231089289cf19916ed81f0301dc00e888abb19a5ffa9417eab59ffcac4c9667"
+hash = "31eeea0cf1e359281879ff66677a8486feec5245e695785e352c3dc9d012ddb7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_fusion.json"
-hash = "cb591519865b28b177fc5eb1a71f24c8732efa2316b3802f0595653aa1a456de"
+hash = "1f83af247b986e340be87d4cebb3e2daa8a25577d964660a305fc2f4a6a77239"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_fusion_ctrl.json"
-hash = "28368a069cbf9d58d9881479cdb605c69124c5b1aa29e65dd8ebcfdfba647f71"
+hash = "cda1440db5489c87c834a2135f94dd82c8d33f48588e802aa481b050fd7bd88f"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_k2.json"
-hash = "7c716b32e3c5dd79e0518c66e40d422dc614c71d9c0bf87c2694937d71dcb4c8"
+hash = "33d2f9fc9037374b13982d4677d5361edc2c07a9a54c9c993e4d2f7a7d8f1ef1"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_l2.json"
-hash = "a114722918bd5800f6efeec8d79096c792db6057721117ff7aee341a4848cd69"
+hash = "fe9550e0627fab192b13c4fc191de73857990b2b9e741e3f62f35270fab279e9"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_mars.json"
-hash = "a2520417f1b76971babe37105d90800e15b8f15be6b5192ee4f53e0dcd22e899"
+hash = "f98219545dbcf31e6f93609c7f4a1d48617d436ca500e2f4f35f3db29798c2f4"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_mercury.json"
-hash = "b0d962c8ed45bf34df603d3f49dfac2af8183033f7baee4e85383900c463cbc9"
+hash = "9062e95c41e491a402a5ebe9529a236eaefca585e66ccdb195be626be00459cd"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_petro.json"
-hash = "6d2afed4f962e6008851f9b5cbf9d65a90b9f139bf56a3e8607e28fe6088d409"
+hash = "606a0897606f18e5c12dde2ba49d40bb8d72706866ede5f4d343201bead657e9"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_s2.json"
-hash = "ba8acd140a9eed40eae863a77122d9682f8514c99888d7c1e4d47fdada9a9f8f"
+hash = "70569582d01a45ad96667064933093273d7590af284211a92d1618fd8dfdb252"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_soul.json"
-hash = "38aae9775a798ea19abedb2362c048034578cacb8bb8e818c73da3be9b0b6f7b"
+hash = "2602440e9616fb9be0c74c2f0e0dca1daf34ca04b8286596e0b4b48824f61e15"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_sps.json"
-hash = "40eb6100870e4319764c2400eea3be11d467a516ed8cdb020087f1805f95dd13"
+hash = "d423db17310999e26b2d4ce5be4d0ba7730853eaaf944a7c5f5d50d511d88815"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_star.json"
-hash = "64d416b9767ed63ea9bc83420bfb570119cd25a86a58942108d81494b27cdfa4"
+hash = "237ba9cd488e48c932100db64e08637ba077d60dbd2bfc571babae05d523d70a"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_start.json"
-hash = "030ffe8b9b9bd237338d695ceb07aaf84969c2113c92b3aecdf25f8a3c974a20"
+hash = "c15452e41be23b9ece04c106fadf9159ff28e1a0b56878edc540f4a176eb1d5d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_steel.json"
-hash = "ee78a94600edef6fdd19d2add8998a1aeaf10a4c94423bcf0b271ddfc9a8835a"
+hash = "55d537f482b745e921d78649629d6705de7ad897cdd89dd50361e1e82e33d299"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_table.json"
-hash = "545edce1b2844fc5ca27ce3f211b2523af70d96feaea0fe9337e0bb325cd0618"
+hash = "3346954f4358a05b14aadc35934910ab70ec992ac9c5aa99a1b82ea856837e34"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/s_venus.json"
-hash = "2165888e24c3d9c83234478cd3256e50478bbc6a2d0308008250ef4c1a0d17bd"
+hash = "e38189b5eb52eccb03c4573aa0ff05b07bc77667c20f622239aa3211f959be86"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/w_ess.json"
-hash = "f0cc57a4ef6a449eb4d711e7d1f7d3663713d9d6278991815a9dc171ed2bd6ec"
+hash = "26cb27c1f99f88e51a02cbc2922ba2dfce75a37e8d26ebf10c25aa12f23ec65d"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/age7/w_hunt_guard.json"
+hash = "f86c161f550549077c76b916d93206d576cb6a7fc838ecefba539db4cfbb055a"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/age7/w_hunt_harb.json"
+hash = "9c198f2f0575d33af04eb4428103e6a0a6c72a66e7ebcdb43fd8af64c02d42ed"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/age7/w_hunt_ignis.json"
+hash = "f3114e13c1f1624074b7cd8e5315c5c9f87c7a8fba05e9ddd669a8a1b2d0f55a"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/age7/w_hunt_lev.json"
+hash = "a227695d5a661205094fd33ac6e5abe217df47f0122d86d3851a56b2b5b9c4c7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/age7/w_seal.json"
-hash = "af0573194fa4c088ec5bff9e2a515a9e1e8672631d01a5c2e3b320a8cdedc5cd"
+hash = "2c835636e4e17c4357acdf5b85107712bf37b44cfb7c98d5be4abfcbf3b1acfe"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/boom.json"
+hash = "d21c111f2227d858590c67b446d1cb7b9dc2a7f8d18adb9ae65532a163a3a9b2"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/deathless.json"
+hash = "8b74f3adb6627ed8ef496bb1aa39d75b317f68c87b91c9f9c64ace67f2e6f599"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/deep.json"
+hash = "d236ac8409350698d2421e821fd33ec5a7d39929987ef16c976f3c04ccc5cbd6"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/duelist.json"
+hash = "e3d19a3ef58dbc1b8464b0aa788c9c000e85a9d1e18b4cf6a0499a89dfa31d7a"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/fall.json"
+hash = "f34ca3a32de5a8ef5b48b8f7bd7d477465fe065ab3d36315a4b2b8f95d89c1a6"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/lava.json"
+hash = "673aae50cc2c152aa30f3d6a7bd7261241d705bd2a99ac875a774e5f43c9a484"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/marathon.json"
+hash = "e81292deb1ae32dfab8ece2886c1d9953bde93a7f6f7165baa216e5b1deae12b"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/naked.json"
+hash = "d1ae83be978997fb6ad04e092633f60e6ebcd7d19e6d24bc13cf26c764d5ff7c"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/oops.json"
+hash = "e38acec1a8a76e0273cfc22d8cc6add4ff0f1a72807c3b2f95b1533a41a298f3"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/pilgrim.json"
+hash = "89f51955543c9627436c398df45240ead189e57c1dc8a7bdb543993afdc1910e"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/regular.json"
+hash = "b1c7e5efc9b5182d656875a16ad155bfa71e705e81d73e4831034662e13e1f17"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/rich.json"
+hash = "7ec5d693702d8ecc86e033c778683b639eef9f256e25d4d2758d71e6ceadee6d"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/root.json"
+hash = "20b2da0735c70c2f1f79523df3efd429fffe7a17e5f590933f39d51569077e28"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/sky.json"
+hash = "eaadff8c5a7c0acdcf3bbbbfe91a55d1c2783c583175c742c68bba7984c4083f"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/solo.json"
+hash = "2e67636023c4dfdc0ecda85914cf4b0850c4349c48b859381159c8d26811a01b"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/wooden.json"
+hash = "2ceefd581033f513ab4cd3795048fda0e41aebc6f32c732148e7018b1c243dd7"
+
+[[files]]
+file = "kubejs/data/kubejs/advancement/challenges/zap.json"
+hash = "2323f66c005236594c1c1b58e7e770d9907b449c10e8a7706b983441f707eac5"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_0.json"
-hash = "107b56b5064edd5a56e686f9681bb61fd47750f9a8c835ed23cca6a878eacf94"
+hash = "2d93cf618cf4bc19321687118bf6a2cf4c70e18b955dece82a089dd1b52303d7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_1.json"
-hash = "ff0760365eb5006f270cc053cbe83c512354fdee3b0a9873403e0bf33b87edf5"
+hash = "6503437efe04cbbe90cd5a3de13d5a23a49916e4e7635c62738e59ead8603c64"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_10.json"
-hash = "4b6701552f55cc4323e8bdce58a95288d7571df769fde5213e834c77f1f2b4d3"
+hash = "06c2161eb328f802fd822e78d3fd78c9350f8e1df818f916a39a138bee2edf57"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_11.json"
-hash = "e88fb03186b86b4956b72c25511370561a4a182b48267fbef96b151022a59d3b"
+hash = "3b5158bb3646a9c6ad4a94b51f1009490a70b20b15e220a6eb78e13458d9f493"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_12.json"
-hash = "ac4720f9f67bc233ed9bf545ec3cb8a047f47781e3db9e3bea2cce0e6083b1a3"
+hash = "f93d1b90a690296ac3363b18d6d1b39f5d7004e33923c1e14bc45f5974ab8ab7"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_13.json"
-hash = "0319a3ccf0c50a94b9d6d5a6de609df5ff364df41aee01b6e40cda653a594426"
+hash = "4703b35e4f855fd03420d58a0e94f85745fa35678e1a52d34f6510e16defb4ff"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_14.json"
-hash = "dc8fe12988cb818bc777755a19b861376926f40b8f4684e503b7e5687518da60"
+hash = "1cf4346eafbf881f02c861c6dd956fe1ebb32ea22b724f6a1b314444e290645d"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_2.json"
-hash = "aa8bbcb6645a6eab6d92e7311b9a5451866923379dfefd8ae6e9e870748f22fa"
+hash = "2c156ecf78cd1b65125ad4f55c304b31e1ef905ae82bb35b64392874a00ecf09"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_3.json"
-hash = "91200173d51587ab44dc85cf197546e46f6391839442320f7da13a58572426ea"
+hash = "b95366ac9a7ff858086e6689f771a5c91afd1f2a246d3cd9f4ec8f7de5d9d61e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_4.json"
-hash = "5fca38daf44ad661df0ef4199fca7d751821ccad01180c3db0bd9053823f781c"
+hash = "5b9c418e6797ddec6cd3f222957b0a09fbd28be6128ce08576692d0a9465ca56"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_5.json"
-hash = "13cb52d5ddd39b72903635eac791b3ed4031ae28387e49e00759733995f22a1d"
+hash = "ac76431cf7095fc2eb45acec33f727ede918c629f50ff493224b19220a7ab482"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_6.json"
-hash = "59c3263dba5d21a142d8f551cbf925ba41e6e92ac070096c85015daece0d646a"
+hash = "dd1f6d6bf31d8c51ca98fbbab39336ee54d53bec0f323e01933c11107ee835b2"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_7.json"
-hash = "b75db673c50dfaf4fa5498d6888f95f54425b0ae63d904415e08bbe86799f8f5"
+hash = "7ffc17608e7ffb7d31858302712e2c66effb7a57c1aed497508668f9351093cf"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_8.json"
-hash = "6d0962484579792aa88fced1b40bd00a54bad53666d5b8c0dd447fb07bcc9edc"
+hash = "153d1a88fc750b0425bcf03341fd0601c2b70c34c4e85178450f782cd0be56c1"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_9.json"
-hash = "9364bd6a0a2aae06be7a174845dc17e19160702ea798e8ea747b7968cfcfc73f"
+hash = "c09d77ab6af6dc399c477a5c443f40e4ffbfbd6c7cdedd76eacff82a4ff86b93"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_all.json"
-hash = "9a921d209268afc338435df78853178ee30a2915ea4a47e1660df6cf4cf8f2c9"
+hash = "d10f25539bb0d655b84087a6ec0abfede570eb46348f14ebed56d15aa20a7675"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_comp.json"
-hash = "c1fe3432ab3944fe508c14c10ae82cf18bb2fb63708876ba39c458a947382634"
+hash = "3cb651f45c6b1a76256866e3534a253a03d1c0b181e93207df831976f884bb21"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_start.json"
-hash = "6fb6011a278c35ea4c8e333ff80675f1fd1d9479531c19a55e2bf366f3f061ac"
+hash = "409481541e973be25004721ada02baf04b9ed91700b0b6372f08e8b4acfb0e80"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/c_ultimate.json"
-hash = "9c3da656f8abeb35735c66b593d29f4e3b8fb21acee647f2143661d0bde77674"
+hash = "d5c700b43e64f9a35dc8d3e8c08eeb3d37804a187f33175248d90475201e4f2e"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/i_armor.json"
-hash = "f2effa33ca53beb8d7549e5f93469baff38412a39a9f60dc9075bdbd06bdc405"
+hash = "8cc7845dfecbacfe13bc30f703748a264bc8545b652f4a53b78fc260495f08f8"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/i_cat.json"
-hash = "1707ff6d0d6df9de2dbada256070da1900ded91d85ee0598fd182dc083702a77"
+hash = "0ef6942db9e89665c9a57fdf6903b80d572abd2ed56224a15c8a30849fd3a9b6"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/i_ingot.json"
-hash = "153ad0836cce81d13cc186a9ddc5c9d015d16f28ae6639fa3a47c4013a9fe98d"
+hash = "8ad3fbe5f452ddd98b4460381c4963424c32692efb14780bab873e95444716b8"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/i_pick.json"
-hash = "28fca6b03a233374b2f59d5d4a81203b3724ebe1d61466a7fa2dc7448b783539"
+hash = "3137e39a573d9aad256ff7e4f2fc2a3e3a106bd1146d7cbf39ecf0aa4a28b0ca"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/i_sword.json"
-hash = "23c2c9669b484e3025cc3309ecf08f9cc0530aaf528dade05917ec85406cc004"
+hash = "d179136c5e5d5f8dfd138e72a786581d20d6acb731a8a0d6685988cde6c21789"
 
 [[files]]
 file = "kubejs/data/kubejs/advancement/creative/root.json"
@@ -5002,7 +5098,7 @@ hash = "4d5ef0b8c81388a8eabbfa8c04a2c9ce2511340f794f2bce8d158a2834fe3bc2"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/40_core.js"
-hash = "9cdd02b75f891e92bb9d03981f175f545d5fee28af42d16972ec85064059dc7d"
+hash = "5bb422e7b552889c67b2076859edef950023852afa5f497422c934d523b7b059"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/41_pvp.js"
@@ -5066,7 +5162,7 @@ hash = "b741023109ee8716d570f8a02a40918e2b91d9011c5ddc1bba41fb09fe112a12"
 
 [[files]]
 file = "kubejs/server_scripts/systems/32_bosses.js"
-hash = "afcf07073c715761ad9ef0b6ecb4e240e8d71a2c0bd10e0366aff16be4a5f1e1"
+hash = "6d4f606efebcb09eec52e63aee66751854dc54dc6395851334f7708f01191fa5"
 
 [[files]]
 file = "kubejs/server_scripts/systems/33_events.js"
@@ -5078,7 +5174,11 @@ hash = "49c34d81350e04593fa37c169a203e79fab8de9a452ba55073db402993fbda95"
 
 [[files]]
 file = "kubejs/server_scripts/systems/35_progress.js"
-hash = "f9e050ba47fcc869fc8e33f9fa7fca6e39285462e0ee92cbace7b083f294de0b"
+hash = "d61766e452cc7e056f5764f3770fdeaf0ce2ef46559ae45ab31a357d311e14f0"
+
+[[files]]
+file = "kubejs/server_scripts/systems/36_challenges.js"
+hash = "995224d695c4c811d315a463a7e678b64edc387fe5321071228e4641f669b02a"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"

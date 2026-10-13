@@ -5,30 +5,27 @@
       "id": "kubejs:trophy_harbinger"
     },
     "title": {
-      "text": "Харбинджер",
+      "text": "Сломать машину",
       "color": "red"
     },
-    "description": {
-      "text": "Обязательный босс эпохи. Механический — в тему."
-    },
+    "description": [
+      "",
+      {
+        "text": "Обязательный босс эпохи. Механический — в тему.\n"
+      },
+      {
+        "text": "Квест: Харбинджер",
+        "color": "dark_gray"
+      }
+    ],
     "frame": "challenge",
     "hidden": false,
     "show_toast": true,
     "announce_to_chat": true
   },
   "criteria": {
-    "t0": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "cataclysm:the_harbinger"
-        }
-      }
+    "granted": {
+      "trigger": "minecraft:impossible"
     }
-  },
-  "requirements": [
-    [
-      "t0"
-    ]
-  ]
+  }
 }
