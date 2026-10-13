@@ -139,6 +139,7 @@
 				{
 					advancement: "kubejs:shelter"
 					criterion: ""
+					icon: { id: "minecraft:red_bed" }
 					id: "75319ECF12C31527"
 					type: "advancement"
 				}
@@ -235,10 +236,11 @@
 			size: 0.9d
 			tasks: [
 				{
-					count: 1L
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+					icon: { id: "minecraft:red_bed" }
 					id: "015DFDD7BE989A74"
-					item: { count: 1, id: "minecraft:white_bed" }
-					type: "item"
+					type: "advancement"
 				}
 			]
 			x: 3.7d

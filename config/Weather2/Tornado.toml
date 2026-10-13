@@ -15,7 +15,7 @@
 	#Grab villagers, overridden by Storm_Tornado_grabPlayersOnly
 	Storm_Tornado_grabVillagers = true
 	#Tear up blocks from the ground based on conditions defined
-	Storm_Tornado_grabBlocks = true
+	Storm_Tornado_grabBlocks = false
 	#Grab entity items, overridden by Storm_Tornado_grabPlayersOnly
 	Storm_Tornado_grabItems = false
 	#Grab blocks based on how well a diamond axe can mine the block, so mostly wooden blocks

@@ -1,12 +1,12 @@
 name = "TechAges"
 author = "biodegradable"
-version = "0.9.8"
+version = "0.9.9"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "be5c084992d467c06221b3be792f292921066ce94d98480311da13fee31999c9"
+hash = "78346841a8e5eef313be54395d44a00b04b554fd7d7d8601ba884f64929659e6"
 
 [versions]
 minecraft = "1.21.1"

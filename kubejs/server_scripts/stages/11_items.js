@@ -37,6 +37,7 @@ lockMod('age_2', 'simulated')
 lockMod('age_2', 'offroad')
 lockMod('age_2', 'railways')
 lockMod('age_2', 'createbigcannons')
+lockMod('age_2', 'create_power_loader')  // загрузчики чанков: якорь возрождения + гаст из Незера
 lockItems('age_2', 'backpack_upgrades', [
   'sophisticatedbackpacks:magnet_upgrade', 'sophisticatedbackpacks:advanced_magnet_upgrade',
   'sophisticatedbackpacks:iron_backpack', 'sophisticatedbackpacks:gold_backpack'

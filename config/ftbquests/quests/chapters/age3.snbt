@@ -475,7 +475,7 @@
 				{
 					count: 16L
 					id: "236ED286396F1594"
-					item: { count: 1, id: "tfmg:aluminum_ingot" }
+					item: { count: 1, id: "immersiveengineering:ingot_aluminum" }
 					type: "item"
 				}
 			]
