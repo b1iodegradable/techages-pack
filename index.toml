@@ -6,7 +6,7 @@ hash = "7bc1ff2999711491c4678d56326fff491c1e63962efdf150de90a3230523b072"
 
 [[files]]
 file = "config/Weather2/Misc.toml"
-hash = "abeddfde3edf5c3eb34fb647fd0ac7d4d0f5922045974b249d90c76719ec720c"
+hash = "ff0d5e164765265086120babf5b55fb0050cfa4b985275f1f3087f7044d9610c"
 
 [[files]]
 file = "config/Weather2/Particle.toml"
@@ -14,7 +14,7 @@ hash = "64116c73ce3e10d10f168304572b4216eed8a2c3d867655005ea724a004aebea"
 
 [[files]]
 file = "config/Weather2/Storm.toml"
-hash = "57154301eadb416ad940b600f3e5e268c94d5f4dfecfeb4990197865ac2b2fea"
+hash = "b77c49546462910eb84235e92372e027eb1cd414463fb774c5179204542e3bba"
 
 [[files]]
 file = "config/Weather2/Tornado.toml"
@@ -218,7 +218,7 @@ hash = "abd7a5ec35f09050677155e5f2825f311ed941cf9f4382c51f7cbadb31c8dd2f"
 
 [[files]]
 file = "config/servercore/config.yml"
-hash = "aa53e97073bb4b1376efb8739a3ca21e1f1063f898ea54e1e0f13665204c2330"
+hash = "d15a7f3a364129068ebb278c27c80acce1c2428fbffdef31ce5832fff584233c"
 
 [[files]]
 file = "kubejs/assets/ae2/lang/ru_ru.json"
@@ -3926,7 +3926,7 @@ hash = "f6f99ecfe71beef14705cbfb62eea21903aa9d17c290a738acc73afa78561184"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/43_coop.js"
-hash = "60380ccf7f841a8caa4f0e6dab0b5588787dd53fb185ac9434bbf01ad9599107"
+hash = "76f4f54ec051aa549d65164f37da3c309cb99a642fd97681d910c9add50328ab"
 
 [[files]]
 file = "kubejs/server_scripts/mp_events/44_social.js"
@@ -3990,7 +3990,7 @@ hash = "49c34d81350e04593fa37c169a203e79fab8de9a452ba55073db402993fbda95"
 
 [[files]]
 file = "kubejs/server_scripts/systems/35_progress.js"
-hash = "073b98b7dce0508ae8ed8714007cca7d6498006f6453d3869479e2615d0b76ce"
+hash = "fc3adcb01ac8071af94d42ae038855a46d89424e7a737449b32f89de5045df7f"
 
 [[files]]
 file = "kubejs/server_scripts/systems/36_challenges.js"

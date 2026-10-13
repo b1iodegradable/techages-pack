@@ -9,7 +9,7 @@
 	#-
 	# Default: 20
 	# Range: > -2147483648
-	Storm_MaxPerPlayerPerLayer = 8
+	Storm_MaxPerPlayerPerLayer = 3
 	#-
 	# Default: 128
 	# Range: > -2147483648

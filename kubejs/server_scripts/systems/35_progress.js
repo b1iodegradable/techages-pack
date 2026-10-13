@@ -838,9 +838,18 @@ PlayerEvents.loggedIn(e => {
     STRUCT_FIX.forEach(id => e.server.runCommandSilent(`advancement revoke ${pl.username} only ${id}`))
   }
   syncProgress(e.server, pl)
+  PROGRESS_SEEN[pl.username] = progressSig()
 })
 
+// Полный проход по ~860 id — только когда у сервера изменился набор стадий (иначе раз в 5 с впустую)
+const PROGRESS_SEEN = {}
+const progressSig = () => Object.keys(PROGRESS).filter(st => AStages.serverHasStage(st)).join(',')
 ServerEvents.tick(e => {
   if (e.server.tickCount % 100 != 0) return
-  e.server.players.forEach(p => syncProgress(e.server, p))
+  const sig = progressSig()
+  e.server.players.forEach(p => {
+    if (PROGRESS_SEEN[p.username] === sig) return
+    syncProgress(e.server, p)
+    PROGRESS_SEEN[p.username] = sig
+  })
 })

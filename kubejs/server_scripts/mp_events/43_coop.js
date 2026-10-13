@@ -9,7 +9,17 @@ const peSpawnAround = (s, dim, x, z, types, n, tag, rMin, rMax) => {
   peCmd(s, `execute in ${dim} run spreadplayers ${x} ${z} ${Math.max(1, Math.floor(rMin / 3))} ${rMax} false @e[tag=pe_new]`)
   peCmd(s, `execute in ${dim} run tag @e[tag=pe_new] remove pe_new`)
 }
-const peCountTag = (s, dim, tag) => { let n = 0; s.overworld().getEntities().forEach(en => { if (en.tags.contains(tag) && en.isAlive()) n++ }); return n }
+// Живые сущности с тегом в квадрате ±r вокруг (x, z), на всю высоту — вместо перебора всех сущностей мира
+const PE_AABB = Java.loadClass('net.minecraft.world.phys.AABB')
+const peTagged = (s, tag, x, z, r) => {
+  const out = []
+  s.overworld().getEntities(null, new PE_AABB(x - r, -64, z - r, x + r, 320, z + r)).forEach(en => { if (en.tags.contains(tag) && en.isAlive()) out.push(en) })
+  return out
+}
+const peCountTag = (s, tag, x, z, r) => peTagged(s, tag, x, z, r).length
+const PE_BPOS = Java.loadClass('net.minecraft.core.BlockPos')
+// Сущности здесь видны и тикают (рядом игрок или форс-загрузка); в просто загруженном чанке их не найти
+const peLoadedAt = (s, x, z) => s.overworld().isPositionEntityTicking(new PE_BPOS(x, 64, z))
 const PE_SIEGE_MOBS = [
   ['minecraft:zombie', 'minecraft:skeleton', 'minecraft:spider'],
   ['minecraft:zombie', 'minecraft:skeleton', 'minecraft:husk', 'minecraft:creeper'],
@@ -38,7 +48,7 @@ peDef('siege', {
       peSay(s, Text.red(`⚔ Волна ${d.wave}/${d.waves}: ${n} монстров!`))
       d.next = s.tickCount + 1200
     }
-    const left = peCountTag(s, PE.OW, 'pe_siege')
+    const left = peCountTag(s, 'pe_siege', d.x, d.z, 160)
     if (d.wave >= d.waves && left == 0) { d.done = true; peEnd(s, 'win'); return }
     peBar(s, `Осада: волна ${d.wave}/${d.waves}, монстров ${left} · ${peFmt(ev.end - s.tickCount)}`, ev.end - s.tickCount, ev.end - ev.t0)
   },
@@ -65,12 +75,14 @@ peDef('world_boss', {
       `CustomName:'${JSON.stringify({ text: 'Пожиратель', color: 'dark_red' })}',CustomNameVisible:1b,Health:${hp}f,` +
       `attributes:[{id:"minecraft:generic.max_health",base:${hp}},{id:"minecraft:generic.scale",base:3},{id:"minecraft:generic.attack_damage",base:${10 + 2 * age}},` +
       `{id:"minecraft:generic.movement_speed",base:0.28},{id:"minecraft:generic.knockback_resistance",base:1},{id:"minecraft:generic.follow_range",base:64}]}`)
-    ev.data = { hp: hp, dmg: {}, dead: false }
+    ev.data = { hp: hp, dmg: {}, dead: false, bx: x, bz: z }
     peSay(s, Text.darkRed(`☠ Пожиратель появился у X ${x} Z ${z}! (${hp} здоровья)`))
   },
   tick: (s, ev) => {
-    let boss = null
-    s.overworld().getEntities().forEach(en => { if (!boss && en.tags.contains('pe_wboss')) boss = en })
+    const d = ev.data
+    let boss = peTagged(s, 'pe_wboss', d.bx, d.bz, 96)[0] || null
+    if (!boss) s.overworld().getEntities().forEach(en => { if (!boss && en.tags.contains('pe_wboss') && en.isAlive()) boss = en })  // ушёл далеко — редкий полный поиск
+    if (boss) { d.bx = Math.floor(boss.x); d.bz = Math.floor(boss.z) }
     if (!boss) { if (!ev.data.dead) ev.data.dead = true; peEnd(s, 'win'); return }
     peBar(s, `Пожиратель — ${Math.ceil(boss.health)}/${ev.data.hp}`, boss.health, ev.data.hp)
   },
@@ -191,7 +203,8 @@ peDef('sos', {
   tick: (s, ev) => {
     const d = ev.data
     if (!d.t) return
-    if (peCountTag(s, PE.OW, 'pe_sos') == 0) { d.failed = true; peEnd(s, 'fail'); return }
+    if (!peLoadedAt(s, d.t.x, d.t.z)) { peBar(s, `SOS: торговец у X ${d.t.x} Z ${d.t.z} — ${peFmt(ev.end - s.tickCount)}`, ev.end - s.tickCount, ev.end - ev.t0); return }  // чанк выгружен: торговец в безопасности, мобов не шлём
+    if (peCountTag(s, 'pe_sos', d.t.x, d.t.z, 64) == 0) { d.failed = true; peEnd(s, 'fail'); return }
     if (s.tickCount >= d.next) { peSpawnAround(s, PE.OW, d.t.x, d.t.z, PE_SIEGE_MOBS[Math.min(4, Math.floor(peAge() / 1.5))], 3 + peAge(), 'pe_sosmob', 10, 20); d.next = s.tickCount + 800 }
     peBar(s, `SOS: торговец у X ${d.t.x} Z ${d.t.z} — ${peFmt(ev.end - s.tickCount)}`, ev.end - s.tickCount, ev.end - ev.t0)
   },

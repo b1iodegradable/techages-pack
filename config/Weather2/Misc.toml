@@ -3,11 +3,11 @@
 	#-
 	# Default: 1124
 	# Range: > -2147483648
-	Misc_simBoxRadiusCutoff = 1124
+	Misc_simBoxRadiusCutoff = 612
 	#-
 	# Default: 1024
 	# Range: > -2147483648
-	Misc_simBoxRadiusSpawn = 1024
+	Misc_simBoxRadiusSpawn = 512
 	#If true, lets server side do vanilla weather rules, weather2 will only make storms when server side says 'rain' is on
 	overcastMode = false
 	#Used if overcastMode is off, 1 = lock weather on, 0 = lock weather off, -1 = dont lock anything, let server do whatever
