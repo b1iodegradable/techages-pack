@@ -1,8 +1,34 @@
 {
+  "parent": "create:extendo_grip",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:linked_controller_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:extendo_grip"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.linked_controller.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:linked_controller"
+    },
+    "title": {
+      "translate": "advancement.create.linked_controller"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

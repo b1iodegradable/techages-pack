@@ -1,8 +1,41 @@
 {
+  "parent": "avaritia:infinity/infinity_ingot",
   "criteria": {
-    "disabled": {
+    "main": {
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:enhancement_core"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "avaritia:infinity/infinity_ingot"
+  "display": {
+    "description": {
+      "translate": "advancements.avaritia.enhancement_core.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "avaritia:enhancement_core"
+    },
+    "title": {
+      "translate": "advancements.avaritia.enhancement_core.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

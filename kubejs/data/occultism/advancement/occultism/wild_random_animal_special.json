@@ -1,8 +1,38 @@
 {
+  "parent": "occultism:occultism/root",
   "criteria": {
-    "disabled": {
+    "wild_random_animal_special": {
+      "conditions": {
+        "ritual_id": "occultism:ritual/wild_random_animal_special"
+      },
+      "trigger": "occultism:ritual"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "occultism:occultism/root"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.occultism.wild_random_animal_special.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "occultism:jei_dummy/none"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.occultism.wild_random_animal_special.title"
+    }
+  },
+  "requirements": [
+    [
+      "wild_random_animal_special"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

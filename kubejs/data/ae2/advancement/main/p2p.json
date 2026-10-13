@@ -1,8 +1,39 @@
 {
+  "parent": "ae2:main/glass_cable",
   "criteria": {
-    "disabled": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:me_p2p_tunnel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/glass_cable"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.P2P.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:me_p2p_tunnel"
+    },
+    "title": {
+      "translate": "achievement.ae2.P2P"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,34 @@
 {
+  "parent": "create:potato_cannon_collide",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:self_deploying_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:potato_cannon_collide"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.self_deploying.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rail"
+    },
+    "title": {
+      "translate": "advancement.create.self_deploying"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

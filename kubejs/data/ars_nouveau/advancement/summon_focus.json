@@ -1,8 +1,38 @@
 {
+  "parent": "ars_nouveau:wilden_tribute",
   "criteria": {
-    "disabled": {
+    "has_summon_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:summon_focus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:wilden_tribute"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.summon_focus"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ars_nouveau:summon_focus"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.summon_focus"
+    }
+  },
+  "requirements": [
+    [
+      "has_summon_focus"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

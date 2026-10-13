@@ -1,8 +1,34 @@
 {
+  "parent": "create:spout",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:drain_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:spout"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.drain.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:item_drain"
+    },
+    "title": {
+      "translate": "advancement.create.drain"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

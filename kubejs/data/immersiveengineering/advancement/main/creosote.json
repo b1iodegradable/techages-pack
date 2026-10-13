@@ -1,8 +1,38 @@
 {
+  "parent": "immersiveengineering:main/mb_cokeoven",
   "criteria": {
-    "disabled": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:creosote_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/mb_cokeoven"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.creosote.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:creosote_bucket"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.creosote"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

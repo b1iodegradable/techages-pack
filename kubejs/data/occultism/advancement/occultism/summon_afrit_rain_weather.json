@@ -1,8 +1,38 @@
 {
+  "parent": "occultism:occultism/root",
   "criteria": {
-    "disabled": {
+    "summon_afrit_rain_weather": {
+      "conditions": {
+        "ritual_id": "occultism:ritual/summon_afrit_rain_weather"
+      },
+      "trigger": "occultism:ritual"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "occultism:occultism/root"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.occultism.summon_afrit_rain_weather.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "occultism:jei_dummy/none"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.occultism.summon_afrit_rain_weather.title"
+    }
+  },
+  "requirements": [
+    [
+      "summon_afrit_rain_weather"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

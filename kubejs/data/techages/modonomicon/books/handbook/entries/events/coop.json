@@ -26,6 +26,17 @@
       "condition": {
         "type": "modonomicon:none"
       },
+      "show_title_separator": false,
+      "text": "book.techages.handbook.events.coop.p0_1.text",
+      "title": "book.techages.handbook.events.coop.p0_1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
       "show_title_separator": true,
       "text": "book.techages.handbook.events.coop.p1_0.text",
       "title": "book.techages.handbook.events.coop.p1_0.title",

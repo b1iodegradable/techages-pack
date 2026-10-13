@@ -1,8 +1,41 @@
 {
+  "parent": "simulated:get_a_grip",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "simulated:spring"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "simulated:get_a_grip"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.simulated.what_goes_down.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "simulated:spring"
+    },
+    "title": {
+      "translate": "advancement.simulated.what_goes_down"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

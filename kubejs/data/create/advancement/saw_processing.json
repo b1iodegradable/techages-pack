@@ -1,8 +1,34 @@
 {
+  "parent": "create:fan_processing",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:saw_processing_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:fan_processing"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.saw_processing.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:mechanical_saw"
+    },
+    "title": {
+      "translate": "advancement.create.saw_processing"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

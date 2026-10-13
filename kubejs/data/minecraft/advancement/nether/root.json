@@ -1,7 +1,37 @@
 {
   "criteria": {
-    "disabled": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png",
+    "description": {
+      "translate": "advancements.nether.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_nether_bricks"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.nether.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

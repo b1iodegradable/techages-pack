@@ -1,8 +1,34 @@
 {
+  "parent": "create:water_supply",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:hose_pulley_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:water_supply"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.hose_pulley.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:hose_pulley"
+    },
+    "title": {
+      "translate": "advancement.create.hose_pulley"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

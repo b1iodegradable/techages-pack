@@ -1,8 +1,43 @@
 {
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "occultism:chalk_magenta"
+    },
+    "title": {
+      "translate": "advancements.occultism.chalks.magenta.title"
+    },
+    "description": {
+      "color": "green",
+      "translate": "advancements.occultism.chalks.magenta.description"
+    }
+  },
+  "parent": "occultism:chalks/blue",
   "criteria": {
-    "disabled": {
+    "chalk_magenta": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "occultism:chalk_magenta"
+            }
+          }
+        ]
+      }
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "occultism:chalks/blue"
+  "requirements": [
+    [
+      "chalk_magenta"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,38 @@
 {
+  "parent": "immersiveengineering:main/main_root",
   "criteria": {
-    "disabled": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/main_root"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.craft_hammer.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:hammer"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.craft_hammer"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

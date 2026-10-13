@@ -1,8 +1,33 @@
 {
+  "parent": "ars_nouveau:wilden_tribute",
   "criteria": {
-    "disabled": {
+    "wilden_explosion": {
+      "trigger": "ars_nouveau:chimera_explosion"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:wilden_tribute"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.wilden_explosion"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "ars_nouveau:wilden_tribute"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.wilden_explosion"
+    }
+  },
+  "requirements": [
+    [
+      "wilden_explosion"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

@@ -1,8 +1,47 @@
 {
+  "neoforge:conditions": [
+    {
+      "type": "create_dragons_plus:config_feature",
+      "feature": "create_enchantment_industry:processing/classic_blaze_enchanter"
+    }
+  ],
+  "parent": "create_enchantment_industry:legacy_ignition",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "type": "minecraft:custom",
+        "bounds": {
+          "min": 1000
+        },
+        "value": "create_enchantment_industry:classic_enchant"
+      },
+      "trigger": "create_dragons_plus:stat"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_enchantment_industry:legacy_ignition"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.thousandfold_everchant.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "create_enchantment_industry:classic_blaze_enchanter"
+    },
+    "title": {
+      "translate": "advancement.create_enchantment_industry.thousandfold_everchant"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

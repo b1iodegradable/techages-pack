@@ -1,8 +1,0 @@
-{
-  "criteria": {
-    "disabled": {
-      "trigger": "minecraft:impossible"
-    }
-  },
-  "parent": "deeperdarker:main/obtain_reinforced_echo_shard"
-}

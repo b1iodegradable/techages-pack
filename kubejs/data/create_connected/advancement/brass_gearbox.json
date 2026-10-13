@@ -1,8 +1,42 @@
 {
+  "parent": "kubejs:epoch_gate/create_connected/root/age_2",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "location": [
+          {
+            "block": "create_connected:brass_gearbox",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_connected:root"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_connected.brass_gearbox.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create_connected:brass_gearbox"
+    },
+    "title": {
+      "translate": "advancement.create_connected.brass_gearbox"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

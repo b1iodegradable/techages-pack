@@ -1,8 +1,34 @@
 {
+  "parent": "simulated:opposite_attract",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": "simulated:a_calculated_connection_builtin",
+      "trigger": "simulated:a_calculated_connection_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "simulated:opposite_attract"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.simulated.a_calculated_connection.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "simulated:docking_connector"
+    },
+    "title": {
+      "translate": "advancement.simulated.a_calculated_connection"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

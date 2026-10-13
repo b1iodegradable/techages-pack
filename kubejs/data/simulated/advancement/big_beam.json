@@ -1,8 +1,35 @@
 {
+  "parent": "simulated:no_pressure",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": "simulated:big_beam_builtin",
+      "trigger": "simulated:big_beam_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "simulated:no_pressure"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.simulated.big_beam.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "simulated:laser_pointer"
+    },
+    "title": {
+      "translate": "advancement.simulated.big_beam"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

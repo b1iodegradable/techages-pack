@@ -1,8 +1,49 @@
 {
+  "parent": "immersiveengineering:tools/craft_revolver",
   "criteria": {
-    "disabled": {
+    "code_trigger": {
+      "trigger": "minecraft:impossible"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:tools/craft_revolver"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.upgrade_revolver.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "components": {
+        "immersiveengineering:upgrade_nbt": [
+          {
+            "type": "bullets",
+            "data": 6
+          },
+          {
+            "type": "electro",
+            "data": {}
+          }
+        ]
+      },
+      "count": 1,
+      "id": "immersiveengineering:revolver"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.upgrade_revolver"
+    }
+  },
+  "requirements": [
+    [
+      "code_trigger"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "immersiveengineering:advancements/shader_rare"
+    ]
+  }
 }

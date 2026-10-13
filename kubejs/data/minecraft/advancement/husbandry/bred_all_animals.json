@@ -1,8 +1,0 @@
-{
-  "criteria": {
-    "disabled": {
-      "trigger": "minecraft:impossible"
-    }
-  },
-  "parent": "minecraft:husbandry/breed_an_animal"
-}

@@ -1,8 +1,35 @@
 {
+  "parent": "occultism:occultism/familiar/root",
   "criteria": {
-    "disabled": {
+    "goat_detach": {
+      "conditions": {
+        "type": "goat_detach"
+      },
+      "trigger": "occultism:familiar"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "occultism:occultism/familiar/root"
+  "display": {
+    "description": {
+      "translate": "advancements.occultism.familiar.goat_detach.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "advancements.occultism.familiar.goat_detach.title"
+    }
+  },
+  "requirements": [
+    [
+      "goat_detach"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,41 @@
 {
+  "parent": "mekanism:purification_chamber",
   "criteria": {
-    "disabled": {
+    "chemical_injection_chamber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:chemical_injection_chamber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:purification_chamber"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.injection_chamber.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:chemical_injection_chamber"
+    },
+    "title": {
+      "translate": "advancements.mekanism.injection_chamber.title"
+    }
+  },
+  "requirements": [
+    [
+      "chemical_injection_chamber"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

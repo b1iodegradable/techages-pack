@@ -1,8 +1,59 @@
 {
+  "parent": "mekanism:steel_casing",
   "criteria": {
-    "disabled": {
+    "seismic_reader": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:seismic_reader"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "seismic_vibrator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:seismic_vibrator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "view_vibrations": {
+      "trigger": "mekanism:view_vibrations"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_casing"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.seismic_vibrations.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:seismic_vibrator"
+    },
+    "title": {
+      "translate": "advancements.mekanism.seismic_vibrations.title"
+    }
+  },
+  "requirements": [
+    [
+      "seismic_vibrator"
+    ],
+    [
+      "seismic_reader"
+    ],
+    [
+      "view_vibrations"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

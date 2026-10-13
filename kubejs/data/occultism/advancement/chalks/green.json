@@ -1,8 +1,43 @@
 {
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "occultism:chalk_green"
+    },
+    "title": {
+      "translate": "advancements.occultism.chalks.green.title"
+    },
+    "description": {
+      "color": "green",
+      "translate": "advancements.occultism.chalks.green.description"
+    }
+  },
+  "parent": "occultism:chalks/purple",
   "criteria": {
-    "disabled": {
+    "chalk_green": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "occultism:chalk_green"
+            }
+          }
+        ]
+      }
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "occultism:chalks/purple"
+  "requirements": [
+    [
+      "chalk_green"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,32 @@
 {
+  "parent": "ae2:main/network1",
   "criteria": {
-    "disabled": {
+    "cable": {
+      "trigger": "ae2:network_engineer"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/network1"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.Networking2.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:fluix_smart_cable"
+    },
+    "title": {
+      "translate": "achievement.ae2.Networking2"
+    }
+  },
+  "requirements": [
+    [
+      "cable"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

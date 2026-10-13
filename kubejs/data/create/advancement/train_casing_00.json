@@ -1,8 +1,34 @@
 {
+  "parent": "create:sturdy_sheet",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:train_casing_00_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:sturdy_sheet"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.train_casing_00.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:railway_casing"
+    },
+    "title": {
+      "translate": "advancement.create.train_casing_00"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

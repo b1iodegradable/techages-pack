@@ -1,8 +1,38 @@
 {
+  "parent": "ars_nouveau:enchanting_apparatus",
   "criteria": {
-    "disabled": {
+    "has_potion_jar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:potion_jar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:enchanting_apparatus"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.potion_jar"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ars_nouveau:potion_jar"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.potion_jar"
+    }
+  },
+  "requirements": [
+    [
+      "has_potion_jar"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

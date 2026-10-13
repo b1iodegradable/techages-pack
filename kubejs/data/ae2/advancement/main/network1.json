@@ -1,8 +1,32 @@
 {
+  "parent": "ae2:main/glass_cable",
   "criteria": {
-    "disabled": {
+    "cable": {
+      "trigger": "ae2:network_apprentice"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/glass_cable"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.Networking1.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:fluix_covered_cable"
+    },
+    "title": {
+      "translate": "achievement.ae2.Networking1"
+    }
+  },
+  "requirements": [
+    [
+      "cable"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

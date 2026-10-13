@@ -1,8 +1,38 @@
 {
+  "parent": "occultism:occultism/root",
   "criteria": {
-    "disabled": {
+    "craft_stabilizer_tier1": {
+      "conditions": {
+        "ritual_id": "occultism:ritual/craft_stabilizer_tier1"
+      },
+      "trigger": "occultism:ritual"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "occultism:occultism/root"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.occultism.craft_stabilizer_tier1.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "occultism:jei_dummy/none"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.occultism.craft_stabilizer_tier1.title"
+    }
+  },
+  "requirements": [
+    [
+      "craft_stabilizer_tier1"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

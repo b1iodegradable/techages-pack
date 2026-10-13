@@ -1,8 +1,41 @@
 {
+  "parent": "kubejs:epoch_gate/create/mechanical_mixer/age_2",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "create:blaze_burner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:mechanical_mixer"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.burner.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:blaze_burner"
+    },
+    "title": {
+      "translate": "advancement.create.burner"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

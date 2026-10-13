@@ -1,8 +1,45 @@
 {
+  "parent": "mekanism:basic_control_circuit",
   "criteria": {
-    "disabled": {
+    "copy": {
+      "conditions": {
+        "copy": true
+      },
+      "trigger": "mekanism:configuration_card"
+    },
+    "paste": {
+      "conditions": {
+        "copy": false
+      },
+      "trigger": "mekanism:configuration_card"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:basic_control_circuit"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.configuration_copying.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:configuration_card"
+    },
+    "title": {
+      "translate": "advancements.mekanism.configuration_copying.title"
+    }
+  },
+  "requirements": [
+    [
+      "copy"
+    ],
+    [
+      "paste"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

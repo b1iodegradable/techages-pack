@@ -1,8 +1,39 @@
 {
+  "parent": "mekanism:teleportation_core",
   "criteria": {
-    "disabled": {
+    "qio_drive_array": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:qio_drive_array"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:teleportation_core"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.qio_drive_array.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:qio_drive_array"
+    },
+    "title": {
+      "translate": "advancements.mekanism.qio_drive_array.title"
+    }
+  },
+  "requirements": [
+    [
+      "qio_drive_array"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

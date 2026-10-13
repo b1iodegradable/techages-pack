@@ -1,8 +1,31 @@
 {
+  "parent": "immersiveengineering:main/craft_pump",
   "criteria": {
-    "disabled": {
+    "code_trigger": {
+      "trigger": "minecraft:impossible"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/craft_pump"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.chorus_cloche.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:cloche"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.chorus_cloche"
+    }
+  },
+  "requirements": [
+    [
+      "code_trigger"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

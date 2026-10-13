@@ -1,8 +1,43 @@
 {
+  "parent": "mekanism:liquifier",
   "criteria": {
-    "disabled": {
+    "full_canteen": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "mekanism:full_canteen": {}
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:liquifier"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.full_canteen.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "mekanism:canteen"
+    },
+    "title": {
+      "translate": "advancements.mekanism.full_canteen.title"
+    }
+  },
+  "requirements": [
+    [
+      "full_canteen"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

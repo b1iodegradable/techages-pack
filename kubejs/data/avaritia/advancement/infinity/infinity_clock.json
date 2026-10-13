@@ -1,8 +1,41 @@
 {
+  "parent": "avaritia:infinity/infinity_ingot",
   "criteria": {
-    "disabled": {
+    "main": {
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:infinity_clock"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "avaritia:infinity/infinity_ingot"
+  "display": {
+    "description": {
+      "translate": "advancements.avaritia.infinity_clock.desc"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "avaritia:infinity_clock"
+    },
+    "title": {
+      "translate": "advancements.avaritia.infinity_clock.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

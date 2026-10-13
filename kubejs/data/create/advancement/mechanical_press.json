@@ -1,8 +1,33 @@
 {
+  "parent": "create:andesite_casing",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:mechanical_press_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:andesite_casing"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.mechanical_press.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:mechanical_press"
+    },
+    "title": {
+      "translate": "advancement.create.mechanical_press"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

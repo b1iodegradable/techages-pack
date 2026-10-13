@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:qio_drive_array",
   "criteria": {
-    "disabled": {
+    "qio_redstone_adapter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:qio_redstone_adapter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:qio_drive_array"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.qio_redstone_adapter.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:qio_redstone_adapter"
+    },
+    "title": {
+      "translate": "advancements.mekanism.qio_redstone_adapter.title"
+    }
+  },
+  "requirements": [
+    [
+      "qio_redstone_adapter"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

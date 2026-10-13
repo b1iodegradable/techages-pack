@@ -1,8 +1,38 @@
 {
+  "parent": "occultism:occultism/root",
   "criteria": {
-    "disabled": {
+    "summon_djinni_crystallizer": {
+      "conditions": {
+        "ritual_id": "occultism:ritual/summon_djinni_crystallizer"
+      },
+      "trigger": "occultism:ritual"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "occultism:occultism/root"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.occultism.summon_djinni_crystallizer.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "occultism:jei_dummy/none"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.occultism.summon_djinni_crystallizer.title"
+    }
+  },
+  "requirements": [
+    [
+      "summon_djinni_crystallizer"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

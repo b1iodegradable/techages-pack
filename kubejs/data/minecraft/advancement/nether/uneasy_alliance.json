@@ -1,8 +1,50 @@
 {
+  "parent": "minecraft:nether/return_to_sender",
   "criteria": {
-    "disabled": {
+    "killed_ghast": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ghast",
+              "location": {
+                "dimension": "minecraft:overworld"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "minecraft:nether/return_to_sender"
+  "display": {
+    "description": {
+      "translate": "advancements.nether.uneasy_alliance.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ghast_tear"
+    },
+    "title": {
+      "translate": "advancements.nether.uneasy_alliance.title"
+    }
+  },
+  "requirements": [
+    [
+      "killed_ghast"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
 }

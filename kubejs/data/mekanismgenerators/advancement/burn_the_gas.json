@@ -1,8 +1,40 @@
 {
+  "parent": "mekanismgenerators:wind_generator",
   "criteria": {
-    "disabled": {
+    "gas_burning_generator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:gas_burning_generator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanismgenerators:wind_generator"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanismgenerators.burn_the_gas.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "mekanismgenerators:gas_burning_generator"
+    },
+    "title": {
+      "translate": "advancements.mekanismgenerators.burn_the_gas.title"
+    }
+  },
+  "requirements": [
+    [
+      "gas_burning_generator"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

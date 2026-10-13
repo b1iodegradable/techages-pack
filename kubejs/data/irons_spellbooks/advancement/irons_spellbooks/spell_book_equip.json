@@ -1,8 +1,40 @@
 {
+  "display": {
+    "icon": {
+      "id": "irons_spellbooks:copper_spell_book"
+    },
+    "title": {
+      "translate": "advancements.irons_spellbooks.spell_book_equip.title"
+    },
+    "description": {
+      "translate": "advancements.irons_spellbooks.spell_book_equip.description"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "frame": "task"
+  },
+  "parent": "irons_spellbooks:irons_spellbooks/root",
   "criteria": {
-    "disabled": {
+    "requirement": {
+      "conditions": {
+        "curios:slot": {
+          "slots": [
+            "spellbook"
+          ]
+        }
+      },
+      "trigger": "curios:equip_curio"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "irons_spellbooks:irons_spellbooks/root"
+  "requirements": [
+    [
+      "requirement"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

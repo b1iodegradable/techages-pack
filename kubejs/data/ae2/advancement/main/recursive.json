@@ -1,8 +1,32 @@
 {
+  "parent": "ae2:main/storage_bus",
   "criteria": {
-    "disabled": {
+    "recursive": {
+      "trigger": "ae2:recursive_networking"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/storage_bus"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.Recursive.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:interface"
+    },
+    "title": {
+      "translate": "achievement.ae2.Recursive"
+    }
+  },
+  "requirements": [
+    [
+      "recursive"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

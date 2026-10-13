@@ -1,8 +1,38 @@
 {
+  "parent": "immersiveengineering:main/place_conveyor",
   "criteria": {
-    "disabled": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:conveyor_extract"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/place_conveyor"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.craft_extract_conveyor.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:conveyor_extract"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.craft_extract_conveyor"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

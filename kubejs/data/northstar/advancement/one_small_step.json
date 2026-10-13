@@ -1,8 +1,50 @@
 {
+  "parent": "northstar:root",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "northstar:moon"
+              },
+              "type_specific": {
+                "type": "northstar:on_ground"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "northstar:root"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.northstar.one_small_step.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "northstar:moon_sand"
+    },
+    "title": {
+      "translate": "advancement.northstar.one_small_step"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

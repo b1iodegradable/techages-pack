@@ -1,8 +1,34 @@
 {
+  "parent": "simulated:not_gonna_sugarcoat_it",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": "simulated:i_declare_thee_builtin",
+      "trigger": "simulated:i_declare_thee_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "simulated:not_gonna_sugarcoat_it"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.simulated.i_declare_thee.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "simulated:white_nameplate"
+    },
+    "title": {
+      "translate": "advancement.simulated.i_declare_thee"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

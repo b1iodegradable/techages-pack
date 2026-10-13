@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:robit",
   "criteria": {
-    "disabled": {
+    "digital_miner": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:digital_miner"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:robit"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.digital_miner.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:digital_miner"
+    },
+    "title": {
+      "translate": "advancements.mekanism.digital_miner.title"
+    }
+  },
+  "requirements": [
+    [
+      "digital_miner"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

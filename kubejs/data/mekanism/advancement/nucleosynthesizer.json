@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:antimatter",
   "criteria": {
-    "disabled": {
+    "antiprotonic_nucleosynthesizer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:antiprotonic_nucleosynthesizer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:antimatter"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.nucleosynthesizer.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:antiprotonic_nucleosynthesizer"
+    },
+    "title": {
+      "translate": "advancements.mekanism.nucleosynthesizer.title"
+    }
+  },
+  "requirements": [
+    [
+      "antiprotonic_nucleosynthesizer"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

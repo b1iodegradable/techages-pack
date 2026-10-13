@@ -1,8 +1,33 @@
 {
+  "parent": "create:haunted_bell",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:clockwork_bearing_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:haunted_bell"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.clockwork_bearing.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:clockwork_bearing"
+    },
+    "title": {
+      "translate": "advancement.create.clockwork_bearing"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

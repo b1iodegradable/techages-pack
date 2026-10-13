@@ -1,8 +1,40 @@
 {
+  "parent": "immersiveengineering:main/villager",
   "criteria": {
-    "disabled": {
+    "buy_shaderbag": {
+      "conditions": {
+        "item": {
+          "items": [
+            "immersiveengineering:shader_bag_common",
+            "immersiveengineering:shader_bag_uncommon",
+            "immersiveengineering:shader_bag_rare"
+          ]
+        }
+      },
+      "trigger": "minecraft:villager_trade"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/villager"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.buy_shaderbag.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:shader_bag_common"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.buy_shaderbag"
+    }
+  },
+  "requirements": [
+    [
+      "buy_shaderbag"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

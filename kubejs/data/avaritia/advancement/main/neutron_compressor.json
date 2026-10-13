@@ -1,8 +1,40 @@
 {
+  "parent": "avaritia:main/neutron_pile",
   "criteria": {
-    "disabled": {
+    "main": {
+      "conditions": {
+        "items": [
+          {
+            "items": "avaritia:neutron_compressor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "avaritia:main/neutron_pile"
+  "display": {
+    "description": {
+      "translate": "advancements.avaritia.neutron_compressor.desc"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "avaritia:neutron_compressor"
+    },
+    "title": {
+      "translate": "advancements.avaritia.neutron_compressor.title"
+    }
+  },
+  "requirements": [
+    [
+      "main"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,41 @@
 {
+  "parent": "create_enchantment_industry:sigil_forging",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "type": "minecraft:custom",
+        "bounds": {
+          "min": 1000
+        },
+        "value": "create_enchantment_industry:enchant"
+      },
+      "trigger": "create_dragons_plus:stat"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_enchantment_industry:sigil_forging"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.thousand_runes.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "create_enchantment_industry:blaze_enchanter"
+    },
+    "title": {
+      "translate": "advancement.create_enchantment_industry.thousand_runes"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

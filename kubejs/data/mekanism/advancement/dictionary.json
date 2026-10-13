@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:digital_miner",
   "criteria": {
-    "disabled": {
+    "dictionary": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:dictionary"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:digital_miner"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.dictionary.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:dictionary"
+    },
+    "title": {
+      "translate": "advancements.mekanism.dictionary.title"
+    }
+  },
+  "requirements": [
+    [
+      "dictionary"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

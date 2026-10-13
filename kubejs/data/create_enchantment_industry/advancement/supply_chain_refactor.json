@@ -1,8 +1,34 @@
 {
+  "parent": "create_enchantment_industry:brand_registry",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create_enchantment_industry:supply_chain_refactor"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_enchantment_industry:brand_registry"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.supply_chain_refactor.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:cardboard_package_12x12"
+    },
+    "title": {
+      "translate": "advancement.create_enchantment_industry.supply_chain_refactor"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

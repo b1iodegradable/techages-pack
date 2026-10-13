@@ -1,8 +1,39 @@
 {
+  "parent": "ae2:main/crafting_terminal",
   "criteria": {
-    "disabled": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:pattern_encoding_terminal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/crafting_terminal"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.PatternTerminal.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:pattern_encoding_terminal"
+    },
+    "title": {
+      "translate": "achievement.ae2.PatternTerminal"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

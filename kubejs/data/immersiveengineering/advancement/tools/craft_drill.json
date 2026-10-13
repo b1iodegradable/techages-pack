@@ -1,8 +1,38 @@
 {
+  "parent": "immersiveengineering:tools/tools_root",
   "criteria": {
-    "disabled": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:drill"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:tools/tools_root"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.craft_drill.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:drill"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.craft_drill"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

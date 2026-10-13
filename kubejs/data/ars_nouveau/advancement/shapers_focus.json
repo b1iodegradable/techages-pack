@@ -1,8 +1,38 @@
 {
+  "parent": "ars_nouveau:novice_spell_book",
   "criteria": {
-    "disabled": {
+    "has_shapers_focus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:shapers_focus"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:novice_spell_book"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.shapers_focus"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ars_nouveau:shapers_focus"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.shapers_focus"
+    }
+  },
+  "requirements": [
+    [
+      "has_shapers_focus"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

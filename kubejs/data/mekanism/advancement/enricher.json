@@ -1,8 +1,39 @@
 {
+  "parent": "mekanism:steel_casing",
   "criteria": {
-    "disabled": {
+    "enrichment_chamber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:enrichment_chamber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_casing"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.enricher.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:enrichment_chamber"
+    },
+    "title": {
+      "translate": "advancements.mekanism.enricher.title"
+    }
+  },
+  "requirements": [
+    [
+      "enrichment_chamber"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

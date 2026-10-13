@@ -1,8 +1,40 @@
 {
+  "parent": "kubejs:epoch_gate/mekanismgenerators/heat_generator/age_5",
   "criteria": {
-    "disabled": {
+    "solar_generator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanismgenerators:solar_generator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanismgenerators:heat_generator"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanismgenerators.solar_generator.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanismgenerators:solar_generator"
+    },
+    "title": {
+      "translate": "advancements.mekanismgenerators.solar_generator.title"
+    }
+  },
+  "requirements": [
+    [
+      "solar_generator"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,34 @@
 {
+  "parent": "mekanism:infused_alloy",
   "criteria": {
-    "disabled": {
+    "upgrade": {
+      "trigger": "mekanism:alloy_upgrade"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:infused_alloy"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.alloy_upgrading.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:alloy_infused"
+    },
+    "title": {
+      "translate": "advancements.mekanism.alloy_upgrading.title"
+    }
+  },
+  "requirements": [
+    [
+      "upgrade"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

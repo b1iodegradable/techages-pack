@@ -1,8 +1,41 @@
 {
+  "parent": "create_enchantment_industry:gone_with_the_foil",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "type": "minecraft:custom",
+        "bounds": {
+          "min": 1000000
+        },
+        "value": "create_enchantment_industry:mechanical_grindstone_experience"
+      },
+      "trigger": "create_dragons_plus:stat"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_enchantment_industry:gone_with_the_foil"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.experienced_recycler.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "create_enchantment_industry:grindstone_drain"
+    },
+    "title": {
+      "translate": "advancement.create_enchantment_industry.experienced_recycler"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,31 @@
 {
+  "parent": "immersiveengineering:main/main_root",
   "criteria": {
-    "disabled": {
+    "code_trigger": {
+      "trigger": "minecraft:impossible"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/main_root"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.connect_wire.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:wirecoil_copper"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.connect_wire"
+    }
+  },
+  "requirements": [
+    [
+      "code_trigger"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

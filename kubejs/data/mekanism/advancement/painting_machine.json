@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:advanced_control_circuit",
   "criteria": {
-    "disabled": {
+    "painting_machine": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:painting_machine"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:advanced_control_circuit"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.painting_machine.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:painting_machine"
+    },
+    "title": {
+      "translate": "advancements.mekanism.painting_machine.title"
+    }
+  },
+  "requirements": [
+    [
+      "painting_machine"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

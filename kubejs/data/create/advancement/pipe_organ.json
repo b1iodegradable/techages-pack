@@ -1,8 +1,35 @@
 {
+  "parent": "create:backtank",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:pipe_organ_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:backtank"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.pipe_organ.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "create:steam_whistle"
+    },
+    "title": {
+      "translate": "advancement.create.pipe_organ"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

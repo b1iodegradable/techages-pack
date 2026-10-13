@@ -1,8 +1,35 @@
 {
+  "parent": "create:mechanical_mixer",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:lava_wheel_00000_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:mechanical_mixer"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.lava_wheel_00000.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "create:water_wheel"
+    },
+    "title": {
+      "translate": "advancement.create.lava_wheel_00000"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

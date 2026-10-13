@@ -1,8 +1,33 @@
 {
+  "parent": "create_enchantment_industry:gone_with_the_foil",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create_enchantment_industry:grind_to_polish"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_enchantment_industry:gone_with_the_foil"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.grind_to_polish.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:sand_paper"
+    },
+    "title": {
+      "translate": "advancement.create_enchantment_industry.grind_to_polish"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

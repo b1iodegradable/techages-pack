@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:pump",
   "criteria": {
-    "disabled": {
+    "fluidic_plenisher": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:fluidic_plenisher"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:pump"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.plenisher.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:fluidic_plenisher"
+    },
+    "title": {
+      "translate": "advancements.mekanism.plenisher.title"
+    }
+  },
+  "requirements": [
+    [
+      "fluidic_plenisher"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

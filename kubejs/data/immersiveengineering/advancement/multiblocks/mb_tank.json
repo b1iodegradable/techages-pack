@@ -1,8 +1,37 @@
 {
+  "parent": "immersiveengineering:multiblocks/craft_sheetmetal",
   "criteria": {
-    "disabled": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/sheetmetal_tank"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:multiblocks/craft_sheetmetal"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.mb_tank.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:tank"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.mb_tank"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

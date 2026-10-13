@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:item_transport",
   "criteria": {
-    "disabled": {
+    "diversion_transporter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:diversion_transporter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:item_transport"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.diversion_item_transport.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:diversion_transporter"
+    },
+    "title": {
+      "translate": "advancements.mekanism.diversion_item_transport.title"
+    }
+  },
+  "requirements": [
+    [
+      "diversion_transporter"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

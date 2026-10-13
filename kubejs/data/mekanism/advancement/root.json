@@ -1,7 +1,35 @@
 {
   "criteria": {
-    "disabled": {
+    "automatic": {
+      "trigger": "mekanism:logged_in"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "mekanism:textures/block/block_osmium.png",
+    "description": {
+      "translate": "advancements.mekanism.root.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:atomic_disassembler"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.mekanism.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "automatic"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

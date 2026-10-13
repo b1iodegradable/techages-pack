@@ -1,8 +1,35 @@
 {
+  "parent": "create:mechanical_crafter",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:crafter_lazy_000_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:mechanical_crafter"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.crafter_lazy_000.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "create:mechanical_crafter"
+    },
+    "title": {
+      "translate": "advancement.create.crafter_lazy_000"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

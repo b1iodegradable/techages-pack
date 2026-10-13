@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:item_transport",
   "criteria": {
-    "disabled": {
+    "logistical_sorter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:logistical_sorter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:item_transport"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.logistical_sorter.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:logistical_sorter"
+    },
+    "title": {
+      "translate": "advancements.mekanism.logistical_sorter.title"
+    }
+  },
+  "requirements": [
+    [
+      "logistical_sorter"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,34 @@
 {
+  "parent": "simulated:applied_kinematics",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": "simulated:you_spin_me_right_round_builtin",
+      "trigger": "simulated:you_spin_me_right_round_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "simulated:applied_kinematics"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.simulated.you_spin_me_right_round.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "simulated:swivel_bearing"
+    },
+    "title": {
+      "translate": "advancement.simulated.you_spin_me_right_round"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

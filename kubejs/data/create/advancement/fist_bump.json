@@ -1,8 +1,35 @@
 {
+  "parent": "create:mechanical_crafter",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:fist_bump_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:mechanical_crafter"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.fist_bump.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "create:deployer"
+    },
+    "title": {
+      "translate": "advancement.create.fist_bump"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

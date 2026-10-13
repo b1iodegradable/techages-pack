@@ -1,8 +1,35 @@
 {
+  "parent": "simulated:applied_kinematics",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": "simulated:not_gonna_sugarcoat_it_builtin",
+      "trigger": "simulated:not_gonna_sugarcoat_it_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "simulated:applied_kinematics"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.simulated.not_gonna_sugarcoat_it.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "simulated:honey_glue"
+    },
+    "title": {
+      "translate": "advancement.simulated.not_gonna_sugarcoat_it"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

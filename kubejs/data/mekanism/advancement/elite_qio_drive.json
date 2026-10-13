@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:advanced_qio_drive",
   "criteria": {
-    "disabled": {
+    "qio_drive_time_dilating": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:qio_drive_time_dilating"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:advanced_qio_drive"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.elite_qio_drive.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:qio_drive_time_dilating"
+    },
+    "title": {
+      "translate": "advancements.mekanism.elite_qio_drive.title"
+    }
+  },
+  "requirements": [
+    [
+      "qio_drive_time_dilating"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

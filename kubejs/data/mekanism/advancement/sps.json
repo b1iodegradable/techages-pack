@@ -1,8 +1,53 @@
 {
+  "parent": "kubejs:epoch_gate/mekanism/plutonium/age_7",
   "criteria": {
-    "disabled": {
+    "sps_casing": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:sps_casing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "sps_port": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:sps_port"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:plutonium"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.sps.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:sps_casing"
+    },
+    "title": {
+      "translate": "advancements.mekanism.sps.title"
+    }
+  },
+  "requirements": [
+    [
+      "sps_casing"
+    ],
+    [
+      "sps_port"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

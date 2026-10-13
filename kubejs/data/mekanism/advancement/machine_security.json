@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:elite_control_circuit",
   "criteria": {
-    "disabled": {
+    "security_desk": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:security_desk"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:elite_control_circuit"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.machine_security.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:security_desk"
+    },
+    "title": {
+      "translate": "advancements.mekanism.machine_security.title"
+    }
+  },
+  "requirements": [
+    [
+      "security_desk"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

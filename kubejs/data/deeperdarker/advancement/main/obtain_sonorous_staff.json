@@ -1,8 +1,39 @@
 {
+  "parent": "deeperdarker:main/enter_otherside",
   "criteria": {
-    "disabled": {
+    "sonorous_staff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "deeperdarker:sonorous_staff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "deeperdarker:main/enter_otherside"
+  "display": {
+    "description": {
+      "translate": "advancements.deeperdarker.obtain_sonorous_staff.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "deeperdarker:sonorous_staff"
+    },
+    "title": {
+      "translate": "advancements.deeperdarker.obtain_sonorous_staff.title"
+    }
+  },
+  "requirements": [
+    [
+      "sonorous_staff"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

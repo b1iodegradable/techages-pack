@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "display": {
+    "icon": {
+      "id": "createaddition:alternator"
+    },
+    "title": {
+      "text": "Эпоха III · Электрическая",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Эта ветка открылась вместе с эпохой.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

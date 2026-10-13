@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:steel_ingot",
   "criteria": {
-    "disabled": {
+    "basic_universal_cable": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_universal_cable"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_ingot"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.energy_transport.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:basic_universal_cable"
+    },
+    "title": {
+      "translate": "advancements.mekanism.energy_transport.title"
+    }
+  },
+  "requirements": [
+    [
+      "basic_universal_cable"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

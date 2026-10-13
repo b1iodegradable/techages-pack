@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:basic_control_circuit",
   "criteria": {
-    "disabled": {
+    "basic_bin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:basic_bin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:basic_control_circuit"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.simple_mass_storage.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:basic_bin"
+    },
+    "title": {
+      "translate": "advancements.mekanism.simple_mass_storage.title"
+    }
+  },
+  "requirements": [
+    [
+      "basic_bin"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

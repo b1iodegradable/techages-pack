@@ -1,8 +1,37 @@
 {
+  "parent": "immersiveengineering:main/mb_cokeoven",
   "criteria": {
-    "disabled": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/blast_furnace"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/mb_cokeoven"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.mb_blastfurnace.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:blast_furnace"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.mb_blastfurnace"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

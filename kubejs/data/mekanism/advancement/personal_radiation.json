@@ -1,8 +1,38 @@
 {
+  "parent": "mekanism:environmental_radiation",
   "criteria": {
-    "disabled": {
+    "use_dosimeter": {
+      "conditions": {
+        "item": {
+          "items": "mekanism:dosimeter"
+        }
+      },
+      "trigger": "minecraft:using_item"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:environmental_radiation"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.personal_radiation.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:dosimeter"
+    },
+    "title": {
+      "translate": "advancements.mekanism.personal_radiation.title"
+    }
+  },
+  "requirements": [
+    [
+      "use_dosimeter"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

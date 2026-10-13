@@ -1,8 +1,34 @@
 {
+  "parent": "create:compacting",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:belt_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:compacting"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.belt.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:belt_connector"
+    },
+    "title": {
+      "translate": "advancement.create.belt"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

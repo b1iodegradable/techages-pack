@@ -1,8 +1,39 @@
 {
+  "parent": "immersiveengineering:tools/craft_revolver",
   "criteria": {
-    "disabled": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:bullet_wolfpack"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:tools/craft_revolver"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.craft_wolfpack.desc"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:bullet_wolfpack"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.craft_wolfpack"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

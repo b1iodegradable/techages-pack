@@ -1,8 +1,34 @@
 {
+  "parent": "create:shifting_gears",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:millstone_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:shifting_gears"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.millstone.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:millstone"
+    },
+    "title": {
+      "translate": "advancement.create.millstone"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:steel_casing",
   "criteria": {
-    "disabled": {
+    "precision_sawmill": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:precision_sawmill"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_casing"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.sawmill.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:precision_sawmill"
+    },
+    "title": {
+      "translate": "advancements.mekanism.sawmill.title"
+    }
+  },
+  "requirements": [
+    [
+      "precision_sawmill"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

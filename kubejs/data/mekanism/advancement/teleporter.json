@@ -1,8 +1,45 @@
 {
+  "parent": "mekanism:teleportation_core",
   "criteria": {
-    "disabled": {
+    "teleport": {
+      "trigger": "mekanism:teleport"
+    },
+    "teleporter": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:teleporter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:teleportation_core"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.teleporter.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:teleporter"
+    },
+    "title": {
+      "translate": "advancements.mekanism.teleporter.title"
+    }
+  },
+  "requirements": [
+    [
+      "teleporter"
+    ],
+    [
+      "teleport"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,39 @@
 {
+  "parent": "immersiveengineering:multiblocks/mb_refinery",
   "criteria": {
-    "disabled": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:plate_duroplast"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:multiblocks/mb_refinery"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.craft_duroplast.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:plate_duroplast"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.craft_duroplast"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

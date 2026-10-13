@@ -1,0 +1,25 @@
+{
+  "parent": "create:mechanical_mixer",
+  "display": {
+    "icon": {
+      "id": "create:steam_engine"
+    },
+    "title": {
+      "text": "Эпоха II · Паровая",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Эта ветка открылась вместе с эпохой.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

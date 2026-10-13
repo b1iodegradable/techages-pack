@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:basic_control_circuit",
   "criteria": {
-    "disabled": {
+    "industrial_alarm": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:industrial_alarm"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:basic_control_circuit"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.alarm.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:industrial_alarm"
+    },
+    "title": {
+      "translate": "advancements.mekanism.alarm.title"
+    }
+  },
+  "requirements": [
+    [
+      "industrial_alarm"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

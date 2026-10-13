@@ -1,8 +1,41 @@
 {
+  "parent": "create_enchantment_industry:experienced_engineer",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": {
+        "items": [
+          {
+            "items": "create_enchantment_industry:blaze_enchanter"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_enchantment_industry:experienced_engineer"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.blaze_enchantery.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create_enchantment_industry:blaze_enchanter"
+    },
+    "title": {
+      "translate": "advancement.create_enchantment_industry.blaze_enchantery"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

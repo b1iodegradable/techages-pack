@@ -1,8 +1,34 @@
 {
+  "parent": "create:precision_mechanism",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:speed_controller_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:precision_mechanism"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.speed_controller.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create:rotation_speed_controller"
+    },
+    "title": {
+      "translate": "advancement.create.speed_controller"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

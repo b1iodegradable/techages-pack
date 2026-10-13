@@ -1,8 +1,39 @@
 {
+  "parent": "mekanism:steel_ingot",
   "criteria": {
-    "disabled": {
+    "steel_casing": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:steel_casing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_ingot"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.steel_casing.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:steel_casing"
+    },
+    "title": {
+      "translate": "advancements.mekanism.steel_casing.title"
+    }
+  },
+  "requirements": [
+    [
+      "steel_casing"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

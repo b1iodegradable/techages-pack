@@ -1,8 +1,47 @@
 {
+  "parent": "kubejs:epoch_gate/cataclysm/root/age_5",
   "criteria": {
-    "disabled": {
+    "prison": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "cataclysm:frosted_prison"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "cataclysm:root"
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.cataclysm.frosted_prison.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "id": "cataclysm:door_of_seal"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.cataclysm.frosted_prison.title"
+    }
+  },
+  "requirements": [
+    [
+      "prison"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

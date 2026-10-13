@@ -1,8 +1,33 @@
 {
+  "parent": "ars_nouveau:spell_prism",
   "criteria": {
-    "disabled": {
+    "prismatic": {
+      "trigger": "ars_nouveau:prismatic"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:spell_prism"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.prismatic"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "ars_nouveau:spell_prism"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.prismatic"
+    }
+  },
+  "requirements": [
+    [
+      "prismatic"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

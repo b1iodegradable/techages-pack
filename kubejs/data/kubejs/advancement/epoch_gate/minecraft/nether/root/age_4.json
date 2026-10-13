@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:nether/root",
+  "display": {
+    "icon": {
+      "id": "mekanism:metallurgic_infuser"
+    },
+    "title": {
+      "text": "Эпоха IV · Индустриальная",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Эта ветка открылась вместе с эпохой.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

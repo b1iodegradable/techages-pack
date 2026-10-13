@@ -1,8 +1,41 @@
 {
+  "parent": "mekanism:enricher",
   "criteria": {
-    "disabled": {
+    "purification_chamber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:purification_chamber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:enricher"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.purification_chamber.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:purification_chamber"
+    },
+    "title": {
+      "translate": "advancements.mekanism.purification_chamber.title"
+    }
+  },
+  "requirements": [
+    [
+      "purification_chamber"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

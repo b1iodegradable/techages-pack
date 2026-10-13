@@ -1,8 +1,37 @@
 {
+  "parent": "mekanism:sps",
   "criteria": {
-    "disabled": {
+    "experiment": {
+      "conditions": {
+        "type": "minecraft:villager"
+      },
+      "trigger": "mekanism:sps_experiment"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:sps"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.sps_experiment_villager.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:villager_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.mekanism.sps_experiment_villager.title"
+    }
+  },
+  "requirements": [
+    [
+      "experiment"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

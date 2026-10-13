@@ -1,8 +1,42 @@
 {
+  "display": {
+    "icon": {
+      "id": "irons_spellbooks:netherite_spell_book"
+    },
+    "title": {
+      "translate": "advancements.irons_spellbooks.spell_book_netherite.title"
+    },
+    "description": {
+      "translate": "advancements.irons_spellbooks.spell_book_netherite.description"
+    },
+    "announce_to_chat": false,
+    "show_toast": true,
+    "frame": "challenge"
+  },
+  "parent": "kubejs:epoch_gate/irons_spellbooks/irons_spellbooks/spell_book_diamond/age_4",
   "criteria": {
-    "disabled": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "irons_spellbooks:netherite_spell_book"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "irons_spellbooks:irons_spellbooks/spell_book_diamond"
+  "requirements": [
+    [
+      "requirement"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:steel_casing",
   "criteria": {
-    "disabled": {
+    "formulaic_assemblicator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:formulaic_assemblicator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_casing"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.automated_crafting.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:formulaic_assemblicator"
+    },
+    "title": {
+      "translate": "advancements.mekanism.automated_crafting.title"
+    }
+  },
+  "requirements": [
+    [
+      "formulaic_assemblicator"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

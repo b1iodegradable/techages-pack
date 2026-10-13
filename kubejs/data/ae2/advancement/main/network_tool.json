@@ -1,8 +1,39 @@
 {
+  "parent": "ae2:main/controller",
   "criteria": {
-    "disabled": {
+    "network_tool": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:network_tool"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/controller"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.NetworkTool.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:network_tool"
+    },
+    "title": {
+      "translate": "achievement.ae2.NetworkTool"
+    }
+  },
+  "requirements": [
+    [
+      "network_tool"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

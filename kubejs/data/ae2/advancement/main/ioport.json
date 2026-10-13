@@ -1,8 +1,39 @@
 {
+  "parent": "ae2:main/storage_cell",
   "criteria": {
-    "disabled": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:io_port"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/storage_cell"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.IOPort.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:io_port"
+    },
+    "title": {
+      "translate": "achievement.ae2.IOPort"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,35 @@
 {
+  "parent": "create:mechanical_crafter",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:extendo_grip_dual_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:mechanical_crafter"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.extendo_grip_dual.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "create:extendo_grip"
+    },
+    "title": {
+      "translate": "advancement.create.extendo_grip_dual"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

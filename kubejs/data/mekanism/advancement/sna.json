@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:elite_control_circuit",
   "criteria": {
-    "disabled": {
+    "solar_neutron_activator": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:solar_neutron_activator"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:elite_control_circuit"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.sna.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:solar_neutron_activator"
+    },
+    "title": {
+      "translate": "advancements.mekanism.sna.title"
+    }
+  },
+  "requirements": [
+    [
+      "solar_neutron_activator"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

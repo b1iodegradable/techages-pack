@@ -1,8 +1,39 @@
 {
+  "parent": "mekanism:qio_drive_array",
   "criteria": {
-    "disabled": {
+    "qio_drive_base": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:qio_drive_base"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:qio_drive_array"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.basic_qio_drive.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:qio_drive_base"
+    },
+    "title": {
+      "translate": "advancements.mekanism.basic_qio_drive.title"
+    }
+  },
+  "requirements": [
+    [
+      "qio_drive_base"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

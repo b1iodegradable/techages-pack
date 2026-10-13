@@ -26,6 +26,17 @@
       "condition": {
         "type": "modonomicon:none"
       },
+      "show_title_separator": false,
+      "text": "book.techages.handbook.start.about.p0_1.text",
+      "title": "book.techages.handbook.start.about.p0_1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
       "show_title_separator": true,
       "text": "book.techages.handbook.start.about.p1_0.text",
       "title": "book.techages.handbook.start.about.p1_0.title",
@@ -60,9 +71,31 @@
       "condition": {
         "type": "modonomicon:none"
       },
+      "show_title_separator": false,
+      "text": "book.techages.handbook.start.about.p3_1.text",
+      "title": "book.techages.handbook.start.about.p3_1.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
       "show_title_separator": true,
       "text": "book.techages.handbook.start.about.p4_0.text",
       "title": "book.techages.handbook.start.about.p4_0.title",
+      "use_markdown_in_title": false
+    },
+    {
+      "type": "modonomicon:text",
+      "anchor": "",
+      "condition": {
+        "type": "modonomicon:none"
+      },
+      "show_title_separator": false,
+      "text": "book.techages.handbook.start.about.p4_1.text",
+      "title": "book.techages.handbook.start.about.p4_1.title",
       "use_markdown_in_title": false
     }
   ],

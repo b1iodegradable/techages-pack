@@ -1,8 +1,49 @@
 {
+  "parent": "deeperdarker:main/enter_otherside",
   "criteria": {
-    "disabled": {
+    "ancient_temple": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "deeperdarker:ancient_temple"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "deeperdarker:main/enter_otherside"
+  "display": {
+    "description": {
+      "translate": "advancements.deeperdarker.find_ancient_temple.description"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "deeperdarker:cut_sculk_stone"
+    },
+    "title": {
+      "translate": "advancements.deeperdarker.find_ancient_temple.title"
+    }
+  },
+  "requirements": [
+    [
+      "ancient_temple"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
 }

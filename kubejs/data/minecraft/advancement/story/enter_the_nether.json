@@ -1,8 +1,35 @@
 {
+  "parent": "kubejs:epoch_gate/minecraft/story/form_obsidian/age_2",
   "criteria": {
-    "disabled": {
+    "entered_nether": {
+      "conditions": {
+        "to": "minecraft:the_nether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "minecraft:story/form_obsidian"
+  "display": {
+    "description": {
+      "translate": "advancements.story.enter_the_nether.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "translate": "advancements.story.enter_the_nether.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered_nether"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

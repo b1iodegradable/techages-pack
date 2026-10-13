@@ -1,8 +1,39 @@
 {
+  "parent": "mekanism:waste_removal",
   "criteria": {
-    "disabled": {
+    "pellet_polonium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:pellet_polonium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:waste_removal"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.polonium.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:pellet_polonium"
+    },
+    "title": {
+      "translate": "advancements.mekanism.polonium.title"
+    }
+  },
+  "requirements": [
+    [
+      "pellet_polonium"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

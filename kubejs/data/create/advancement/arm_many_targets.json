@@ -1,8 +1,34 @@
 {
+  "parent": "create:crusher_maxed_0000",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:arm_many_targets_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:crusher_maxed_0000"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.arm_many_targets.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "create:mechanical_arm"
+    },
+    "title": {
+      "translate": "advancement.create.arm_many_targets"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

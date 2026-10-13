@@ -1,8 +1,35 @@
 {
+  "parent": "create:track_signal",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:red_signal_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:track_signal"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.red_signal.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "create:track_signal"
+    },
+    "title": {
+      "translate": "advancement.create.red_signal"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

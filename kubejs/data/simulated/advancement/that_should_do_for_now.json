@@ -1,8 +1,36 @@
 {
+  "parent": "simulated:steamless_engine",
   "criteria": {
-    "disabled": {
+    "0": {
+      "conditions": "simulated:that_should_do_for_now_builtin",
+      "trigger": "simulated:that_should_do_for_now_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "simulated:steamless_engine"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.simulated.that_should_do_for_now.desc"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "simulated:red_portable_engine"
+    },
+    "title": {
+      "translate": "advancement.simulated.that_should_do_for_now"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

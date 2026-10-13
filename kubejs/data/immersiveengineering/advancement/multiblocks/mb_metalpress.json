@@ -1,8 +1,37 @@
 {
+  "parent": "immersiveengineering:multiblocks/multiblocks_root",
   "criteria": {
-    "disabled": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/metal_press"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:multiblocks/multiblocks_root"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.mb_metalpress.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:metal_press"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.mb_metalpress"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

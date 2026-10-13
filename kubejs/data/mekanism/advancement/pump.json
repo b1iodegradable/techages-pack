@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:steel_casing",
   "criteria": {
-    "disabled": {
+    "electric_pump": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:electric_pump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_casing"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.pump.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:electric_pump"
+    },
+    "title": {
+      "translate": "advancements.mekanism.pump.title"
+    }
+  },
+  "requirements": [
+    [
+      "electric_pump"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

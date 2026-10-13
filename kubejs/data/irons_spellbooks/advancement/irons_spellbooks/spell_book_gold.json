@@ -1,8 +1,42 @@
 {
+  "display": {
+    "icon": {
+      "id": "irons_spellbooks:gold_spell_book"
+    },
+    "title": {
+      "translate": "advancements.irons_spellbooks.spell_book_gold.title"
+    },
+    "description": {
+      "translate": "advancements.irons_spellbooks.spell_book_gold.description"
+    },
+    "announce_to_chat": false,
+    "show_toast": true,
+    "frame": "task"
+  },
+  "parent": "irons_spellbooks:irons_spellbooks/spell_book_iron",
   "criteria": {
-    "disabled": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "irons_spellbooks:gold_spell_book"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "irons_spellbooks:irons_spellbooks/spell_book_iron"
+  "requirements": [
+    [
+      "requirement"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

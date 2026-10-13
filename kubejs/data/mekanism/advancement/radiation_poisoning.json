@@ -1,8 +1,36 @@
 {
+  "parent": "mekanism:personal_radiation",
   "criteria": {
-    "disabled": {
+    "poisoned": {
+      "conditions": {
+        "damage": "mekanism:radiation",
+        "killed": false
+      },
+      "trigger": "mekanism:damage"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:personal_radiation"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.radiation_poisoning.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:radioactive_waste_barrel"
+    },
+    "title": {
+      "translate": "advancements.mekanism.radiation_poisoning.title"
+    }
+  },
+  "requirements": [
+    [
+      "poisoned"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

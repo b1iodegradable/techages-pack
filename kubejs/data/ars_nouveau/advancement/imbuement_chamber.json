@@ -1,8 +1,38 @@
 {
+  "parent": "ars_nouveau:root",
   "criteria": {
-    "disabled": {
+    "has_imbuement_chamber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ars_nouveau:imbuement_chamber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:root"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.imbuement_chamber"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ars_nouveau:imbuement_chamber"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.imbuement_chamber"
+    }
+  },
+  "requirements": [
+    [
+      "has_imbuement_chamber"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

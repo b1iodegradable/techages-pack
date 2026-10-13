@@ -1,8 +1,31 @@
 {
+  "parent": "ars_nouveau:root",
   "criteria": {
-    "disabled": {
+    "poof_mob": {
+      "trigger": "ars_nouveau:poof_mob"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:root"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.poof_mob"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.poof_mob"
+    }
+  },
+  "requirements": [
+    [
+      "poof_mob"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

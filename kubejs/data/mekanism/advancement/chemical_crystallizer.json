@@ -1,8 +1,66 @@
 {
+  "parent": "mekanism:injection_chamber",
   "criteria": {
-    "disabled": {
+    "chemical_crystallizer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:chemical_crystallizer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chemical_dissolution_chamber": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:chemical_dissolution_chamber"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chemical_washer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:chemical_washer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:injection_chamber"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.chemical_crystallizer.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:chemical_crystallizer"
+    },
+    "title": {
+      "translate": "advancements.mekanism.chemical_crystallizer.title"
+    }
+  },
+  "requirements": [
+    [
+      "chemical_crystallizer"
+    ],
+    [
+      "chemical_washer"
+    ],
+    [
+      "chemical_dissolution_chamber"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

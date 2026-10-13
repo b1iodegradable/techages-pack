@@ -1,0 +1,25 @@
+{
+  "parent": "mekanism:plutonium",
+  "display": {
+    "icon": {
+      "id": "kubejs:engineer_star"
+    },
+    "title": {
+      "text": "Эпоха VII · Эндгейм",
+      "color": "gold"
+    },
+    "description": {
+      "text": "Эта ветка открылась вместе с эпохой.",
+      "color": "gray"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

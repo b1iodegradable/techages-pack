@@ -1,8 +1,38 @@
 {
+  "parent": "immersiveengineering:main/craft_heater",
   "criteria": {
-    "disabled": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "immersiveengineering:fluid_pump"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/craft_heater"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.craft_pump.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:fluid_pump"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.craft_pump"
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

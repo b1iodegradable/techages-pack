@@ -1,8 +1,40 @@
 {
+  "parent": "kubejs:epoch_gate/mekanism/elite_qio_drive/age_7",
   "criteria": {
-    "disabled": {
+    "qio_drive_supermassive": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:qio_drive_supermassive"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:elite_qio_drive"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.ultimate_qio_drive.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "mekanism:qio_drive_supermassive"
+    },
+    "title": {
+      "translate": "advancements.mekanism.ultimate_qio_drive.title"
+    }
+  },
+  "requirements": [
+    [
+      "qio_drive_supermassive"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

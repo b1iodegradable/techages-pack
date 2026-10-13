@@ -1,8 +1,34 @@
 {
+  "parent": "create:windmill_maxed",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create:ejector_maxed_builtin"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create:windmill_maxed"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create.ejector_maxed.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "create:weighted_ejector"
+    },
+    "title": {
+      "translate": "advancement.create.ejector_maxed"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

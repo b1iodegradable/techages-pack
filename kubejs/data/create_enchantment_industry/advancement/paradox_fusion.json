@@ -1,8 +1,34 @@
 {
+  "parent": "create_enchantment_industry:transcendent_overclock",
   "criteria": {
-    "disabled": {
+    "0": {
+      "trigger": "create_enchantment_industry:paradox_fusion"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "create_enchantment_industry:transcendent_overclock"
+  "display": {
+    "description": {
+      "color": "#DBA213",
+      "translate": "advancement.create_enchantment_industry.paradox_fusion.desc"
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "advancement.create_enchantment_industry.paradox_fusion"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,32 @@
 {
+  "parent": "minecraft:nether/obtain_blaze_rod",
   "criteria": {
-    "disabled": {
+    "potion": {
+      "trigger": "minecraft:brewed_potion"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "minecraft:nether/obtain_blaze_rod"
+  "display": {
+    "description": {
+      "translate": "advancements.nether.brew_potion.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "translate": "advancements.nether.brew_potion.title"
+    }
+  },
+  "requirements": [
+    [
+      "potion"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

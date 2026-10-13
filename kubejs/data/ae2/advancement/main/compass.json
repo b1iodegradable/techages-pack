@@ -1,8 +1,39 @@
 {
+  "parent": "ae2:main/charger",
   "criteria": {
-    "disabled": {
+    "compass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:meteorite_compass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/charger"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.Compass.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:meteorite_compass"
+    },
+    "title": {
+      "translate": "achievement.ae2.Compass"
+    }
+  },
+  "requirements": [
+    [
+      "compass"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

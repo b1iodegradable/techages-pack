@@ -1,8 +1,33 @@
 {
+  "parent": "ars_nouveau:mob_jar",
   "criteria": {
-    "disabled": {
+    "catch_lightning": {
+      "trigger": "ars_nouveau:catch_lightning"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ars_nouveau:mob_jar"
+  "display": {
+    "description": {
+      "translate": "ars_nouveau.adv.desc.catch_lightning"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lightning_rod"
+    },
+    "title": {
+      "translate": "ars_nouveau.adv.title.catch_lightning"
+    }
+  },
+  "requirements": [
+    [
+      "catch_lightning"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

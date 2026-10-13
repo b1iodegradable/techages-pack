@@ -1,8 +1,37 @@
 {
+  "parent": "immersiveengineering:multiblocks/mb_fermenter",
   "criteria": {
-    "disabled": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/refinery"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:multiblocks/mb_fermenter"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.mb_refinery.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:refinery"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.mb_refinery"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

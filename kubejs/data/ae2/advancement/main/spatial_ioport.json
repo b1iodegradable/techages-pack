@@ -1,8 +1,39 @@
 {
+  "parent": "ae2:main/ioport",
   "criteria": {
-    "disabled": {
+    "certus": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:spatial_io_port"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "ae2:main/ioport"
+  "display": {
+    "description": {
+      "translate": "achievement.ae2.SpatialIO.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "ae2:spatial_io_port"
+    },
+    "title": {
+      "translate": "achievement.ae2.SpatialIO"
+    }
+  },
+  "requirements": [
+    [
+      "certus"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

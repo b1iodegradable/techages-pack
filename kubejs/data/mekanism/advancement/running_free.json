@@ -1,8 +1,39 @@
 {
+  "parent": "mekanism:basic_control_circuit",
   "criteria": {
-    "disabled": {
+    "free_runners": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:free_runners"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:basic_control_circuit"
+  "display": {
+    "description": {
+      "translate": "advancements.mekanism.running_free.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:free_runners"
+    },
+    "title": {
+      "translate": "advancements.mekanism.running_free.title"
+    }
+  },
+  "requirements": [
+    [
+      "free_runners"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,46 @@
 {
+  "parent": "mekanism:root",
   "criteria": {
-    "disabled": {
+    "material": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mekanism:ingot_osmium",
+              "mekanism:ingot_tin",
+              "mekanism:ingot_lead",
+              "mekanism:ingot_uranium",
+              "mekanism:fluorite_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:root"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.materials.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:ingot_osmium"
+    },
+    "title": {
+      "translate": "advancements.mekanism.materials.title"
+    }
+  },
+  "requirements": [
+    [
+      "material"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

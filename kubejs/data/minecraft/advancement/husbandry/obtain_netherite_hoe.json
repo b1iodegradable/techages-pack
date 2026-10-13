@@ -1,8 +1,43 @@
 {
+  "parent": "kubejs:epoch_gate/minecraft/husbandry/plant_seed/age_4",
   "criteria": {
-    "disabled": {
+    "netherite_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "minecraft:husbandry/plant_seed"
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.netherite_hoe.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "translate": "advancements.husbandry.netherite_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_hoe"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
 }

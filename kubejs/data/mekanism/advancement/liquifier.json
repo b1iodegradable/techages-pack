@@ -1,8 +1,40 @@
 {
+  "parent": "mekanism:steel_casing",
   "criteria": {
-    "disabled": {
+    "nutritional_liquifier": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mekanism:nutritional_liquifier"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "mekanism:steel_casing"
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancements.mekanism.liquifier.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mekanism:nutritional_liquifier"
+    },
+    "title": {
+      "translate": "advancements.mekanism.liquifier.title"
+    }
+  },
+  "requirements": [
+    [
+      "nutritional_liquifier"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

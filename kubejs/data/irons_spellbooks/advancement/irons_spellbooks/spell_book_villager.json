@@ -1,8 +1,43 @@
 {
+  "display": {
+    "hidden": true,
+    "icon": {
+      "id": "irons_spellbooks:villager_spell_book"
+    },
+    "title": {
+      "translate": "advancements.irons_spellbooks.spell_book_villager.title"
+    },
+    "description": {
+      "translate": "advancements.irons_spellbooks.spell_book_villager.description"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "frame": "task"
+  },
+  "parent": "irons_spellbooks:irons_spellbooks/spell_book_equip",
   "criteria": {
-    "disabled": {
+    "requirement": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "irons_spellbooks:villager_spell_book"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "irons_spellbooks:irons_spellbooks/spell_book_equip"
+  "requirements": [
+    [
+      "requirement"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

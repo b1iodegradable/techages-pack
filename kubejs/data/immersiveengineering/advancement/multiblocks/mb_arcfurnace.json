@@ -1,8 +1,38 @@
 {
+  "parent": "immersiveengineering:multiblocks/mb_improvedblastfurnace",
   "criteria": {
-    "disabled": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/arcfurnace"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:multiblocks/mb_improvedblastfurnace"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.mb_arcfurnace.desc"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:arc_furnace"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.mb_arcfurnace"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }

@@ -1,7 +1,37 @@
 {
   "criteria": {
-    "disabled": {
+    "entered_end": {
+      "conditions": {
+        "to": "minecraft:the_end"
+      },
+      "trigger": "minecraft:changed_dimension"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
-  }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "description": {
+      "translate": "advancements.end.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_stone"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.end.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered_end"
+    ],
+    [
+      "mp_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
 }

@@ -1,8 +1,37 @@
 {
+  "parent": "immersiveengineering:main/craft_hammer",
   "criteria": {
-    "disabled": {
+    "form_multiblock": {
+      "conditions": {
+        "hammer": {
+          "items": "immersiveengineering:hammer"
+        },
+        "multiblock": "immersiveengineering:multiblocks/coke_oven"
+      },
+      "trigger": "immersiveengineering:multiblock_formed"
+    },
+    "mp_gate": {
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "immersiveengineering:main/craft_hammer"
+  "display": {
+    "description": {
+      "translate": "advancement.immersiveengineering.mb_cokeoven.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "immersiveengineering:coke_oven"
+    },
+    "title": {
+      "translate": "advancement.immersiveengineering.mb_cokeoven"
+    }
+  },
+  "requirements": [
+    [
+      "form_multiblock"
+    ],
+    [
+      "mp_gate"
+    ]
+  ]
 }
